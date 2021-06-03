@@ -51,6 +51,7 @@ The mapping from data model to FHIR resource types is as follows:
 | Symptom (only lab tests now) | ActivityDefinition, ObservationDefinition | LOINC |
 | Medication  | ActivityDefinition with product | ATC |
 | Function, Participation | Questionnaire | ICF |
+
 ### PlanDefinition
 A [PlanDefinition](http://hl7.org/fhir/plandefinition.html) is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan
 to be rolled out when a particular patient enters care. When that is the case, a CarePlan based on the generic PlanDefinition 

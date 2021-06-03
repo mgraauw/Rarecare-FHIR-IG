@@ -20,7 +20,7 @@
   "name": "LabActivityDefinition",
   "title": "Lab Test Activity",
   "status": "active",
-  "date": "2021-06-03T11:09:29+02:00",
+  "date": "2021-06-03T16:45:00+02:00",
   "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
   "fhirVersion": "4.0.1",
   "mapping": [

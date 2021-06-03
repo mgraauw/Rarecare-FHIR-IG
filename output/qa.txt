@@ -3,7 +3,7 @@
 
 err = 9, warn = 9, info = 0
 IG Publisher Version: 1.1.72
-Generated Thu Jun 03 11:10:02 CEST 2021. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
+Generated Thu Jun 03 16:45:36 CEST 2021. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
 
  Build Errors : 57 / 1 / 0
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world : 0 / 0 / 1
@@ -73,7 +73,7 @@ ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefin
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4146, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\artifacts.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/div/div/p/img at Line 163, column 2: The image source 'Rare%20Care%208.png' cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world.json ==
 INFORMATION: ImplementationGuide/rarecare.world: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide

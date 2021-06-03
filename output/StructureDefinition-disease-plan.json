@@ -20,7 +20,7 @@
   "name": "DiseasePlanDefinition",
   "title": "Disease Management Plan",
   "status": "active",
-  "date": "2021-06-03T11:09:29+02:00",
+  "date": "2021-06-03T16:45:00+02:00",
   "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. The disease plan refers to \r\nmedication, lab tests and other items for management of the disease.",
   "fhirVersion": "4.0.1",
   "mapping": [
