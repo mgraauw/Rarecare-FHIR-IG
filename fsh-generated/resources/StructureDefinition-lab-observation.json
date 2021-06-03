@@ -1,0 +1,55 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lab-observation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Definitional Artifacts"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://rarecare.world/fhir/StructureDefinition/lab-observation",
+  "version": "0.1.0",
+  "name": "LabObservationDefinition",
+  "title": "Lab Test Observation",
+  "status": "active",
+  "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ObservationDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ObservationDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ObservationDefinition.code",
+        "path": "ObservationDefinition.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://loinc.org"
+        }
+      }
+    ]
+  }
+}

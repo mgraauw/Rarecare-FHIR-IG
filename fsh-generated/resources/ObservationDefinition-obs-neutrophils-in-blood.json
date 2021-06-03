@@ -1,0 +1,13 @@
+{
+  "resourceType": "ObservationDefinition",
+  "id": "obs-neutrophils-in-blood",
+  "code": {
+    "coding": [
+      {
+        "code": "751-8",
+        "system": "http://loinc.org",
+        "display": "Neutrophils in blood"
+      }
+    ]
+  }
+}

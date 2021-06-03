@@ -1,0 +1,105 @@
+﻿RarecareFHIRIG : Validation Results
+=========================================
+
+err = 9, warn = 9, info = 0
+IG Publisher Version: 1.1.72
+Generated Thu May 27 16:07:09 CEST 2021. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
+
+ Build Errors : 52 / 1 / 0
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world : 0 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-neutrophils-in-blood : 2 / 2 / 2
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\observationdefinition-obs-neutrophils-in-blood : 0 / 1 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-neutropenia : 2 / 1 / 2
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-disease-plan : 0 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-activity : 2 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-observation : 2 / 1 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-rare-care-plan : 0 / 3 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ObservationDefinition/obs-neutrophils-in-blood.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 454: The link '#loinc-751-8' for "#loinc-751-8" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, example-activitydefinition-neutrophils-in-blood-activitydefinition, segment-breadcrumb])
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 203, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-definitions.html#/html/body/div/div/div/p/a at Line 1261, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.html#/html/body/div/div/div/p/a at Line 1231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4706, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4141, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4198, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-definitions.html#/html/body/div/div/div/p/a at Line 880, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-mappings.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.html#/html/body/div/div/div/p/a at Line 881, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.profile.json.html#/html/body/div/div/div/p/a at Line 3132, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.profile.ttl.html#/html/body/div/div/div/p/a at Line 2751, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.profile.xml.html#/html/body/div/div/div/p/a at Line 2802, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation-definitions.html#/html/body/div/div/div/p/a at Line 610, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.html#/html/body/div/div/div/p/a at Line 687, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.json.html#/html/body/div/div/div/p/a at Line 2037, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1817, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.xml.html#/html/body/div/div/div/p/a at Line 1804, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-definitions.html#/html/body/div/div/div/p/a at Line 1250, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-mappings.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.html#/html/body/div/div/div/p/a at Line 1198, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4641, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4094, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4136, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\artifacts.html#/html/body/div/div/div/p/a at Line 246, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/div/div/p/img at Line 151, column 2: The image source 'Rare%20Care%208.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world.json ==
+INFORMATION: ImplementationGuide/rarecare.world: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood.json ==
+INFORMATION: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+WARNING: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.code.coding[0]: The display "Neutrophils in blood" is not a valid display for the code {http://loinc.org}751-8 - should be one of ["Neutrophils [#/volume] in Blood by Automated count","Neutrophils # Bld Auto"] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'
+ERROR: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]: Unable to resolve resource '#loinc-751-8'
+ERROR: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]: ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-751-8; ids: ))
+INFORMATION: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/lab-activity - listed in meta
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ObservationDefinition-obs-neutrophils-in-blood.json ==
+INFORMATION: ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ObservationDefinition
+WARNING: ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition.code.coding[0]: The display "Neutrophils in blood" is not a valid display for the code {http://loinc.org}751-8 - should be one of ["Neutrophils [#/volume] in Blood by Automated count","Neutrophils # Bld Auto"] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-neutropenia.json ==
+INFORMATION: PlanDefinition/plan-neutropenia: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+WARNING: PlanDefinition/plan-neutropenia: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/plan-neutropenia: PlanDefinition.goal[0].addresses[0].coding[0]: Code "D70.9" not found; The code "D70.9" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#D70.9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#D70.9'
+ERROR: PlanDefinition/plan-neutropenia: PlanDefinition.action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (act-neutrophils-in-blood) 
+INFORMATION: PlanDefinition/plan-neutropenia: PlanDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/disease-plan - listed in meta
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-disease-plan.json ==
+INFORMATION: StructureDefinition/disease-plan: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity.json ==
+INFORMATION: StructureDefinition/lab-activity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/lab-activity: StructureDefinition.snapshot.element[57].pattern.ofType(Reference): Unable to resolve resource 'LabObservationDefinition'
+ERROR: StructureDefinition/lab-activity: StructureDefinition.differential.element[2].pattern.ofType(Reference): Unable to resolve resource 'LabObservationDefinition'
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation.json ==
+INFORMATION: StructureDefinition/lab-observation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/lab-observation: StructureDefinition.differential.element[1].binding: The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) 
+ERROR: StructureDefinition/lab-observation: StructureDefinition.snapshot.element[10].binding: The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) 
+WARNING: StructureDefinition.where(url = 'http://rarecare.world/fhir/StructureDefinition/lab-observation'): The Implementation Guide contains no examples for this profile
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-rare-care-plan.json ==
+INFORMATION: StructureDefinition/rare-care-plan: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/rare-care-plan: StructureDefinition.differential.element[1].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
+WARNING: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[47].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
+WARNING: StructureDefinition.where(url = 'http://rarecare.world/fhir/StructureDefinition/rare-care-plan'): The Implementation Guide contains no examples for this profile

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="plan-neutropenia"/>
+  <meta>
+    <profile value="http://rarecare.world/fhir/StructureDefinition/disease-plan"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://rarecare.world/fhir/PlanDefinition/plan-neutropenia</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Neutropenia Management</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title="Codes: {http://hl7.org/fhir/resource-types Patient}">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Neutropenia management plan.</p><p><b>topic</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}">Treatment</span></p><h3>RelatedArtifacts</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Goals</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td><span title="Codes: ">Neutropenia management</span></td><td><span title="Codes: {http://hl7.org/fhir/sid/icd-10 D70.9}">Neutropenia, unspecified</span></td></tr></table><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Neutrophils in blood</td><td><code>act-neutrophils-in-blood</code></td></tr></table></div>
+  </text>
+  <url value="http://rarecare.world/fhir/PlanDefinition/plan-neutropenia"/>
+  <version value="0.1.0"/>
+  <title value="Neutropenia Management"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+      <code value="clinical-protocol"/>
+    </coding>
+  </type>
+  <status value="draft"/>
+  <subjectCodeableConcept>
+    <coding>
+      <system value="http://hl7.org/fhir/resource-types"/>
+      <code value="Patient"/>
+    </coding>
+  </subjectCodeableConcept>
+  <date value="2021-01-14"/>
+  <publisher value="Stichting Rare Care World"/>
+  <description value="Neutropenia management plan."/>
+  <topic>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
+      <code value="treatment"/>
+    </coding>
+  </topic>
+  <relatedArtifact>
+    <type value="documentation"/>
+    <url value="https://rarecare.world/disease/neutropenia"/>
+  </relatedArtifact>
+  <goal>
+    <description>
+      <text value="Neutropenia management"/>
+    </description>
+    <addresses>
+      <coding>
+        <system value="http://hl7.org/fhir/sid/icd-10"/>
+        <code value="D70.9"/>
+        <display value="Neutropenia, unspecified"/>
+      </coding>
+    </addresses>
+  </goal>
+  <action>
+    <title value="Neutrophils in blood"/>
+    <definitionCanonical value="act-neutrophils-in-blood"/>
+  </action>
+</PlanDefinition>

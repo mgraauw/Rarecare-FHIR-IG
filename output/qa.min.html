@@ -1,0 +1,404 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 51, errors = 9, warn = 9, info = 0 -->
+<head>
+  <title>RarecareFHIRIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for RarecareFHIRIG</h1>
+ <p>Generated Thu May 27 16:07:09 CEST 2021, FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = <a href="http://rarecare.world/fhir">http://rarecare.world/fhir</a> (<a href="http://rarecare.world/fhir/history.html">history</a>)). See <a href="c:\users\marcd\dropbox\development\rarecare-fhir-ig\output\qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.72</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = rarecare.world, Canonical = http://rarecare.world/fhir</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> rarecare.world</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://rarecare.world/fhir</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://rarecare.world/fhir (Problem #1 with package-list.json at http://rarecare.world/fhir: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 51, errors = 9, warn = 9, info = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>52</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_activitydefinition-act-neutrophils-in-blood"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-neutrophils-in-blood</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_observationdefinition-obs-neutrophils-in-blood"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\observationdefinition-obs-neutrophils-in-blood</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_plandefinition-plan-neutropenia"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-neutropenia</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-lab-activity"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-activity</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-lab-observation"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-observation</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-rare-care-plan"><b>C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-rare-care-plan</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ObservationDefinition/obs-neutrophils-in-blood.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.change.history.html#a1b86e8e-7f1b-48ff-bf68-12254e3fae96">ActivityDefinition-act-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.html#0060c783-2f0f-4ffd-9c96-ce5671c0b4d9">ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 454</a></b></td><td><b>error</b></td><td><b>The link '#loinc-751-8' for &quot;#loinc-751-8&quot; cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, example-activitydefinition-neutrophils-in-blood-activitydefinition, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.html#10bb771d-6e74-46c0-a26e-7968ed55876f">ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.json.html#ca196483-b641-4750-9f76-ac48a0f3667e">ActivityDefinition-act-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 221, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.ttl.html#cbe41b55-720b-4896-accd-120c7b22a629">ActivityDefinition-act-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ActivityDefinition-act-neutrophils-in-blood.xml.html#76c336bd-b744-4835-9551-d274df765ba2">ActivityDefinition-act-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 215, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ObservationDefinition-obs-neutrophils-in-blood.change.history.html#9f4d8210-0058-4606-b57f-be7a08433172">ObservationDefinition-obs-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ObservationDefinition-obs-neutrophils-in-blood.html#4f9f4242-a9be-43f1-92bf-d2eccd8a056f">ObservationDefinition-obs-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ObservationDefinition-obs-neutrophils-in-blood.json.html#043495b1-c00f-4d75-b1af-6fe385c748d6">ObservationDefinition-obs-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 205, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ObservationDefinition-obs-neutrophils-in-blood.ttl.html#81ef7df1-499d-48f8-b2f1-c1bf37605d9f">ObservationDefinition-obs-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ObservationDefinition-obs-neutrophils-in-blood.xml.html#bc748e5d-1372-425a-88a5-7df6f6390447">ObservationDefinition-obs-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 203, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="PlanDefinition-plan-neutropenia.change.history.html#3e84388b-773a-4f65-be38-e7d23beeaa15">PlanDefinition-plan-neutropenia.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="PlanDefinition-plan-neutropenia.html#7deb5d77-d82a-4f7a-acf0-355e03ea80f5">PlanDefinition-plan-neutropenia.html#/html/body/div/div/div/p/a at Line 186, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="PlanDefinition-plan-neutropenia.json.html#a00853bb-a19c-415e-94e8-46baf7089afe">PlanDefinition-plan-neutropenia.json.html#/html/body/div/div/div/p/a at Line 264, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="PlanDefinition-plan-neutropenia.ttl.html#e7661dc2-db96-42ba-bcf8-259e6441d6a4">PlanDefinition-plan-neutropenia.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="PlanDefinition-plan-neutropenia.xml.html#80599cb6-2596-4f49-8b35-bcfe64275b27">PlanDefinition-plan-neutropenia.xml.html#/html/body/div/div/div/p/a at Line 244, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan-definitions.html#de60e03a-0335-4696-bd3c-432deb0e367f">StructureDefinition-disease-plan-definitions.html#/html/body/div/div/div/p/a at Line 1261, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan-examples.html#c7200bab-a783-40ac-84ee-29c7c8675ac1">StructureDefinition-disease-plan-examples.html#/html/body/div/div/div/p/a at Line 254, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan-mappings.html#8dcc65a8-338f-47a6-a408-5b6f895421e7">StructureDefinition-disease-plan-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan.html#620092be-5cca-4897-894e-3625711953db">StructureDefinition-disease-plan.html#/html/body/div/div/div/p/a at Line 1231, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan.profile.history.html#433071a5-ddc6-4b77-9261-ece46a8ab64c">StructureDefinition-disease-plan.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan.profile.json.html#044c5e40-50b3-415c-bcf7-0b94e45767ad">StructureDefinition-disease-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4706, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan.profile.ttl.html#ae43b999-6576-4229-b615-ea1226b91b49">StructureDefinition-disease-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4141, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-disease-plan.profile.xml.html#dc3a6457-7946-4247-b7a2-39e8933734d6">StructureDefinition-disease-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4198, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity-definitions.html#ab2bf8ba-c23a-4f36-b9d4-df20613c0a03">StructureDefinition-lab-activity-definitions.html#/html/body/div/div/div/p/a at Line 880, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity-examples.html#8ea24476-1933-4eb1-bc58-164505e97b4b">StructureDefinition-lab-activity-examples.html#/html/body/div/div/div/p/a at Line 254, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity-mappings.html#232af15b-6664-4e00-aba7-6c5d710aec14">StructureDefinition-lab-activity-mappings.html#/html/body/div/div/div/p/a at Line 340, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity.html#f7bb7e75-d743-46e9-b6b9-b1141f0af962">StructureDefinition-lab-activity.html#/html/body/div/div/div/p/a at Line 881, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity.profile.history.html#5613f101-200a-4d8a-9bd7-5296c8fc8bd0">StructureDefinition-lab-activity.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity.profile.json.html#8bf8c9e6-39d7-4c75-bbe2-5d73d1d36732">StructureDefinition-lab-activity.profile.json.html#/html/body/div/div/div/p/a at Line 3132, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity.profile.ttl.html#60a7cb0c-5c6b-421d-b86f-632b13b8cd7e">StructureDefinition-lab-activity.profile.ttl.html#/html/body/div/div/div/p/a at Line 2751, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-activity.profile.xml.html#9aa7b011-5bbc-4c6a-aa36-a770ecc1e3e7">StructureDefinition-lab-activity.profile.xml.html#/html/body/div/div/div/p/a at Line 2802, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation-definitions.html#63b81d94-1dd8-44dc-9ceb-d1514a7c20ff">StructureDefinition-lab-observation-definitions.html#/html/body/div/div/div/p/a at Line 610, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation-examples.html#cf7b291d-f456-488a-91da-aad0fadcfa4b">StructureDefinition-lab-observation-examples.html#/html/body/div/div/div/p/a at Line 233, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation-mappings.html#406b160e-eb40-447c-8083-e181ab251c65">StructureDefinition-lab-observation-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation.html#3d037f16-8260-423d-91ea-3be1fe9ab327">StructureDefinition-lab-observation.html#/html/body/div/div/div/p/a at Line 687, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation.profile.history.html#26a1a2b9-59a8-4b52-8b2f-50e286e5220d">StructureDefinition-lab-observation.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation.profile.json.html#6013575f-b92e-4483-ae68-afee21759fdb">StructureDefinition-lab-observation.profile.json.html#/html/body/div/div/div/p/a at Line 2037, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation.profile.ttl.html#9cbca09c-5624-4934-912e-4b72af339ba6">StructureDefinition-lab-observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1817, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-lab-observation.profile.xml.html#c6e24fdf-a306-4634-b133-e782fbf2e36e">StructureDefinition-lab-observation.profile.xml.html#/html/body/div/div/div/p/a at Line 1804, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan-definitions.html#f45937b5-413d-47c3-9ba4-51baa49fee00">StructureDefinition-rare-care-plan-definitions.html#/html/body/div/div/div/p/a at Line 1250, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan-examples.html#2ccf84cd-e98c-4428-b49a-b09395c92a1c">StructureDefinition-rare-care-plan-examples.html#/html/body/div/div/div/p/a at Line 233, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan-mappings.html#a0320e34-9da6-4fca-8c4b-95f6f6ae9963">StructureDefinition-rare-care-plan-mappings.html#/html/body/div/div/div/p/a at Line 324, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan.html#85619184-c2fe-40eb-bd1c-0d882f69cdff">StructureDefinition-rare-care-plan.html#/html/body/div/div/div/p/a at Line 1198, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan.profile.history.html#bc2cec34-a0a7-45b4-b1a7-13ddd9d3c3f1">StructureDefinition-rare-care-plan.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan.profile.json.html#e2bd0da2-f93c-4915-a88c-5a033fdd3902">StructureDefinition-rare-care-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4641, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan.profile.ttl.html#94d1e419-51f3-4181-9b53-cf74c7682994">StructureDefinition-rare-care-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4094, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-rare-care-plan.profile.xml.html#391743a6-7b2c-4695-ab89-2e98d8a004f8">StructureDefinition-rare-care-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4136, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#54f29ca4-a8f0-4398-a08c-3f47ada1b136">artifacts.html#/html/body/div/div/div/p/a at Line 246, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#18269fb2-5c83-4cfe-a933-2cff92b034e2">index.html#/html/body/div/div/div/div/div/p/img at Line 151, column 2</a></b></td><td><b>error</b></td><td><b>The image source 'Rare%20Care%208.png' cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#5cca05dd-8598-4f9f-802e-0f908748b4ea">index.html#/html/body/div/div/div/p/a at Line 245, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#5aa47cfc-a17c-4dab-a983-e63b69e3a3ca">toc.html#/html/body/div/div/div/p/a at Line 137, column 28</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_activitydefinition-act-neutrophils-in-blood"> </a>
+<h2><a href="ActivityDefinition-act-neutrophils-in-blood.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition</b></td><td><b>warning</b></td><td title="adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.code.coding[0]</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>The display &quot;Neutrophils in blood&quot; is not a valid display for the code {http://loinc.org}751-8 - should be one of [&quot;Neutrophils [#/volume] in Blood by Automated count&quot;,&quot;Neutrophils # Bld Auto&quot;] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource '#loinc-751-8'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]</b></td><td><b>error</b></td><td title="ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-751-8; ids: ))"><b>ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-751-8; ids: ))</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST_META"><b>Validate resource against profile http://rarecare.world/fhir/StructureDefinition/lab-activity - listed in meta</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_observationdefinition-obs-neutrophils-in-blood"> </a>
+<h2><a href="ObservationDefinition-obs-neutrophils-in-blood.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ObservationDefinition-obs-neutrophils-in-blood.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ObservationDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition.code.coding[0] (l6/c8)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>The display &quot;Neutrophils in blood&quot; is not a valid display for the code {http://loinc.org}751-8 - should be one of [&quot;Neutrophils [#/volume] in Blood by Automated count&quot;,&quot;Neutrophils # Bld Auto&quot;] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_plandefinition-plan-neutropenia"> </a>
+<h2><a href="PlanDefinition-plan-neutropenia.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-neutropenia.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PlanDefinition/plan-neutropenia: PlanDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>PlanDefinition/plan-neutropenia: PlanDefinition</b></td><td><b>warning</b></td><td title="pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>PlanDefinition/plan-neutropenia: PlanDefinition.goal[0].addresses[0].coding[0]</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Code &quot;D70.9&quot; not found; The code &quot;D70.9&quot; is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#D70.9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#D70.9'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>PlanDefinition/plan-neutropenia: PlanDefinition.action[0].definition.ofType(canonical)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE"><b>Canonical URLs must be absolute URLs if they are not fragment references (act-neutrophils-in-blood) </b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>PlanDefinition/plan-neutropenia: PlanDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST_META"><b>Validate resource against profile http://rarecare.world/fhir/StructureDefinition/disease-plan - listed in meta</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-lab-activity"> </a>
+<h2><a href="StructureDefinition-lab-activity.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/lab-activity: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/lab-activity: StructureDefinition.snapshot.element[57].pattern.ofType(Reference)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'LabObservationDefinition'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/lab-activity: StructureDefinition.differential.element[2].pattern.ofType(Reference)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'LabObservationDefinition'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-lab-observation"> </a>
+<h2><a href="StructureDefinition-lab-observation.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/lab-observation: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/lab-observation: StructureDefinition.differential.element[1].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) </b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/lab-observation: StructureDefinition.snapshot.element[10].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) </b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://rarecare.world/fhir/StructureDefinition/lab-observation')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_marcd_Dropbox_development_Rarecare-FHIR-IG_fsh-generated_resources_structuredefinition-rare-care-plan"> </a>
+<h2><a href="StructureDefinition-rare-care-plan.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-rare-care-plan.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/rare-care-plan: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/rare-care-plan: StructureDefinition.differential.element[1].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[47].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://rarecare.world/fhir/StructureDefinition/rare-care-plan')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Reference_REF_CantResolve"> </a>
+<h2>Reference_REF_CantResolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ActivityDefinition-act-neutrophils-in-blood.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood.json</a></td><td><b>Unable to resolve resource '#loinc-751-8'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-lab-activity.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity.json</a></td><td><b>Unable to resolve resource 'LabObservationDefinition'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-lab-activity.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity.json</a></td><td><b>Unable to resolve resource 'LabObservationDefinition'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="SD_ED_BIND_NOT_VS"> </a>
+<h2>SD_ED_BIND_NOT_VS</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-lab-observation.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation.json</a></td><td><b>The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) </b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-lab-observation.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation.json</a></td><td><b>The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) </b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE"> </a>
+<h2>TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="PlanDefinition-plan-neutropenia.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-neutropenia.json</a></td><td><b>Canonical URLs must be absolute URLs if they are not fragment references (act-neutrophils-in-blood) </b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="ActivityDefinition-act-neutrophils-in-blood.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood.json</a></td><td><b>The display &quot;Neutrophils in blood&quot; is not a valid display for the code {http://loinc.org}751-8 - should be one of [&quot;Neutrophils [#/volume] in Blood by Automated count&quot;,&quot;Neutrophils # Bld Auto&quot;] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="ObservationDefinition-obs-neutrophils-in-blood.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ObservationDefinition-obs-neutrophils-in-blood.json</a></td><td><b>The display &quot;Neutrophils in blood&quot; is not a valid display for the code {http://loinc.org}751-8 - should be one of [&quot;Neutrophils [#/volume] in Blood by Automated count&quot;,&quot;Neutrophils # Bld Auto&quot;] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="PlanDefinition-plan-neutropenia.html">C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-neutropenia.json</a></td><td><b>Code &quot;D70.9&quot; not found; The code &quot;D70.9&quot; is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#D70.9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#D70.9'</b></td>
+   </tr>
+</table>
+</body>
+</html>

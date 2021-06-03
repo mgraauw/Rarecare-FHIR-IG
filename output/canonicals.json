@@ -1,0 +1,49 @@
+[
+  {
+    "id": "rarecare.world",
+    "type": "ImplementationGuide",
+    "url": "http://rarecare.world/fhir/ImplementationGuide/rarecare.world",
+    "version": "0.1.0",
+    "name": "RarecareFHIRIG"
+  },
+  {
+    "id": "plan-neutropenia",
+    "type": "PlanDefinition",
+    "url": "http://rarecare.world/fhir/PlanDefinition/plan-neutropenia",
+    "version": "0.1.0"
+  },
+  {
+    "id": "disease-plan",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/disease-plan",
+    "version": "0.1.0",
+    "name": "DiseasePlanDefinition"
+  },
+  {
+    "id": "lab-activity",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/lab-activity",
+    "version": "0.1.0",
+    "name": "LabActivityDefinition"
+  },
+  {
+    "id": "lab-observation",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/lab-observation",
+    "version": "0.1.0",
+    "name": "LabObservationDefinition"
+  },
+  {
+    "id": "rare-care-plan",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan",
+    "version": "0.1.0",
+    "name": "RareCarePlanDefinition"
+  },
+  {
+    "id": "act-neutrophils-in-blood",
+    "type": "ActivityDefinition",
+    "url": "https://rarecare.world/751-8",
+    "version": "0.1.0"
+  }
+]

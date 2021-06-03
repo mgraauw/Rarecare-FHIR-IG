@@ -1,0 +1,64 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lab-activity",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Definitional Artifacts"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "anonymous"
+    }
+  ],
+  "url": "http://rarecare.world/fhir/StructureDefinition/lab-activity",
+  "version": "0.1.0",
+  "name": "LabActivityDefinition",
+  "title": "Lab Test Activity",
+  "status": "active",
+  "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "objimpl",
+      "uri": "http://hl7.org/fhir/object-implementation",
+      "name": "Object Implementation Information"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ActivityDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ActivityDefinition.kind",
+        "path": "ActivityDefinition.kind",
+        "patternCode": "ServiceRequest"
+      },
+      {
+        "id": "ActivityDefinition.observationResultRequirement",
+        "path": "ActivityDefinition.observationResultRequirement",
+        "patternReference": {
+          "reference": "LabObservationDefinition"
+        }
+      }
+    ]
+  }
+}

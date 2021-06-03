@@ -1,0 +1,98 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "rarecare.world",
+  "url": "http://rarecare.world/fhir/ImplementationGuide/rarecare.world",
+  "version": "0.1.0",
+  "name": "RarecareFHIRIG",
+  "status": "draft",
+  "packageId": "rarecare.world",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/disease-plan"
+        },
+        "name": "Disease Management Plan",
+        "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. The disease plan refers to \r\nmedication, lab tests and other items for management of the disease.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lab-activity"
+        },
+        "name": "Lab Test Activity",
+        "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/lab-observation"
+        },
+        "name": "Lab Test Observation",
+        "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rare-care-plan"
+        },
+        "name": "Rare Condition Management Plan",
+        "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/act-neutrophils-in-blood"
+        },
+        "name": "Neutrophils in blood ActivityDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-activity"
+      },
+      {
+        "reference": {
+          "reference": "ObservationDefinition/obs-neutrophils-in-blood"
+        },
+        "name": "Neutrophils in blood ObservationDefinition",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/plan-neutropenia"
+        },
+        "name": "Neutropenia PlanDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/plan-sds"
+        },
+        "name": "Shwachman Diamond Syndrome PlanDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

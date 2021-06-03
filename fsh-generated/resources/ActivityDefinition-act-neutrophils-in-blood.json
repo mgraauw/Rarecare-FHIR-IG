@@ -1,0 +1,27 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "act-neutrophils-in-blood",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/lab-activity"
+    ]
+  },
+  "url": "https://rarecare.world/751-8",
+  "status": "draft",
+  "description": "Neutrophils in blood measurement",
+  "kind": "ServiceRequest",
+  "code": {
+    "coding": [
+      {
+        "code": "751-8",
+        "system": "http://loinc.org",
+        "display": "Neutrophils in blood"
+      }
+    ]
+  },
+  "observationRequirement": [
+    {
+      "reference": "#loinc-751-8"
+    }
+  ]
+}
