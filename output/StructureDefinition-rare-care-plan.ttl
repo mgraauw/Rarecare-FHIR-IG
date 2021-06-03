@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "RareCarePlanDefinition"];
   fhir:StructureDefinition.title [ fhir:value "Rare Condition Management Plan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-27T16:06:45+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-03T11:09:29+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

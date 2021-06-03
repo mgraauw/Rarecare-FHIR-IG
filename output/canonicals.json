@@ -13,6 +13,12 @@
     "version": "0.1.0"
   },
   {
+    "id": "plan-sds",
+    "type": "PlanDefinition",
+    "url": "http://rarecare.world/fhir/PlanDefinition/plan-sds",
+    "version": "0.1.0"
+  },
+  {
     "id": "disease-plan",
     "type": "StructureDefinition",
     "url": "http://rarecare.world/fhir/StructureDefinition/disease-plan",

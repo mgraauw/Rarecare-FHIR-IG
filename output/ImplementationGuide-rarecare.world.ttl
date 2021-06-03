@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "RarecareFHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-27T16:06:45+02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-03T11:09:29+02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "rarecare.world"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -355,6 +355,23 @@
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://rarecare.world/fhir/StructureDefinition/disease-plan";
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/PlanDefinition/plan-sds>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/plan-sds" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Shwachman Diamond Syndrome PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Shwachman Diamond Syndrome personal management plan." ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/rare-care-plan";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/rare-care-plan>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

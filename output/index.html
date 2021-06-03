@@ -121,8 +121,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p>  <!-- white space is critical inside of capture --></p>
-<div>
-  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#rarecare-fhir-ig" id="markdown-toc-rarecare-fhir-ig">Rarecare-FHIR-IG</a>    <ul>
+      <li><a href="#medmij-and-the-pgo-for-everyone-project" id="markdown-toc-medmij-and-the-pgo-for-everyone-project">MedMij and the “PGO for everyone” project</a></li>
+      <li><a href="#the-rarecare-data-model" id="markdown-toc-the-rarecare-data-model">The RareCare Data Model</a></li>
+      <li><a href="#the-fhir-profiles" id="markdown-toc-the-fhir-profiles">The FHIR profiles</a>        <ul>
+          <li><a href="#plandefinition" id="markdown-toc-plandefinition">PlanDefinition</a></li>
+          <li><a href="#activitydefinition" id="markdown-toc-activitydefinition">ActivityDefinition</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 </div>
 <h1 id="rarecare-fhir-ig">Rarecare-FHIR-IG</h1>
 
@@ -147,7 +159,7 @@ all benefit from the structured collection of data.</p>
 
 <p>From those resources FHIR profiles are generated.</p>
 
-<p><a name="18269fb2-5c83-4cfe-a933-2cff92b034e2">​</a>The basis is a Data Model of Rare Conditions:
+<p><a name="65ee7dcf-fc80-4196-9a35-82e10a24f160">​</a>The basis is a Data Model of Rare Conditions:
 <img src="Rare%20Care%208.png" alt="alt text" title="Rare Care Data Model"/></p>
 
 <p>A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated
@@ -157,50 +169,30 @@ phenotypical abnormalities.
 A Disease is associated with Medication, here represented with ATC coding.
 Diseases are also associated with ICF impairments in functioning (b.xxx codes) or activity and particapation (d.xxx codes).</p>
 
-<p>The condition plans are abstract plans, not yet bound to a particular patient.</p>
+<h2 id="the-fhir-profiles">The FHIR profiles</h2>
+<p>The RareCare datamodel for Rare Conditions is implemented using <a href="http://hl7.org/fhir/definition.html">FHIR</a>.</p>
+
+<p>There are 3 kinds of FHIR resources: Event, Request and Definition.</p>
+<ul>
+  <li>Requests ask for or express a desire/intention for something to be done</li>
+  <li>Events express that something has been done and which can potentially be done because of a request</li>
+  <li>Definitions define something that can potentially happen in a patient and time-independent manner
+I.e. a MedicationRequest (a Request resource) can be a request to administer some medication to a hospitalized COVID-19 patient; MedicationAdministration (an Event Resource) captures the actual administration of the medication to tha patient; ActivityDefinition states that alle or some COVID-19 patients should take some medication.</li>
+</ul>
+
+<p>The Definition resources fit the RareCare Datamodel very nicely. The data model does not say anything about specific patients, only something about all (or most) patients with a particular Rare Condition.</p>
 
 <p>The mapping from data model to FHIR resource types is as follows:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Data model</th>
-      <th style="text-align: left">FHIR resource type</th>
-      <th style="text-align: left">Coding</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Rare Condition</td>
-      <td style="text-align: left">PlanDefinition</td>
-      <td style="text-align: left">Orpha, Snomed CT, ICD-10</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Disease</td>
-      <td style="text-align: left">PlanDefinition</td>
-      <td style="text-align: left">Snomed CT, ICD-10</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Symptom (only lab tests now)</td>
-      <td style="text-align: left">ActivityDefintion, ObservationDefinition</td>
-      <td style="text-align: left">LOINC</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Medication</td>
-      <td style="text-align: left">ActivityDefintion with product</td>
-      <td style="text-align: left">ATC</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Function, Participation</td>
-      <td style="text-align: left">Questionnaire</td>
-      <td style="text-align: left">ICF</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="the-fhir-profiles">The FHIR profiles</h2>
+<p>| Data model    | FHIR resource type | Coding  |
+|:————-|:————-|:—–|
+| Rare Condition | PlanDefinition | Orpha, Snomed CT, ICD-10 |
+| Disease | PlanDefinition | Snomed CT, ICD-10 |
+| Symptom (only lab tests now) | ActivityDefinition, ObservationDefinition | LOINC |
+| Medication  | ActivityDefinition with product | ATC |
+| Function, Participation | Questionnaire | ICF |</p>
 <h3 id="plandefinition">PlanDefinition</h3>
-<p>A PlanDefinition is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan
+<p>A <a href="http://hl7.org/fhir/plandefinition.html">PlanDefinition</a> is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan
 to be rolled out when a particular patient enters care. When that is the case, a CarePlan based on the generic PlanDefinition 
 can be made.</p>
 
@@ -216,7 +208,10 @@ can be made.</p>
   <li>social support which may be required</li>
 </ul>
 
-<p>These actions are defined using ActionDefinitions.</p>
+<p>These actions are defined using ActivityDefinitions.</p>
+<h3 id="activitydefinition">ActivityDefinition</h3>
+<p>An <a href="http://hl7.org/fhir/activitydefinition.html">ActivityDefinition</a> describes request resources such as ServiceRequest and MedicationRequest. So an ActivityDefinition may describe some lab test which can be performed or some medication which may be taken.</p>
+
 
 
 
@@ -241,8 +236,8 @@ can be made.</p>
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="5cca05dd-8598-4f9f-802e-0f908748b4ea">​</a>
-          IG &copy; 2021+ <a style="color: #81BEF7" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 27, 2021 16:06+0200">2021-05-27</span>
+        <p><a name="15e59859-33fd-4967-8882-da4b1fdf2fb2">​</a>
+          IG &copy; 2021+ <a style="color: #81BEF7" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 3, 2021 11:09+0200">2021-06-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

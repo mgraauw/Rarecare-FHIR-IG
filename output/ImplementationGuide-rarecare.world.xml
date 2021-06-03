@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RarecareFHIRIG"/>
   <status value="draft"/>
-  <date value="2021-05-27T16:06:45+02:00"/>
+  <date value="2021-06-03T11:09:29+02:00"/>
   <packageId value="rarecare.world"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -241,6 +241,17 @@
       <name value="Neutropenia PlanDefinition"/>
       <description value="Neutropenia management plan."/>
       <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/disease-plan"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/plan-sds"/>
+      </reference>
+      <name value="Shwachman Diamond Syndrome PlanDefinition"/>
+      <description value="Shwachman Diamond Syndrome personal management plan."/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/rare-care-plan"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

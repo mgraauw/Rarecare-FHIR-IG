@@ -1,0 +1,52 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "plan-sds",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://rarecare.world/fhir/PlanDefinition/plan-sds</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Shwachman Diamond Syndrome Management</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}\">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title=\"Codes: {http://hl7.org/fhir/resource-types Patient}\">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Shwachman Diamond Syndrome personal management plan.</p><p><b>topic</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}\">Treatment</span></p><h3>RelatedArtifacts</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table></div>"
+  },
+  "url": "http://rarecare.world/fhir/PlanDefinition/plan-sds",
+  "version": "0.1.0",
+  "title": "Shwachman Diamond Syndrome Management",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "clinical-protocol"
+      }
+    ]
+  },
+  "status": "draft",
+  "subjectCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/resource-types",
+        "code": "Patient"
+      }
+    ]
+  },
+  "date": "2021-01-14",
+  "publisher": "Stichting Rare Care World",
+  "description": "Shwachman Diamond Syndrome personal management plan.",
+  "topic": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/definition-topic",
+          "code": "treatment"
+        }
+      ]
+    }
+  ],
+  "relatedArtifact": [
+    {
+      "type": "justification",
+      "url": "https://rarecare.world/patient-organisation/shwachman-syndrome-support-holland"
+    }
+  ]
+}

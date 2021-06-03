@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "RarecareFHIRIG",
   "status": "draft",
-  "date": "2021-05-27T16:06:45+02:00",
+  "date": "2021-06-03T11:09:29+02:00",
   "packageId": "rarecare.world",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -362,6 +362,20 @@
         "name": "Neutropenia PlanDefinition",
         "description": "Neutropenia management plan.",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/plan-sds"
+        },
+        "name": "Shwachman Diamond Syndrome PlanDefinition",
+        "description": "Shwachman Diamond Syndrome personal management plan.",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
       }
     ],
     "page": {
