@@ -6,7 +6,7 @@
       "http://rarecare.world/fhir/StructureDefinition/lab-activity"
     ]
   },
-  "url": "https://rarecare.world/751-8",
+  "url": "https://rarecare.world/fhir/LabActivityDefinition/751-8",
   "status": "draft",
   "description": "Neutrophils in blood measurement",
   "kind": "ServiceRequest",

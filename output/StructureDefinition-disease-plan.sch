@@ -222,8 +222,71 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:PlanDefinition/f:relatedArtifact</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
+      <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
+      <sch:assert test="count(f:label) &lt;= 1">label: maximum cardinality of 'label' is 1</sch:assert>
+      <sch:assert test="count(f:display) &lt;= 1">display: maximum cardinality of 'display' is 1</sch:assert>
+      <sch:assert test="count(f:citation) &lt;= 1">citation: maximum cardinality of 'citation' is 1</sch:assert>
+      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
+      <sch:assert test="count(f:document) &lt;= 1">document: maximum cardinality of 'document' is 1</sch:assert>
+      <sch:assert test="count(f:resource) &lt;= 1">resource: maximum cardinality of 'resource' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>PlanDefinition.relatedArtifact</sch:title>
     <sch:rule context="f:PlanDefinition/f:relatedArtifact">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.extension</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.type</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:type">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.label</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:label">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.display</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:display">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.citation</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:citation">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.url</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:url">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.document</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:document">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.relatedArtifact.resource</sch:title>
+    <sch:rule context="f:PlanDefinition/f:relatedArtifact/f:resource">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -260,8 +323,34 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:PlanDefinition/f:goal/f:description</sch:title>
+    <sch:rule context="f:PlanDefinition/f:goal/f:description">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>PlanDefinition.goal.description</sch:title>
     <sch:rule context="f:PlanDefinition/f:goal/f:description">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.goal.description.extension</sch:title>
+    <sch:rule context="f:PlanDefinition/f:goal/f:description/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.goal.description.coding</sch:title>
+    <sch:rule context="f:PlanDefinition/f:goal/f:description/f:coding">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>PlanDefinition.goal.description.text</sch:title>
+    <sch:rule context="f:PlanDefinition/f:goal/f:description/f:text">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>

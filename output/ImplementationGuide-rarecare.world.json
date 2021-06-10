@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "RarecareFHIRIG",
   "status": "draft",
-  "date": "2021-06-03T16:45:00+02:00",
+  "date": "2021-06-10T14:46:22+02:00",
   "packageId": "rarecare.world",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -316,11 +316,39 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/med-activity"
+        },
+        "name": "Medication Administration Activity",
+        "description": "A Disease is treated with medication.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/rare-care-plan"
         },
         "name": "Rare Condition Management Plan",
         "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ActivityDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ActivityDefinition/act-calcidiol-in-serum-plasma"
+        },
+        "name": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition",
+        "description": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-activity"
       },
       {
         "extension": [
@@ -340,6 +368,47 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ActivityDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ActivityDefinition/act-pancreatine"
+        },
+        "name": "Neutrophils in blood ActivityDefinition",
+        "description": "Pancreatine",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/med-activity"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ActivityDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ActivityDefinition/act-retinol-in-serum-plasma"
+        },
+        "name": "Retinol (Vitamin A) in serum/plasma ActivityDefinition",
+        "description": "Retinol (Vitamin A) in serum/plasma",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-activity"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/developmental-disability-questionnaire"
+        },
+        "name": "developmental-disability-questionnaire",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ObservationDefinition"
           }
         ],
@@ -348,6 +417,20 @@
         },
         "name": "Neutrophils in blood ObservationDefinition",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/plan-developmental-disability"
+        },
+        "name": "Ontwikkelingsstoornis PlanDefinition",
+        "description": "Neutropenia management plan.",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
       },
       {
         "extension": [
@@ -371,11 +454,38 @@
           }
         ],
         "reference": {
+          "reference": "PlanDefinition/plan-pancreas-insufficiency"
+        },
+        "name": "Pancreas Insufficiëntie PlanDefinition",
+        "description": "Pancreas Insufficiëntie management plan.",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
           "reference": "PlanDefinition/plan-sds"
         },
         "name": "Shwachman Diamond Syndrome PlanDefinition",
-        "description": "Shwachman Diamond Syndrome personal management plan.",
+        "description": "Shwachman Diamond Syndrome management plan.",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/shwachman-diamond-syndrome-questionnaire"
+        },
+        "name": "shwachman-diamond-syndrome-questionnaire",
+        "exampleBoolean": true
       }
     ],
     "page": {

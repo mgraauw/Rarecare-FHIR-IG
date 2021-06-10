@@ -12,8 +12,8 @@
     ],
     "ActivityDefinition": [
       {
-        "url": "http://rarecare.world/fhir/StructureDefinition/lab-activity",
-        "title": "Lab Test Activity"
+        "url": "http://rarecare.world/fhir/StructureDefinition/med-activity",
+        "title": "Medication Administration Activity"
       }
     ],
     "ObservationDefinition": [
@@ -38,6 +38,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"

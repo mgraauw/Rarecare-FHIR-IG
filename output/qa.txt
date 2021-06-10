@@ -1,54 +1,113 @@
 ﻿RarecareFHIRIG : Validation Results
 =========================================
 
-err = 9, warn = 9, info = 0
-IG Publisher Version: 1.1.72
-Generated Thu Jun 03 16:45:36 CEST 2021. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
+err = 98, warn = 22, info = 1
+IG Publisher Version: 1.1.72 Out of date - current version is 1.1.73
+Generated Thu Jun 10 14:47:01 CEST 2021. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
 
- Build Errors : 57 / 1 / 0
+ Build Errors : 112 / 3 / 0
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world : 0 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-calcidiol-in-serum-plasma : 2 / 2 / 2
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-neutrophils-in-blood : 2 / 2 / 2
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-pancreatine : 1 / 1 / 2
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\activitydefinition-act-retinol-in-serum-plasma : 3 / 3 / 2
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\observationdefinition-obs-neutrophils-in-blood : 0 / 1 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-developmental-disability : 3 / 1 / 2
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-neutropenia : 2 / 1 / 2
- C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-sds : 0 / 1 / 2
- C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-disease-plan : 0 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-pancreas-insufficiency : 2 / 1 / 2
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\plandefinition-plan-sds : 1 / 2 / 3
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\questionnaire-developmental-disability-questionnaire : 28 / 1 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\questionnaire-shwachman-diamond-syndrome-questionnaire : 42 / 1 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-disease-plan : 1 / 0 / 1
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-activity : 2 / 0 / 1
  C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-lab-observation : 2 / 1 / 1
- C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-rare-care-plan : 0 / 2 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-med-activity : 0 / 0 / 1
+ C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\structuredefinition-rare-care-plan : 1 / 2 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/developmental-disability-questionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ObservationDefinition/obs-neutrophils-in-blood.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Questionnaire/shwachman-diamond-syndrome-questionnaire.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 531: The link '#loinc-14635-7' for "#loinc-14635-7" cannot be resolved (valid targets: [example-activitydefinition-calcidiol-25-hydroxy-vitamin-d3-in-serumplasma-activitydefinition, segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-calcidiol-in-serum-plasma.xml.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 454: The link '#loinc-751-8' for "#loinc-751-8" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, example-activitydefinition-neutrophils-in-blood-activitydefinition, segment-breadcrumb])
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 481: The link '#loinc-751-8' for "#loinc-751-8" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, stripe, segment-footer, segment-navbar, segment-content, example-activitydefinition-neutrophils-in-blood-activitydefinition, segment-breadcrumb])
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 215, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-pancreatine.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-pancreatine.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-pancreatine.json.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-pancreatine.ttl.html#/html/body/div/div/div/p/a at Line 229, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-pancreatine.xml.html#/html/body/div/div/div/p/a at Line 212, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 501: The link '#loinc-14905-4
+
+' for "#loinc-14905-4" cannot be resolved (valid targets: [segment-header, publish-box, bottom, segment-post-footer, ig-status, top, root, example-activitydefinition-retinol-vitamin-a-in-serumplasma-activitydefinition, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.json.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ActivityDefinition-act-retinol-in-serum-plasma.xml.html#/html/body/div/div/div/p/a at Line 221, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.json.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\ObservationDefinition-obs-neutrophils-in-blood.xml.html#/html/body/div/div/div/p/a at Line 203, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-developmental-disability.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-developmental-disability.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-developmental-disability.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-developmental-disability.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-developmental-disability.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.json.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.ttl.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.xml.html#/html/body/div/div/div/p/a at Line 244, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.ttl.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-neutropenia.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-pancreas-insufficiency.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-pancreas-insufficiency.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-pancreas-insufficiency.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-pancreas-insufficiency.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-pancreas-insufficiency.xml.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.ttl.html#/html/body/div/div/div/p/a at Line 247, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-definitions.html#/html/body/div/div/div/p/a at Line 1261, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.html#/html/body/div/div/div/p/a at Line 1231, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\PlanDefinition-plan-sds.xml.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 158, column 481: The image source 'icon-q-coding.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 158, column 1341: The link 'null#item.b117' for "7 options" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 159, column 481: The image source 'icon-q-coding.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 159, column 1313: The link 'null#item.b310' for "7 options" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.html#/html/body/div/div/div/p/a at Line 189, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.json.html#/html/body/div/div/div/p/a at Line 320, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.ttl.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-developmental-disability-questionnaire.xml.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 158, column 481: The image source 'icon-q-coding.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 158, column 1355: The link 'null#item.d210' for "7 options" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 159, column 477: The image source 'icon-q-coding.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 159, column 1346: The link 'null#item.d240' for "7 options" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 160, column 485: The image source 'icon-q-coding.png' cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 160, column 1362: The link 'null#item.d4751' for "7 options" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.json.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.ttl.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\Questionnaire-shwachman-diamond-syndrome-questionnaire.xml.html#/html/body/div/div/div/p/a at Line 372, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-definitions.html#/html/body/div/div/div/p/a at Line 1373, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan-mappings.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.html#/html/body/div/div/div/p/a at Line 1315, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4706, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4141, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4198, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.json.html#/html/body/div/div/div/p/a at Line 5308, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4642, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-disease-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4716, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-definitions.html#/html/body/div/div/div/p/a at Line 880, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-examples.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity-mappings.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.html#/html/body/div/div/div/p/a at Line 881, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-activity.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
@@ -63,20 +122,35 @@ ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefin
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.json.html#/html/body/div/div/div/p/a at Line 2037, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 1817, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-lab-observation.profile.xml.html#/html/body/div/div/div/p/a at Line 1804, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-definitions.html#/html/body/div/div/div/p/a at Line 1260, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity-definitions.html#/html/body/div/div/div/p/a at Line 879, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity-mappings.html#/html/body/div/div/div/p/a at Line 340, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity.html#/html/body/div/div/div/p/a at Line 865, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity.profile.json.html#/html/body/div/div/div/p/a at Line 3122, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity.profile.ttl.html#/html/body/div/div/div/p/a at Line 2744, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-med-activity.profile.xml.html#/html/body/div/div/div/p/a at Line 2790, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-definitions.html#/html/body/div/div/div/p/a at Line 1371, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.html#/html/body/div/div/div/p/a at Line 1208, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan-mappings.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.html#/html/body/div/div/div/p/a at Line 1286, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.json.html#/html/body/div/div/div/p/a at Line 4651, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4104, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4146, column 28: The link '' for "" cannot be resolved
-ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\artifacts.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.json.html#/html/body/div/div/div/p/a at Line 5291, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.ttl.html#/html/body/div/div/div/p/a at Line 4628, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\StructureDefinition-rare-care-plan.profile.xml.html#/html/body/div/div/div/p/a at Line 4696, column 28: The link '' for "" cannot be resolved
+ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\artifacts.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/div/div/p/img at Line 163, column 2: The image source 'Rare%20Care%208.png' cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\index.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "" cannot be resolved
 ERROR: C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\output\toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ImplementationGuide-rarecare.world.json ==
 INFORMATION: ImplementationGuide/rarecare.world: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-calcidiol-in-serum-plasma.json ==
+INFORMATION: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+WARNING: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition.code.coding[0]: The display "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma" is not a valid display for the code {http://loinc.org}14635-7 - should be one of ["25-hydroxyvitamin D3 [Moles/volume] in Serum or Plasma","25(OH)D3 SerPl-sCnc"] (from http://tx.fhir.org/r4) for 'http://loinc.org#14635-7'
+ERROR: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition.observationRequirement[0]: Unable to resolve resource '#loinc-14635-7'
+ERROR: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition.observationRequirement[0]: ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-14635-7; ids: ))
+INFORMATION: ActivityDefinition/act-calcidiol-in-serum-plasma: ActivityDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/lab-activity - listed in meta
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood.json ==
 INFORMATION: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
 WARNING: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -84,21 +158,135 @@ WARNING: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.code.co
 ERROR: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]: Unable to resolve resource '#loinc-751-8'
 ERROR: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition.observationRequirement[0]: ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-751-8; ids: ))
 INFORMATION: ActivityDefinition/act-neutrophils-in-blood: ActivityDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/lab-activity - listed in meta
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-pancreatine.json ==
+INFORMATION: ActivityDefinition/act-pancreatine: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+WARNING: ActivityDefinition/act-pancreatine: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ActivityDefinition/act-pancreatine: ActivityDefinition.code.coding[0]: The code "A09AA02" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#A09AA02) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://www.whocc.no/atc#A09AA02'
+INFORMATION: ActivityDefinition/act-pancreatine: ActivityDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/med-activity - listed in meta
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-retinol-in-serum-plasma.json ==
+INFORMATION: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+WARNING: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition.text.div: The URL is not valid because '(URL contains Invalid Characters ([
+, ]))' : #loinc-14905-4
+
+ 
+WARNING: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition.code.coding[0]: The display "Retinol (Vitamin A) in serum/plasma" is not a valid display for the code {http://loinc.org}751-8 - should be one of ["Neutrophils [#/volume] in Blood by Automated count","Neutrophils # Bld Auto"] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'
+ERROR: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition.observationRequirement[0]: Unable to resolve resource '#loinc-14905-4
+
+'
+ERROR: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition.observationRequirement[0]: ref-1: 'SHALL have a contained resource if a local reference is provided' 'SHALL have a contained resource if a local reference is provided' ( (url: loinc-14905-4
+
+; ids: ))
+WARNING: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition.observationRequirement[0].reference: value should not start or finish with whitespace
+INFORMATION: ActivityDefinition/act-retinol-in-serum-plasma: ActivityDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/lab-activity - listed in meta
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\ObservationDefinition-obs-neutrophils-in-blood.json ==
 INFORMATION: ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ObservationDefinition
 WARNING: ObservationDefinition/obs-neutrophils-in-blood: ObservationDefinition.code.coding[0]: The display "Neutrophils in blood" is not a valid display for the code {http://loinc.org}751-8 - should be one of ["Neutrophils [#/volume] in Blood by Automated count","Neutrophils # Bld Auto"] (from http://tx.fhir.org/r4) for 'http://loinc.org#751-8'
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-developmental-disability.json ==
+ERROR: PlanDefinition.url: Resource id/url mismatch: plan-developmental-disability/http://rarecare.world/fhir/PlanDefinition/developmental-disability
+INFORMATION: PlanDefinition/plan-developmental-disability: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+WARNING: PlanDefinition/plan-developmental-disability: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/plan-developmental-disability: PlanDefinition.goal[0].addresses[0].coding[0]: Code "D70.9" not found; The code "D70.9" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#D70.9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#D70.9'
+ERROR: PlanDefinition/plan-developmental-disability: PlanDefinition.action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (act-neutrophils-in-blood) 
+INFORMATION: PlanDefinition/plan-developmental-disability: PlanDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/disease-plan - listed in meta
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-neutropenia.json ==
+ERROR: PlanDefinition.url: Resource id/url mismatch: plan-neutropenia/http://rarecare.world/fhir/PlanDefinition/neutropenia
 INFORMATION: PlanDefinition/plan-neutropenia: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
 WARNING: PlanDefinition/plan-neutropenia: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: PlanDefinition/plan-neutropenia: PlanDefinition.goal[0].addresses[0].coding[0]: Code "D70.9" not found; The code "D70.9" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#D70.9) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#D70.9'
-ERROR: PlanDefinition/plan-neutropenia: PlanDefinition.action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (act-neutrophils-in-blood) 
 INFORMATION: PlanDefinition/plan-neutropenia: PlanDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/disease-plan - listed in meta
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-pancreas-insufficiency.json ==
+ERROR: PlanDefinition.url: Resource id/url mismatch: plan-pancreas-insufficiency/http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency
+INFORMATION: PlanDefinition/plan-pancreas-insufficiency: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+WARNING: PlanDefinition/plan-pancreas-insufficiency: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/plan-pancreas-insufficiency: PlanDefinition.goal[0].addresses[0].coding[0]: Code "K86.81" not found; The code "K86.81" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#K86.81) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#K86.81'
+INFORMATION: PlanDefinition/plan-pancreas-insufficiency: PlanDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/disease-plan - listed in meta
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-sds.json ==
+ERROR: PlanDefinition.url: Resource id/url mismatch: plan-sds/http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome
 INFORMATION: PlanDefinition/plan-sds: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
 WARNING: PlanDefinition/plan-sds: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: PlanDefinition/plan-sds: PlanDefinition.goal[0].addresses[0].coding[0]: Code System URI 'http://www.orpha.net' is unknown so the code cannot be validated
 INFORMATION: PlanDefinition/plan-sds: PlanDefinition: Validate resource against profile http://rarecare.world/fhir/StructureDefinition/rare-care-plan - listed in meta
+WARNING: PlanDefinition/plan-sds: PlanDefinition.goal[0].addresses[0]: ValueSet http://www.orpha.net not found by validator
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\Questionnaire-developmental-disability-questionnaire.json ==
+INFORMATION: Questionnaire/developmental-disability-questionnaire: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
+WARNING: Questionnaire/developmental-disability-questionnaire: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[0].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[1].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[2].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[3].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[4].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[4].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[5].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[5].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[6].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[0].answerOption[6].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[4].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[4].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[5].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[5].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[6].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/developmental-disability-questionnaire: Questionnaire.item[1].answerOption[6].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\Questionnaire-shwachman-diamond-syndrome-questionnaire.json ==
+INFORMATION: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
+WARNING: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[0].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[1].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[2].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[3].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[4].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[4].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[5].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[5].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[6].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[0].answerOption[6].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[4].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[4].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[5].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[5].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[6].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[1].answerOption[6].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[0].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[0].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[1].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[1].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[2].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[2].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[3].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[3].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[4].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[4].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[5].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[5].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[6].value.ofType(Coding): Unknown Code System 'http://hl7.org/fhir/sid/icf-nl'
+ERROR: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnaire.item[2].answerOption[6].value.ofType(Coding).system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-disease-plan.json ==
 INFORMATION: StructureDefinition/disease-plan: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/disease-plan: StructureDefinition.mapping[4].uri: URI values cannot have whitespace('Rare Care Data Model')
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity.json ==
 INFORMATION: StructureDefinition/lab-activity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/lab-activity: StructureDefinition.snapshot.element[57].pattern.ofType(Reference): Unable to resolve resource 'LabObservationDefinition'
@@ -108,7 +296,10 @@ INFORMATION: StructureDefinition/lab-observation: StructureDefinition: Validate 
 ERROR: StructureDefinition/lab-observation: StructureDefinition.differential.element[1].binding: The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) 
 ERROR: StructureDefinition/lab-observation: StructureDefinition.snapshot.element[10].binding: The valueSet reference http://loinc.org on element ObservationDefinition.code points to something that is not a value set (CodeSystem) 
 WARNING: StructureDefinition.where(url = 'http://rarecare.world/fhir/StructureDefinition/lab-observation'): The Implementation Guide contains no examples for this profile
+== C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-med-activity.json ==
+INFORMATION: StructureDefinition/med-activity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == C:\Users\marcd\Dropbox\development\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-rare-care-plan.json ==
 INFORMATION: StructureDefinition/rare-care-plan: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition/rare-care-plan: StructureDefinition.differential.element[1].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
-WARNING: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[47].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.mapping[4].uri: URI values cannot have whitespace('Rare Care Data Model')
+WARNING: StructureDefinition/rare-care-plan: StructureDefinition.differential.element[5].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
+WARNING: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[60].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved

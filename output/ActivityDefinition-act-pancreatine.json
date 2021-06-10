@@ -1,0 +1,28 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "act-pancreatine",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/med-activity"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/MedActivityDefinition/A09AA02</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 10-Jun-2021 14:46:22</p><p><b>description</b>: Pancreatine</p><p><b>kind</b>: MedicationRequest</p><p><b>code</b>: <span title=\"Codes: {http://www.whocc.no/atc A09AA02}\">MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)</span></p></div>"
+  },
+  "url": "https://rarecare.world/fhir/MedActivityDefinition/A09AA02",
+  "version": "0.1.0",
+  "status": "draft",
+  "date": "2021-06-10T14:46:22+02:00",
+  "description": "Pancreatine",
+  "kind": "MedicationRequest",
+  "code": {
+    "coding": [
+      {
+        "system": "http://www.whocc.no/atc",
+        "code": "A09AA02",
+        "display": "MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"
+      }
+    ]
+  }
+}

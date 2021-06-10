@@ -1,0 +1,22 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "act-pancreatine",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/med-activity"
+    ]
+  },
+  "url": "https://rarecare.world/fhir/MedActivityDefinition/A09AA02",
+  "status": "draft",
+  "description": "Pancreatine",
+  "kind": "MedicationRequest",
+  "code": {
+    "coding": [
+      {
+        "code": "A09AA02",
+        "system": "http://www.whocc.no/atc",
+        "display": "MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ)"
+      }
+    ]
+  }
+}

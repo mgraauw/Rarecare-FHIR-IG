@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RarecareFHIRIG"/>
   <status value="draft"/>
-  <date value="2021-06-03T16:45:00+02:00"/>
+  <date value="2021-06-10T14:46:22+02:00"/>
   <packageId value="rarecare.world"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -204,11 +204,33 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/med-activity"/>
+      </reference>
+      <name value="Medication Administration Activity"/>
+      <description value="A Disease is treated with medication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/rare-care-plan"/>
       </reference>
       <name value="Rare Condition Management Plan"/>
       <description value="The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, &#xD;&#xA;i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/act-calcidiol-in-serum-plasma"/>
+      </reference>
+      <name value="Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition"/>
+      <description value="Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/lab-activity"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -223,6 +245,38 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/act-pancreatine"/>
+      </reference>
+      <name value="Neutrophils in blood ActivityDefinition"/>
+      <description value="Pancreatine"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/med-activity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/act-retinol-in-serum-plasma"/>
+      </reference>
+      <name value="Retinol (Vitamin A) in serum/plasma ActivityDefinition"/>
+      <description value="Retinol (Vitamin A) in serum/plasma"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/lab-activity"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/developmental-disability-questionnaire"/>
+      </reference>
+      <name value="developmental-disability-questionnaire"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ObservationDefinition"/>
       </extension>
       <reference>
@@ -230,6 +284,17 @@
       </reference>
       <name value="Neutrophils in blood ObservationDefinition"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/plan-developmental-disability"/>
+      </reference>
+      <name value="Ontwikkelingsstoornis PlanDefinition"/>
+      <description value="Neutropenia management plan."/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/disease-plan"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -247,11 +312,32 @@
         <valueString value="PlanDefinition"/>
       </extension>
       <reference>
+        <reference value="PlanDefinition/plan-pancreas-insufficiency"/>
+      </reference>
+      <name value="Pancreas Insuffici&#xEB;ntie PlanDefinition"/>
+      <description value="Pancreas Insuffici&#xEB;ntie management plan."/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/disease-plan"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
         <reference value="PlanDefinition/plan-sds"/>
       </reference>
       <name value="Shwachman Diamond Syndrome PlanDefinition"/>
-      <description value="Shwachman Diamond Syndrome personal management plan."/>
+      <description value="Shwachman Diamond Syndrome management plan."/>
       <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/rare-care-plan"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/shwachman-diamond-syndrome-questionnaire"/>
+      </reference>
+      <name value="shwachman-diamond-syndrome-questionnaire"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

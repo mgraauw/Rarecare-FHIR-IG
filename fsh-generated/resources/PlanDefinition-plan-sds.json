@@ -6,6 +6,7 @@
       "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
     ]
   },
+  "url": "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
   "status": "draft",
   "version": "0.1",
   "title": "Shwachman Diamond Syndrome Management",
@@ -27,7 +28,7 @@
   },
   "date": "2021-01-14",
   "publisher": "Stichting Rare Care World",
-  "description": "Shwachman Diamond Syndrome personal management plan.",
+  "description": "Shwachman Diamond Syndrome management plan.",
   "topic": [
     {
       "coding": [
@@ -42,6 +43,42 @@
     {
       "type": "justification",
       "url": "https://rarecare.world/patient-organisation/shwachman-syndrome-support-holland"
+    }
+  ],
+  "goal": [
+    {
+      "description": {
+        "text": "Shwachman Diamond Syndrome management"
+      },
+      "addresses": [
+        {
+          "coding": [
+            {
+              "code": "ORPHA:811",
+              "system": "http://www.orpha.net",
+              "display": "Shwachman-Diamond syndrome"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "title": "Neutropenia",
+      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+    },
+    {
+      "title": "Pancreas Insufficiency",
+      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
+    },
+    {
+      "title": "Developmental disability",
+      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/developmental-disability"
+    },
+    {
+      "title": "Vragenlijst participatie voor Shwachman Diamond Syndroom",
+      "definitionCanonical": "http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
     }
   ]
 }

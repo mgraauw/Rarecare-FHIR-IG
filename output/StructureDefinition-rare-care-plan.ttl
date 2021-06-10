@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "rare-care-plan"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition\">PlanDefinition</a><a name=\"PlanDefinition\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-disease-plan.html\">DiseasePlanDefinition</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The definition of a plan for a series of actions, independent of any specific patient or context</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal\">goal</a><a name=\"PlanDefinition.goal\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal.addresses\">addresses</a><a name=\"PlanDefinition.goal.addresses\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">What does the goal address</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://www.orpha.net\">http://www.orpha.net</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.action\">action</a><a name=\"PlanDefinition.action\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.action.definition[x]\">definition[x]</a><a name=\"PlanDefinition.action.definition_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">canonical</a>(<a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/activitydefinition.html\">ActivityDefinition</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/plandefinition.html\">PlanDefinition</a> | <a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/questionnaire.html\">Questionnaire</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Description of the activity to be performed</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">http://rarecare.world/fhir/StructureDefinition/disease-plan</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition\">PlanDefinition</a><a name=\"PlanDefinition\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-disease-plan.html\">DiseasePlanDefinition</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The definition of a plan for a series of actions, independent of any specific patient or context</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.description\">description</a><a name=\"PlanDefinition.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#markdown\">markdown</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Natural language description of the plan definition</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.relatedArtifact\">relatedArtifact</a><a name=\"PlanDefinition.relatedArtifact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact\">RelatedArtifact</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Additional documentation, citations</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.relatedArtifact.url\">url</a><a name=\"PlanDefinition.relatedArtifact.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#url\">url</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Where the artifact can be accessed</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal\">goal</a><a name=\"PlanDefinition.goal\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal.description\">description</a><a name=\"PlanDefinition.goal.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal.description.text\">text</a><a name=\"PlanDefinition.goal.description.text\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Plain text representation of the concept</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.goal.addresses\">addresses</a><a name=\"PlanDefinition.goal.addresses\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">What does the goal address</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://www.orpha.net\">http://www.orpha.net</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-rare-care-plan-definitions.html#PlanDefinition.action\">action</a><a name=\"PlanDefinition.action\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Action defined by the plan</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "RareCarePlanDefinition"];
   fhir:StructureDefinition.title [ fhir:value "Rare Condition Management Plan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-03T16:45:00+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-10T14:46:22+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -49,6 +49,11 @@
      fhir:StructureDefinition.mapping.identity [ fhir:value "rim" ];
      fhir:StructureDefinition.mapping.uri [ fhir:value "http://hl7.org/v3" ];
      fhir:StructureDefinition.mapping.name [ fhir:value "RIM Mapping" ]
+  ], [
+     fhir:index 4;
+     fhir:StructureDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+     fhir:StructureDefinition.mapping.uri [ fhir:value "Rare Care Data Model" ];
+     fhir:StructureDefinition.mapping.name [ fhir:value "Rare Care Data Model" ]
   ];
   fhir:StructureDefinition.kind [ fhir:value "resource"];
   fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
@@ -158,6 +163,14 @@
          fhir:index 1;
          fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition" ]
+       ], [
+         fhir:index 2;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease" ]
+       ], [
+         fhir:index 3;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition" ]
        ]
      ], [
        fhir:index 1;
@@ -1165,6 +1178,14 @@
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.description" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease.name + 'management'" ]
+       ], [
+         fhir:index 2;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management'" ]
        ]
      ], [
        fhir:index 24;
@@ -1735,9 +1756,362 @@
          ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "General Medical Guideline" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient Organization" ]
+       ]
      ], [
        fhir:index 38;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.id" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.id" ];
+       fhir:ElementDefinition.representation [
+         fhir:value "xmlAttr";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
+       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
+           fhir:Extension.valueUrl [ fhir:value "string" ]
+         ];
+         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.extension" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.extension" ];
+       fhir:ElementDefinition.slicing [
+         fhir:ElementDefinition.slicing.discriminator [
+           fhir:index 0;
+           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
+           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
+         ];
+         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
+         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
+       ];
+       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
+       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
+       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
+       fhir:ElementDefinition.alias [
+         fhir:value "extensions";
+         fhir:index 0
+       ], [
+         fhir:value "user content";
+         fhir:index 1
+       ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.type" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.type" ];
+       fhir:ElementDefinition.short [ fhir:value "documentation | justification | citation | predecessor | successor | derived-from | depends-on | composed-of" ];
+       fhir:ElementDefinition.definition [ fhir:value "The type of relationship to the related artifact." ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.type" ];
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "code" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "RelatedArtifactType" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "The type of relationship to the related artifact." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "http://hl7.org/fhir/ValueSet/related-artifact-type|4.0.1";
+           fhir:link <http://hl7.org/fhir/ValueSet/related-artifact-type|4.0.1>
+         ]
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.label" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.label" ];
+       fhir:ElementDefinition.short [ fhir:value "Short label" ];
+       fhir:ElementDefinition.definition [ fhir:value "A short label that can be used to reference the citation from elsewhere in the containing artifact, such as a footnote index." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.label" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 42;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.display" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.display" ];
+       fhir:ElementDefinition.short [ fhir:value "Brief description of the related artifact" ];
+       fhir:ElementDefinition.definition [ fhir:value "A brief description of the document or knowledge resource being referenced, suitable for display to a consumer." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.display" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 43;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.citation" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.citation" ];
+       fhir:ElementDefinition.short [ fhir:value "Bibliographic citation for the artifact" ];
+       fhir:ElementDefinition.definition [ fhir:value "A bibliographic citation for the related artifact. This text SHOULD be formatted according to an accepted citation format." ];
+       fhir:ElementDefinition.comment [ fhir:value "Additional structured information about citations should be captured as extensions." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.citation" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "markdown" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.url" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.url" ];
+       fhir:ElementDefinition.short [ fhir:value "Where the artifact can be accessed" ];
+       fhir:ElementDefinition.definition [ fhir:value "A url for the artifact that can be followed to access the actual content." ];
+       fhir:ElementDefinition.comment [ fhir:value "If a document or resource element is present, this element SHALL NOT be provided (use the url or reference in the Attachment or resource reference)." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.url" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "url" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/disease/ + Disease.name" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/fhir/rarecondition/ + RareCondition.name" ]
+       ]
+     ], [
+       fhir:index 45;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.document" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.document" ];
+       fhir:ElementDefinition.short [ fhir:value "What document is being referenced" ];
+       fhir:ElementDefinition.definition [ fhir:value "The document being referenced, represented as an attachment. This is exclusive with the resource element." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.document" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Attachment" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.resource" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.resource" ];
+       fhir:ElementDefinition.short [ fhir:value "What resource is being referenced" ];
+       fhir:ElementDefinition.definition [ fhir:value "The related resource, such as a library, value set, profile, or other knowledge resource." ];
+       fhir:ElementDefinition.comment [ fhir:value "If the type is predecessor, this is a reference to the succeeding knowledge resource. If the type is successor, this is a reference to the prior knowledge resource." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "RelatedArtifact.resource" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "canonical" ];
+         fhir:ElementDefinition.type.targetProfile [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Resource";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Resource>
+         ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
        fhir:Element.id [ fhir:value "PlanDefinition.library" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.library" ];
        fhir:ElementDefinition.short [ fhir:value "Logic used by the plan definition" ];
@@ -1773,7 +2147,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 39;
+       fhir:index 48;
        fhir:Element.id [ fhir:value "PlanDefinition.goal" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal" ];
        fhir:ElementDefinition.short [ fhir:value "What the plan is trying to accomplish" ];
@@ -1805,7 +2179,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 40;
+       fhir:index 49;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.id" ];
        fhir:ElementDefinition.representation [
@@ -1838,7 +2212,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 41;
+       fhir:index 50;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -1893,7 +2267,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 42;
+       fhir:index 51;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -1953,7 +2327,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 43;
+       fhir:index 52;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.category" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.category" ];
        fhir:ElementDefinition.short [ fhir:value "E.g. Treatment, dietary, behavioral" ];
@@ -1997,7 +2371,7 @@
          ]
        ]
      ], [
-       fhir:index 44;
+       fhir:index 53;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.description" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description" ];
        fhir:ElementDefinition.short [ fhir:value "Code or text describing the goal" ];
@@ -2042,7 +2416,209 @@
          ]
        ]
      ], [
-       fhir:index 45;
+       fhir:index 54;
+       fhir:Element.id [ fhir:value "PlanDefinition.goal.description.id" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.id" ];
+       fhir:ElementDefinition.representation [
+         fhir:value "xmlAttr";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.short [ fhir:value "Unique id for inter-element referencing" ];
+       fhir:ElementDefinition.definition [ fhir:value "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
+           fhir:Extension.valueUrl [ fhir:value "string" ]
+         ];
+         fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ]
+     ], [
+       fhir:index 55;
+       fhir:Element.id [ fhir:value "PlanDefinition.goal.description.extension" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.extension" ];
+       fhir:ElementDefinition.slicing [
+         fhir:ElementDefinition.slicing.discriminator [
+           fhir:index 0;
+           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
+           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
+         ];
+         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
+         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
+       ];
+       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
+       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
+       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
+       fhir:ElementDefinition.alias [
+         fhir:value "extensions";
+         fhir:index 0
+       ], [
+         fhir:value "user content";
+         fhir:index 1
+       ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ]
+     ], [
+       fhir:index 56;
+       fhir:Element.id [ fhir:value "PlanDefinition.goal.description.coding" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.coding" ];
+       fhir:ElementDefinition.short [ fhir:value "Code defined by a terminology system" ];
+       fhir:ElementDefinition.definition [ fhir:value "A reference to a code defined by a terminology system." ];
+       fhir:ElementDefinition.comment [ fhir:value "Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Allows for alternative encodings within a code system, and translations to other code systems." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "CodeableConcept.coding" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "v2" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "C*E.1-8, C*E.10-22" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "union(., ./translation)" ]
+       ], [
+         fhir:index 2;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "orim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" ]
+       ]
+     ], [
+       fhir:index 57;
+       fhir:Element.id [ fhir:value "PlanDefinition.goal.description.text" ];
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.text" ];
+       fhir:ElementDefinition.short [ fhir:value "Plain text representation of the concept" ];
+       fhir:ElementDefinition.definition [ fhir:value "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user." ];
+       fhir:ElementDefinition.comment [ fhir:value "Very often the text is the same as a displayName of one of the codings." ];
+       fhir:ElementDefinition.requirements [ fhir:value "The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "CodeableConcept.text" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "v2" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "C*E.9. But note many systems use C*E.2 for this" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "./originalText[mediaType/code=\"text/plain\"]/data" ]
+       ], [
+         fhir:index 2;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "orim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText" ]
+       ], [
+         fhir:index 3;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease.name + 'management plan'" ]
+       ], [
+         fhir:index 4;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management plan'" ]
+       ]
+     ], [
+       fhir:index 58;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.priority" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.priority" ];
        fhir:ElementDefinition.short [ fhir:value "high-priority | medium-priority | low-priority" ];
@@ -2086,7 +2662,7 @@
          ]
        ]
      ], [
-       fhir:index 46;
+       fhir:index 59;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.start" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.start" ];
        fhir:ElementDefinition.short [ fhir:value "When goal pursuit begins" ];
@@ -2130,7 +2706,7 @@
          ]
        ]
      ], [
-       fhir:index 47;
+       fhir:index 60;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.addresses" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.addresses" ];
        fhir:ElementDefinition.short [ fhir:value "What does the goal address" ];
@@ -2166,9 +2742,18 @@
            fhir:value "http://www.orpha.net";
            fhir:link <http://www.orpha.net>
          ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease.ICD10.code" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.ORPHA.code" ]
        ]
      ], [
-       fhir:index 48;
+       fhir:index 61;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.documentation" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.documentation" ];
        fhir:ElementDefinition.short [ fhir:value "Supporting documentation for the goal" ];
@@ -2199,7 +2784,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 62;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target" ];
        fhir:ElementDefinition.short [ fhir:value "Target outcome for the goal" ];
@@ -2230,7 +2815,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50;
+       fhir:index 63;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.id" ];
        fhir:ElementDefinition.representation [
@@ -2263,7 +2848,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 51;
+       fhir:index 64;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -2318,7 +2903,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 52;
+       fhir:index 65;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -2378,7 +2963,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 53;
+       fhir:index 66;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.measure" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.measure" ];
        fhir:ElementDefinition.short [ fhir:value "The parameter whose value is to be tracked" ];
@@ -2422,7 +3007,7 @@
          ]
        ]
      ], [
-       fhir:index 54;
+       fhir:index 67;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.detail[x]" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.detail[x]" ];
        fhir:ElementDefinition.short [ fhir:value "The target value to be achieved" ];
@@ -2459,7 +3044,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 55;
+       fhir:index 68;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.target.due" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.target.due" ];
        fhir:ElementDefinition.short [ fhir:value "Reach goal within" ];
@@ -2490,7 +3075,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 56;
+       fhir:index 69;
        fhir:Element.id [ fhir:value "PlanDefinition.action" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action" ];
        fhir:ElementDefinition.short [ fhir:value "Action defined by the plan" ];
@@ -2525,9 +3110,17 @@
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "{Is a contained Definition}" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Test or Medication for Disease" ]
+       ], [
+         fhir:index 2;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease related to RareCondition" ]
        ]
      ], [
-       fhir:index 57;
+       fhir:index 70;
        fhir:Element.id [ fhir:value "PlanDefinition.action.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.id" ];
        fhir:ElementDefinition.representation [
@@ -2560,7 +3153,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 58;
+       fhir:index 71;
        fhir:Element.id [ fhir:value "PlanDefinition.action.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -2615,7 +3208,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 59;
+       fhir:index 72;
        fhir:Element.id [ fhir:value "PlanDefinition.action.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -2675,7 +3268,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 60;
+       fhir:index 73;
        fhir:Element.id [ fhir:value "PlanDefinition.action.prefix" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.prefix" ];
        fhir:ElementDefinition.short [ fhir:value "User-visible prefix for the action (e.g. 1. or A.)" ];
@@ -2706,7 +3299,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 61;
+       fhir:index 74;
        fhir:Element.id [ fhir:value "PlanDefinition.action.title" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.title" ];
        fhir:ElementDefinition.short [ fhir:value "User-visible title" ];
@@ -2742,7 +3335,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.title" ]
        ]
      ], [
-       fhir:index 62;
+       fhir:index 75;
        fhir:Element.id [ fhir:value "PlanDefinition.action.description" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.description" ];
        fhir:ElementDefinition.short [ fhir:value "Brief description of the action" ];
@@ -2778,7 +3371,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.description" ]
        ]
      ], [
-       fhir:index 63;
+       fhir:index 76;
        fhir:Element.id [ fhir:value "PlanDefinition.action.textEquivalent" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.textEquivalent" ];
        fhir:ElementDefinition.short [ fhir:value "Static text equivalent of the action, used if the dynamic aspects cannot be interpreted by the receiving system" ];
@@ -2814,7 +3407,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.description" ]
        ]
      ], [
-       fhir:index 64;
+       fhir:index 77;
        fhir:Element.id [ fhir:value "PlanDefinition.action.priority" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.priority" ];
        fhir:ElementDefinition.short [ fhir:value "routine | urgent | asap | stat" ];
@@ -2858,7 +3451,7 @@
          ]
        ]
      ], [
-       fhir:index 65;
+       fhir:index 78;
        fhir:Element.id [ fhir:value "PlanDefinition.action.code" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.code" ];
        fhir:ElementDefinition.short [ fhir:value "Code representing the meaning of the action or sub-actions" ];
@@ -2889,7 +3482,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 66;
+       fhir:index 79;
        fhir:Element.id [ fhir:value "PlanDefinition.action.reason" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.reason" ];
        fhir:ElementDefinition.short [ fhir:value "Why the action should be performed" ];
@@ -2921,7 +3514,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 67;
+       fhir:index 80;
        fhir:Element.id [ fhir:value "PlanDefinition.action.documentation" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.documentation" ];
        fhir:ElementDefinition.short [ fhir:value "Supporting documentation for the intended performer of the action" ];
@@ -2952,7 +3545,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 68;
+       fhir:index 81;
        fhir:Element.id [ fhir:value "PlanDefinition.action.goalId" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.goalId" ];
        fhir:ElementDefinition.short [ fhir:value "What goals this action supports" ];
@@ -2983,7 +3576,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 69;
+       fhir:index 82;
        fhir:Element.id [ fhir:value "PlanDefinition.action.subject[x]" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.subject[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Type of individual the action is focused on" ];
@@ -3043,7 +3636,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.subject" ]
        ]
      ], [
-       fhir:index 70;
+       fhir:index 83;
        fhir:Element.id [ fhir:value "PlanDefinition.action.trigger" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.trigger" ];
        fhir:ElementDefinition.short [ fhir:value "When the action should be triggered" ];
@@ -3074,7 +3667,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 71;
+       fhir:index 84;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition" ];
        fhir:ElementDefinition.short [ fhir:value "Whether or not the action is applicable" ];
@@ -3106,7 +3699,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 72;
+       fhir:index 85;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition.id" ];
        fhir:ElementDefinition.representation [
@@ -3139,7 +3732,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 73;
+       fhir:index 86;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -3194,7 +3787,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 74;
+       fhir:index 87;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3254,7 +3847,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 75;
+       fhir:index 88;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition.kind" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition.kind" ];
        fhir:ElementDefinition.short [ fhir:value "applicability | start | stop" ];
@@ -3299,7 +3892,7 @@
          ]
        ]
      ], [
-       fhir:index 76;
+       fhir:index 89;
        fhir:Element.id [ fhir:value "PlanDefinition.action.condition.expression" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.condition.expression" ];
        fhir:ElementDefinition.short [ fhir:value "Boolean-valued expression" ];
@@ -3331,7 +3924,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 77;
+       fhir:index 90;
        fhir:Element.id [ fhir:value "PlanDefinition.action.input" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.input" ];
        fhir:ElementDefinition.short [ fhir:value "Input data requirements" ];
@@ -3362,7 +3955,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 78;
+       fhir:index 91;
        fhir:Element.id [ fhir:value "PlanDefinition.action.output" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.output" ];
        fhir:ElementDefinition.short [ fhir:value "Output data definition" ];
@@ -3393,7 +3986,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 79;
+       fhir:index 92;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction" ];
        fhir:ElementDefinition.short [ fhir:value "Relationship to another action" ];
@@ -3425,7 +4018,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 80;
+       fhir:index 93;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.id" ];
        fhir:ElementDefinition.representation [
@@ -3458,7 +4051,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 81;
+       fhir:index 94;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -3513,7 +4106,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 82;
+       fhir:index 95;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3573,7 +4166,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 83;
+       fhir:index 96;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.actionId" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.actionId" ];
        fhir:ElementDefinition.short [ fhir:value "What action is this related to" ];
@@ -3604,7 +4197,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 84;
+       fhir:index 97;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.relationship" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.relationship" ];
        fhir:ElementDefinition.short [ fhir:value "before-start | before | before-end | concurrent-with-start | concurrent | concurrent-with-end | after-start | after | after-end" ];
@@ -3648,7 +4241,7 @@
          ]
        ]
      ], [
-       fhir:index 85;
+       fhir:index 98;
        fhir:Element.id [ fhir:value "PlanDefinition.action.relatedAction.offset[x]" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.relatedAction.offset[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Time offset for the relationship" ];
@@ -3682,7 +4275,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 86;
+       fhir:index 99;
        fhir:Element.id [ fhir:value "PlanDefinition.action.timing[x]" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.timing[x]" ];
        fhir:ElementDefinition.short [ fhir:value "When the action should take place" ];
@@ -3728,7 +4321,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 87;
+       fhir:index 100;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant" ];
        fhir:ElementDefinition.short [ fhir:value "Who should participate in the action" ];
@@ -3759,7 +4352,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 88;
+       fhir:index 101;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant.id" ];
        fhir:ElementDefinition.representation [
@@ -3792,7 +4385,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 89;
+       fhir:index 102;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -3847,7 +4440,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 90;
+       fhir:index 103;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3907,7 +4500,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 91;
+       fhir:index 104;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant.type" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant.type" ];
        fhir:ElementDefinition.short [ fhir:value "patient | practitioner | related-person | device" ];
@@ -3951,7 +4544,7 @@
          ]
        ]
      ], [
-       fhir:index 92;
+       fhir:index 105;
        fhir:Element.id [ fhir:value "PlanDefinition.action.participant.role" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.participant.role" ];
        fhir:ElementDefinition.short [ fhir:value "E.g. Nurse, Surgeon, Parent" ];
@@ -3995,7 +4588,7 @@
          ]
        ]
      ], [
-       fhir:index 93;
+       fhir:index 106;
        fhir:Element.id [ fhir:value "PlanDefinition.action.type" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.type" ];
        fhir:ElementDefinition.short [ fhir:value "create | update | remove | fire-event" ];
@@ -4039,7 +4632,7 @@
          ]
        ]
      ], [
-       fhir:index 94;
+       fhir:index 107;
        fhir:Element.id [ fhir:value "PlanDefinition.action.groupingBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.groupingBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "visual-group | logical-group | sentence-group" ];
@@ -4083,7 +4676,7 @@
          ]
        ]
      ], [
-       fhir:index 95;
+       fhir:index 108;
        fhir:Element.id [ fhir:value "PlanDefinition.action.selectionBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.selectionBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "any | all | all-or-none | exactly-one | at-most-one | one-or-more" ];
@@ -4127,7 +4720,7 @@
          ]
        ]
      ], [
-       fhir:index 96;
+       fhir:index 109;
        fhir:Element.id [ fhir:value "PlanDefinition.action.requiredBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.requiredBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "must | could | must-unless-documented" ];
@@ -4171,7 +4764,7 @@
          ]
        ]
      ], [
-       fhir:index 97;
+       fhir:index 110;
        fhir:Element.id [ fhir:value "PlanDefinition.action.precheckBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.precheckBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "yes | no" ];
@@ -4215,7 +4808,7 @@
          ]
        ]
      ], [
-       fhir:index 98;
+       fhir:index 111;
        fhir:Element.id [ fhir:value "PlanDefinition.action.cardinalityBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.cardinalityBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "single | multiple" ];
@@ -4259,7 +4852,7 @@
          ]
        ]
      ], [
-       fhir:index 99;
+       fhir:index 112;
        fhir:Element.id [ fhir:value "PlanDefinition.action.definition[x]" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.definition[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Description of the activity to be performed" ];
@@ -4289,10 +4882,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ];
-       fhir:ElementDefinition.patternCanonical [
-         fhir:value "http://rarecare.world/fhir/StructureDefinition/disease-plan";
-         fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
-       ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
@@ -4313,7 +4902,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Definition.derivedFrom" ]
        ]
      ], [
-       fhir:index 100;
+       fhir:index 113;
        fhir:Element.id [ fhir:value "PlanDefinition.action.transform" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.transform" ];
        fhir:ElementDefinition.short [ fhir:value "Transform to apply the template" ];
@@ -4350,7 +4939,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 101;
+       fhir:index 114;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue" ];
        fhir:ElementDefinition.short [ fhir:value "Dynamic aspects of the definition" ];
@@ -4382,7 +4971,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 102;
+       fhir:index 115;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue.id" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue.id" ];
        fhir:ElementDefinition.representation [
@@ -4415,7 +5004,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 103;
+       fhir:index 116;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue.extension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -4470,7 +5059,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 104;
+       fhir:index 117;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -4530,7 +5119,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 105;
+       fhir:index 118;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue.path" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue.path" ];
        fhir:ElementDefinition.short [ fhir:value "The path to the element to be set dynamically" ];
@@ -4562,7 +5151,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 106;
+       fhir:index 119;
        fhir:Element.id [ fhir:value "PlanDefinition.action.dynamicValue.expression" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.dynamicValue.expression" ];
        fhir:ElementDefinition.short [ fhir:value "An expression that provides the dynamic value for the customization" ];
@@ -4594,7 +5183,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 107;
+       fhir:index 120;
        fhir:Element.id [ fhir:value "PlanDefinition.action.action" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.action" ];
        fhir:ElementDefinition.short [ fhir:value "A sub-action" ];
@@ -4632,9 +5221,54 @@
      fhir:StructureDefinition.differential.element [
        fhir:index 0;
        fhir:Element.id [ fhir:value "PlanDefinition" ];
-       fhir:ElementDefinition.path [ fhir:value "PlanDefinition" ]
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition" ]
+       ]
      ], [
        fhir:index 1;
+       fhir:Element.id [ fhir:value "PlanDefinition.description" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.description" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management'" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "General Medical Guideline" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient Organization" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.id [ fhir:value "PlanDefinition.relatedArtifact.url" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.url" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/fhir/rarecondition/ + RareCondition.name" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.id [ fhir:value "PlanDefinition.goal.description.text" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.text" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management plan'" ]
+       ]
+     ], [
+       fhir:index 5;
        fhir:Element.id [ fhir:value "PlanDefinition.goal.addresses" ];
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.addresses" ];
        fhir:ElementDefinition.binding [
@@ -4643,14 +5277,20 @@
            fhir:value "http://www.orpha.net";
            fhir:link <http://www.orpha.net>
          ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.ORPHA.code" ]
        ]
      ], [
-       fhir:index 2;
-       fhir:Element.id [ fhir:value "PlanDefinition.action.definition[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action.definition[x]" ];
-       fhir:ElementDefinition.patternCanonical [
-         fhir:value "http://rarecare.world/fhir/StructureDefinition/disease-plan";
-         fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
+       fhir:index 6;
+       fhir:Element.id [ fhir:value "PlanDefinition.action" ];
+       fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Disease related to RareCondition" ]
        ]
      ]
   ] .

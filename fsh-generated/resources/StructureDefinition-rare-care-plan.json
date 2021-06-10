@@ -48,17 +48,82 @@
   "differential": {
     "element": [
       {
+        "id": "PlanDefinition",
+        "path": "PlanDefinition",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "RareCondition"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.description",
+        "path": "PlanDefinition.description",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "RareCondition.name + 'management'"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.relatedArtifact",
+        "path": "PlanDefinition.relatedArtifact",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "General Medical Guideline"
+          },
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Patient Organization"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.relatedArtifact.url",
+        "path": "PlanDefinition.relatedArtifact.url",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "https://rarecare.world/fhir/rarecondition/ + RareCondition.name"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.goal.description.text",
+        "path": "PlanDefinition.goal.description.text",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "RareCondition.name + 'management plan'"
+          }
+        ]
+      },
+      {
         "id": "PlanDefinition.goal.addresses",
         "path": "PlanDefinition.goal.addresses",
         "binding": {
           "strength": "required",
           "valueSet": "http://www.orpha.net"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "RareCondition.ORPHA.code"
+          }
+        ]
       },
       {
-        "id": "PlanDefinition.action.definition[x]",
-        "path": "PlanDefinition.action.definition[x]",
-        "patternCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
+        "id": "PlanDefinition.action",
+        "path": "PlanDefinition.action",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Disease related to RareCondition"
+          }
+        ]
       }
     ]
   }

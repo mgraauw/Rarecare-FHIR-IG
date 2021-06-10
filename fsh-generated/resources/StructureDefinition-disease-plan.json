@@ -38,6 +38,11 @@
       "identity": "rim",
       "uri": "http://hl7.org/v3",
       "name": "RIM Mapping"
+    },
+    {
+      "identity": "RareCareFHIRtoDataModel",
+      "name": "Rare Care Data Model",
+      "uri": "Rare Care Data Model"
     }
   ],
   "kind": "resource",
@@ -47,6 +52,16 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "PlanDefinition",
+        "path": "PlanDefinition",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Disease"
+          }
+        ]
+      },
       {
         "id": "PlanDefinition.type",
         "path": "PlanDefinition.type",
@@ -84,6 +99,16 @@
         "patternString": "Stichting Rare Care World"
       },
       {
+        "id": "PlanDefinition.description",
+        "path": "PlanDefinition.description",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Disease.name + 'management'"
+          }
+        ]
+      },
+      {
         "id": "PlanDefinition.topic",
         "path": "PlanDefinition.topic",
         "patternCodeableConcept": {
@@ -94,6 +119,46 @@
             }
           ]
         }
+      },
+      {
+        "id": "PlanDefinition.relatedArtifact.url",
+        "path": "PlanDefinition.relatedArtifact.url",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "https://rarecare.world/disease/ + Disease.name"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.goal.description.text",
+        "path": "PlanDefinition.goal.description.text",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Disease.name + 'management plan'"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.goal.addresses",
+        "path": "PlanDefinition.goal.addresses",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Disease.ICD10.code"
+          }
+        ]
+      },
+      {
+        "id": "PlanDefinition.action",
+        "path": "PlanDefinition.action",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Test or Medication for Disease"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.definition[x]",

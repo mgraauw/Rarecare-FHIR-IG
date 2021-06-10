@@ -24,10 +24,8 @@ From those resources FHIR profiles are generated.
 The basis is a Data Model of Rare Conditions:
 ![alt text](Rare%20Care%208.png "Rare Care Data Model")
 
-A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated
-with Neutropenia.
-A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes. Symptoms may also be HPO-coded 
-phenotypical abnormalities.
+A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia, Pancreas Insufficiency etc.
+A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes. Symptoms may also be HPO-coded phenotypical abnormalities.
 A Disease is associated with Medication, here represented with ATC coding.
 Diseases are also associated with ICF impairments in functioning (b.xxx codes) or activity and particapation (d.xxx codes).
 
@@ -44,20 +42,20 @@ The Definition resources fit the RareCare Datamodel very nicely. The data model 
 
 The mapping from data model to FHIR resource types is as follows:
 
-| Data model    | FHIR resource type | Coding  |
-|:-------------|:-------------|:-----|
-| Rare Condition | PlanDefinition | Orpha, Snomed CT, ICD-10 |
-| Disease | PlanDefinition | Snomed CT, ICD-10 |
-| Symptom (only lab tests now) | ActivityDefinition, ObservationDefinition | LOINC |
-| Medication  | ActivityDefinition with product | ATC |
-| Function, Participation | Questionnaire | ICF |
+| Data model    | FHIR resource type | RareCare IG FHIR profile | Coding  |
+|:-------------|:-------------|:-----|:------|
+| Rare Condition | PlanDefinition | RareCarePlanDefinition | Orpha, Snomed CT, ICD-10 |
+| Disease | PlanDefinition | DiseasePlanDefinition | Snomed CT, ICD-10 |
+| Symptom (only lab tests now) | ActivityDefinition, ObservationDefinition | LabActivityDefinition, ObservationDefinition | LOINC |
+| Medication  | ActivityDefinition with product | MedActivityDefinition | ATC |
+| Function, Participation | Questionnaire | |  ICF |
 
 ### PlanDefinition
 A [PlanDefinition](http://hl7.org/fhir/plandefinition.html) is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan
 to be rolled out when a particular patient enters care. When that is the case, a CarePlan based on the generic PlanDefinition 
 can be made.
 
-![](action-and-activity-definition.png) "Action and ActivityDefinition"
+![](action-and-activity-definition.png) "Action and ActivityDefinition"  
 
 A PlanDefinition can consist of many subplans. A plan for Shwachman Diamond Syndrome would, for instance, contain PlanDefinitions for Neutropenia management, Pancreas Insufficiency etc.
 

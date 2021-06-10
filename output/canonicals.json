@@ -7,15 +7,27 @@
     "name": "RarecareFHIRIG"
   },
   {
+    "id": "plan-developmental-disability",
+    "type": "PlanDefinition",
+    "url": "http://rarecare.world/fhir/PlanDefinition/developmental-disability",
+    "version": "0.1.0"
+  },
+  {
     "id": "plan-neutropenia",
     "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/plan-neutropenia",
+    "url": "http://rarecare.world/fhir/PlanDefinition/neutropenia",
+    "version": "0.1.0"
+  },
+  {
+    "id": "plan-pancreas-insufficiency",
+    "type": "PlanDefinition",
+    "url": "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency",
     "version": "0.1.0"
   },
   {
     "id": "plan-sds",
     "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/plan-sds",
+    "url": "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
     "version": "0.1.0"
   },
   {
@@ -40,6 +52,13 @@
     "name": "LabObservationDefinition"
   },
   {
+    "id": "med-activity",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/med-activity",
+    "version": "0.1.0",
+    "name": "MedActivityDefinition"
+  },
+  {
     "id": "rare-care-plan",
     "type": "StructureDefinition",
     "url": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan",
@@ -47,9 +66,39 @@
     "name": "RareCarePlanDefinition"
   },
   {
+    "id": "act-calcidiol-in-serum-plasma",
+    "type": "ActivityDefinition",
+    "url": "https://rarecare.world/fhir/LabActivityDefinition/14635-7",
+    "version": "0.1.0"
+  },
+  {
+    "id": "act-retinol-in-serum-plasma",
+    "type": "ActivityDefinition",
+    "url": "https://rarecare.world/fhir/LabActivityDefinition/14905-4",
+    "version": "0.1.0"
+  },
+  {
     "id": "act-neutrophils-in-blood",
     "type": "ActivityDefinition",
-    "url": "https://rarecare.world/751-8",
+    "url": "https://rarecare.world/fhir/LabActivityDefinition/751-8",
+    "version": "0.1.0"
+  },
+  {
+    "id": "act-pancreatine",
+    "type": "ActivityDefinition",
+    "url": "https://rarecare.world/fhir/MedActivityDefinition/A09AA02",
+    "version": "0.1.0"
+  },
+  {
+    "id": "developmental-disability-questionnaire",
+    "type": "Questionnaire",
+    "url": "https://rarecare.world/fhir/Questionnaire/developmental-disability",
+    "version": "0.1.0"
+  },
+  {
+    "id": "shwachman-diamond-syndrome-questionnaire",
+    "type": "Questionnaire",
+    "url": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome",
     "version": "0.1.0"
   }
 ]

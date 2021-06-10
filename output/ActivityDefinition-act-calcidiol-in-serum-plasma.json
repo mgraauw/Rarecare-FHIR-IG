@@ -1,0 +1,33 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "act-calcidiol-in-serum-plasma",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/lab-activity"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/LabActivityDefinition/14635-7</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 10-Jun-2021 14:46:22</p><p><b>description</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>kind</b>: ServiceRequest</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 14635-7}\">Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</span></p><p><b>observationRequirement</b>: <a href=\"#loinc-14635-7\">#loinc-14635-7</a></p></div>"
+  },
+  "url": "https://rarecare.world/fhir/LabActivityDefinition/14635-7",
+  "version": "0.1.0",
+  "status": "draft",
+  "date": "2021-06-10T14:46:22+02:00",
+  "description": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma",
+  "kind": "ServiceRequest",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "14635-7",
+        "display": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
+      }
+    ]
+  },
+  "observationRequirement": [
+    {
+      "reference": "#loinc-14635-7"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "shwachman-diamond-syndrome-questionnaire",
+  "url": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome",
+  "title": "Vragenlijst participatie voor Shwachman Diamond Syndroom",
+  "status": "draft",
+  "subjectType": [
+    "Patient"
+  ],
+  "item": [
+    {
+      "linkId": "d210",
+      "text": "Ondernemen van een enkelvoudige taak",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "d210.0",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Geen moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.1",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Lichte moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.2",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Matige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.3",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Ernstige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.4",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Volledige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.8",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet gespecificeerd"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d210.9",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet van toepassing"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "d240",
+      "text": "Omgaan met stress en andere mentale eisen",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "d240.0",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Geen moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.1",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Lichte moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.2",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Matige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.3",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Ernstige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.4",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Volledige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.8",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet gespecificeerd"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d240.9",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet van toepassing"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "d4751",
+      "text": "Besturen van gemotoriseerde voertuigen",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "code": "d4751.0",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Geen moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.1",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Lichte moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.2",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Matige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.3",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Ernstige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.4",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "Volledige moeite"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.8",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet gespecificeerd"
+          }
+        },
+        {
+          "valueCoding": {
+            "code": "d4751.9",
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "display": "niet van toepassing"
+          }
+        }
+      ]
+    }
+  ]
+}
