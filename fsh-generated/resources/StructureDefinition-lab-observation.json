@@ -33,6 +33,11 @@
       "identity": "w5",
       "uri": "http://hl7.org/fhir/fivews",
       "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "RareCareFHIRtoDataModel",
+      "name": "Rare Care Data Model",
+      "uri": "Rare Care Data Model"
     }
   ],
   "kind": "resource",
@@ -43,12 +48,42 @@
   "differential": {
     "element": [
       {
+        "id": "ObservationDefinition",
+        "path": "ObservationDefinition",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Test"
+          }
+        ]
+      },
+      {
         "id": "ObservationDefinition.code",
         "path": "ObservationDefinition.code",
         "binding": {
           "strength": "required",
           "valueSet": "http://loinc.org"
         }
+      },
+      {
+        "id": "ObservationDefinition.code.coding.code",
+        "path": "ObservationDefinition.code.coding.code",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Function.LOINC.code"
+          }
+        ]
+      },
+      {
+        "id": "ObservationDefinition.code.coding.display",
+        "path": "ObservationDefinition.code.coding.display",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Function.LOINC.name"
+          }
+        ]
       }
     ]
   }

@@ -21,6 +21,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/functioning-questionnaire"
+        },
+        "name": "Questionnaire for functioning",
+        "description": "The FunctioningQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nfunctioning relevant to their specific disease.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/lab-activity"
         },
         "name": "Lab Test Activity",
@@ -45,10 +53,34 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/participation-questionnaire"
+        },
+        "name": "Questionnaire for participation",
+        "description": "The ParticipationQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nactivities and participation relevant to their specific disease.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/rare-care-plan"
         },
         "name": "Rare Condition Management Plan",
         "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/icf-b-codes"
+        },
+        "name": "ICF b codes: BODY FUNCTIONS",
+        "description": "All codes from ICF B subhierarchy: BODY FUNCTIONS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/icf-d-codes"
+        },
+        "name": "ICF d codes: ACTIVITIES AND PARTICIPATION",
+        "description": "All codes from ICF D subhierarchy: ACTIVITIES AND PARTICIPATION",
         "exampleBoolean": false
       },
       {
@@ -69,7 +101,7 @@
         "reference": {
           "reference": "ActivityDefinition/act-pancreatine"
         },
-        "name": "Neutrophils in blood ActivityDefinition",
+        "name": "Pancreatine",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/med-activity"
       },
       {
@@ -83,15 +115,29 @@
         "reference": {
           "reference": "Questionnaire/developmental-disability-questionnaire"
         },
-        "name": "developmental-disability-questionnaire",
-        "exampleBoolean": true
+        "name": "Functioning Questionnaire for Development Disability",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire"
+      },
+      {
+        "reference": {
+          "reference": "ObservationDefinition/obs-calcidiol-in-serum-plasma"
+        },
+        "name": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
       },
       {
         "reference": {
           "reference": "ObservationDefinition/obs-neutrophils-in-blood"
         },
         "name": "Neutrophils in blood ObservationDefinition",
-        "exampleBoolean": true
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
+      },
+      {
+        "reference": {
+          "reference": "ObservationDefinition/obs-retinol-in-serum-plasma"
+        },
+        "name": "Retinol (Vitamin A) in serum/plasma ActivityDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
       },
       {
         "reference": {
@@ -125,8 +171,8 @@
         "reference": {
           "reference": "Questionnaire/shwachman-diamond-syndrome-questionnaire"
         },
-        "name": "shwachman-diamond-syndrome-questionnaire",
-        "exampleBoolean": true
+        "name": "Participation and Activities Questionnaire for Shwachman Diamond Syndroom",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"
       }
     ],
     "page": {

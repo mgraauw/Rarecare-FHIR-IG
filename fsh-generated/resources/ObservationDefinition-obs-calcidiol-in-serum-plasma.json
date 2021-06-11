@@ -1,0 +1,18 @@
+{
+  "resourceType": "ObservationDefinition",
+  "id": "obs-calcidiol-in-serum-plasma",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/lab-observation"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "14635-7",
+        "system": "http://loinc.org",
+        "display": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
+      }
+    ]
+  }
+}

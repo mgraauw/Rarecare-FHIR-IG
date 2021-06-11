@@ -10,6 +10,12 @@
         "title": "Rare Condition Management Plan"
       }
     ],
+    "Questionnaire": [
+      {
+        "url": "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire",
+        "title": "Questionnaire for participation"
+      }
+    ],
     "ActivityDefinition": [
       {
         "url": "http://rarecare.world/fhir/StructureDefinition/med-activity",

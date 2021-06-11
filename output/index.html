@@ -159,13 +159,11 @@ all benefit from the structured collection of data.</p>
 
 <p>From those resources FHIR profiles are generated.</p>
 
-<p><a name="01b2358f-bfb0-4edf-a15c-b06f5b959211">​</a>The basis is a Data Model of Rare Conditions:
+<p><a name="46797cd9-5c0c-457a-8d91-bf4464b39be4">​</a>The basis is a Data Model of Rare Conditions:
 <img src="Rare%20Care%208.png" alt="alt text" title="Rare Care Data Model"/></p>
 
-<p>A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated
-with Neutropenia.
-A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes. Symptoms may also be HPO-coded 
-phenotypical abnormalities.
+<p>A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia, Pancreas Insufficiency etc.
+A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes. Symptoms may also be HPO-coded phenotypical abnormalities.
 A Disease is associated with Medication, here represented with ATC coding.
 Diseases are also associated with ICF impairments in functioning (b.xxx codes) or activity and particapation (d.xxx codes).</p>
 
@@ -189,6 +187,7 @@ I.e. a MedicationRequest (a Request resource) can be a request to administer som
     <tr>
       <th style="text-align: left">Data model</th>
       <th style="text-align: left">FHIR resource type</th>
+      <th style="text-align: left">RareCare IG FHIR profile</th>
       <th style="text-align: left">Coding</th>
     </tr>
   </thead>
@@ -196,26 +195,31 @@ I.e. a MedicationRequest (a Request resource) can be a request to administer som
     <tr>
       <td style="text-align: left">Rare Condition</td>
       <td style="text-align: left">PlanDefinition</td>
+      <td style="text-align: left">RareCarePlanDefinition</td>
       <td style="text-align: left">Orpha, Snomed CT, ICD-10</td>
     </tr>
     <tr>
       <td style="text-align: left">Disease</td>
       <td style="text-align: left">PlanDefinition</td>
+      <td style="text-align: left">DiseasePlanDefinition</td>
       <td style="text-align: left">Snomed CT, ICD-10</td>
     </tr>
     <tr>
       <td style="text-align: left">Symptom (only lab tests now)</td>
       <td style="text-align: left">ActivityDefinition, ObservationDefinition</td>
+      <td style="text-align: left">LabActivityDefinition, ObservationDefinition</td>
       <td style="text-align: left">LOINC</td>
     </tr>
     <tr>
       <td style="text-align: left">Medication</td>
       <td style="text-align: left">ActivityDefinition with product</td>
+      <td style="text-align: left">MedActivityDefinition</td>
       <td style="text-align: left">ATC</td>
     </tr>
     <tr>
       <td style="text-align: left">Function, Participation</td>
       <td style="text-align: left">Questionnaire</td>
+      <td style="text-align: left">&nbsp;</td>
       <td style="text-align: left">ICF</td>
     </tr>
   </tbody>
@@ -266,8 +270,8 @@ can be made.</p>
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="7a28e3a2-7f90-4b5c-848f-cc3eb295c99f">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 10, 2021 14:46+0200">2021-06-10</span>
+        <p><a name="910921b2-176a-4186-9d22-ca6c502b7b21">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 11, 2021 11:22+0200">2021-06-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ICFBcodes",
+  "id": "icf-b-codes",
+  "title": "ICF b codes: BODY FUNCTIONS",
+  "description": "All codes from ICF B subhierarchy: BODY FUNCTIONS",
+  "version": "0.1.0",
+  "url": "http://rarecare.world/fhir/ValueSet/icf-b-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icf-nl",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "b"
+          }
+        ]
+      }
+    ]
+  }
+}

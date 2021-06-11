@@ -21,7 +21,7 @@
   },
   "observationRequirement": [
     {
-      "reference": "#loinc-14905-4\r\n\r\n"
+      "reference": "#loinc-14905-4"
     }
   ]
 }

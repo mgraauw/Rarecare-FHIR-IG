@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "DiseasePlanDefinition"];
   fhir:StructureDefinition.title [ fhir:value "Disease Management Plan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-10T14:46:22+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-11T11:22:34+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. The disease plan refers to \r\nmedication, lab tests and other items for management of the disease."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [

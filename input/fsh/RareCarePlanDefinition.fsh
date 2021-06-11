@@ -26,7 +26,6 @@ Title: "Rare Care Data Model"
 
 Instance: plan-sds
 InstanceOf: RareCarePlanDefinition
-
 Title: "Shwachman Diamond Syndrome PlanDefinition"
 Usage: #example
 

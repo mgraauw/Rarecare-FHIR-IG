@@ -71,6 +71,10 @@
     {
       "title": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma",
       "definitionCanonical": "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
+    },
+    {
+      "title": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma",
+      "definitionCanonical": "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
     }
   ]
 }

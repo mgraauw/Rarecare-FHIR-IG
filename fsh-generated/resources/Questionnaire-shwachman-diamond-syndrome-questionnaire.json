@@ -1,6 +1,11 @@
 {
   "resourceType": "Questionnaire",
   "id": "shwachman-diamond-syndrome-questionnaire",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"
+    ]
+  },
   "url": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome",
   "title": "Vragenlijst participatie voor Shwachman Diamond Syndroom",
   "status": "draft",
@@ -10,6 +15,13 @@
   "item": [
     {
       "linkId": "d210",
+      "code": [
+        {
+          "code": "d210",
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "display": "Ondernemen van een enkelvoudige taak"
+        }
+      ],
       "text": "Ondernemen van een enkelvoudige taak",
       "type": "choice",
       "required": false,
@@ -67,6 +79,13 @@
     },
     {
       "linkId": "d240",
+      "code": [
+        {
+          "code": "d240",
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "display": "Omgaan met stress en andere mentale eisen"
+        }
+      ],
       "text": "Omgaan met stress en andere mentale eisen",
       "type": "choice",
       "required": false,
@@ -124,6 +143,13 @@
     },
     {
       "linkId": "d4751",
+      "code": [
+        {
+          "code": "d4751",
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "display": "Besturen van gemotoriseerde voertuigen"
+        }
+      ],
       "text": "Besturen van gemotoriseerde voertuigen",
       "type": "choice",
       "required": false,

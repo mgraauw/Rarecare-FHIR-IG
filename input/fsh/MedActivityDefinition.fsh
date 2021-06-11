@@ -10,8 +10,7 @@ Description: "A Disease is treated with medication."
 
 Instance: act-pancreatine
 InstanceOf: MedActivityDefinition
-
-Title: "Neutrophils in blood ActivityDefinition"
+Title: "Pancreatine"
 Usage: #example
 
 * url = "https://rarecare.world/fhir/MedActivityDefinition/A09AA02"

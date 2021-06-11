@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RarecareFHIRIG"/>
   <status value="draft"/>
-  <date value="2021-06-10T14:46:22+02:00"/>
+  <date value="2021-06-11T11:22:34+02:00"/>
   <packageId value="rarecare.world"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -182,6 +182,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/functioning-questionnaire"/>
+      </reference>
+      <name value="Questionnaire for functioning"/>
+      <description value="The FunctioningQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their &#xD;&#xA;functioning relevant to their specific disease."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/lab-activity"/>
       </reference>
       <name value="Lab Test Activity"/>
@@ -215,10 +226,43 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/participation-questionnaire"/>
+      </reference>
+      <name value="Questionnaire for participation"/>
+      <description value="The ParticipationQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their &#xD;&#xA;activities and participation relevant to their specific disease."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/rare-care-plan"/>
       </reference>
       <name value="Rare Condition Management Plan"/>
       <description value="The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, &#xD;&#xA;i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/icf-b-codes"/>
+      </reference>
+      <name value="ICF b codes: BODY FUNCTIONS"/>
+      <description value="All codes from ICF B subhierarchy: BODY FUNCTIONS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/icf-d-codes"/>
+      </reference>
+      <name value="ICF d codes: ACTIVITIES AND PARTICIPATION"/>
+      <description value="All codes from ICF D subhierarchy: ACTIVITIES AND PARTICIPATION"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -273,7 +317,7 @@
         <reference value="Questionnaire/developmental-disability-questionnaire"/>
       </reference>
       <name value="developmental-disability-questionnaire"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -336,8 +380,8 @@
       <reference>
         <reference value="Questionnaire/shwachman-diamond-syndrome-questionnaire"/>
       </reference>
-      <name value="shwachman-diamond-syndrome-questionnaire"/>
-      <exampleBoolean value="true"/>
+      <name value="Participation and Activities Questionnaire for Shwachman Diamond Syndroom"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

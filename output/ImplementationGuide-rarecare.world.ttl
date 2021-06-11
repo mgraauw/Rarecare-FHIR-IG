@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "RarecareFHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-10T14:46:22+02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-11T11:22:34+02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "rarecare.world"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -275,6 +275,20 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/functioning-questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire for functioning" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The FunctioningQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nfunctioning relevant to their specific disease." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-activity>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/lab-activity" ]
        ];
@@ -282,7 +296,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -296,7 +310,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -310,7 +324,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A Disease is treated with medication." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/participation-questionnaire>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/participation-questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire for participation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The ParticipationQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nactivities and participation relevant to their specific disease." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -324,7 +352,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/ValueSet/icf-b-codes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/icf-b-codes" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ICF b codes: BODY FUNCTIONS" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "All codes from ICF B subhierarchy: BODY FUNCTIONS" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/ValueSet/icf-d-codes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/icf-d-codes" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ICF d codes: ACTIVITIES AND PARTICIPATION" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "All codes from ICF D subhierarchy: ACTIVITIES AND PARTICIPATION" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -341,7 +397,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-activity>
        ]
      ], [
-       fhir:index 6;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -358,7 +414,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-activity>
        ]
      ], [
-       fhir:index 7;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -375,7 +431,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/med-activity>
        ]
      ], [
-       fhir:index 8;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -392,7 +448,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-activity>
        ]
      ], [
-       fhir:index 9;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -403,9 +459,12 @@
          fhir:Reference.reference [ fhir:value "Questionnaire/developmental-disability-questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "developmental-disability-questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire>
+       ]
      ], [
-       fhir:index 10;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -418,7 +477,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Neutrophils in blood ObservationDefinition" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -435,7 +494,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 12;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -452,7 +511,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 13;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -469,7 +528,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 14;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -486,7 +545,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/rare-care-plan>
        ]
      ], [
-       fhir:index 15;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -496,8 +555,11 @@
          fhir:link <http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome-questionnaire>;
          fhir:Reference.reference [ fhir:value "Questionnaire/shwachman-diamond-syndrome-questionnaire" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "shwachman-diamond-syndrome-questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Participation and Activities Questionnaire for Shwachman Diamond Syndroom" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/participation-questionnaire>
+       ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

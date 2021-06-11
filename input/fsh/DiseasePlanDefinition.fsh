@@ -29,7 +29,6 @@ Title: "Rare Care Data Model"
 
 Instance: plan-neutropenia
 InstanceOf: DiseasePlanDefinition
-
 Title: "Neutropenia PlanDefinition"
 Usage: #example
 
@@ -53,7 +52,6 @@ Usage: #example
 
 Instance: plan-pancreas-insufficiency
 InstanceOf: DiseasePlanDefinition
-
 Title: "Pancreas Insufficiëntie PlanDefinition"
 Usage: #example
 
@@ -74,6 +72,8 @@ Usage: #example
 * goal.addresses = http://hl7.org/fhir/sid/icd-10#K86.81 "Exocrine pancreatic insufficiency"
 * action[+].title = "Retinol (Vitamin A) in serum/plasma"
 * action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14905-4"
+* action[+].title = "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
+* action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
 * action[+].title = "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
 * action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
 

@@ -38,6 +38,13 @@
     "name": "DiseasePlanDefinition"
   },
   {
+    "id": "functioning-questionnaire",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire",
+    "version": "0.1.0",
+    "name": "FunctioningQuestionnaire"
+  },
+  {
     "id": "lab-activity",
     "type": "StructureDefinition",
     "url": "http://rarecare.world/fhir/StructureDefinition/lab-activity",
@@ -59,11 +66,32 @@
     "name": "MedActivityDefinition"
   },
   {
+    "id": "participation-questionnaire",
+    "type": "StructureDefinition",
+    "url": "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire",
+    "version": "0.1.0",
+    "name": "ParticipationQuestionnaire"
+  },
+  {
     "id": "rare-care-plan",
     "type": "StructureDefinition",
     "url": "http://rarecare.world/fhir/StructureDefinition/rare-care-plan",
     "version": "0.1.0",
     "name": "RareCarePlanDefinition"
+  },
+  {
+    "id": "icf-b-codes",
+    "type": "ValueSet",
+    "url": "http://rarecare.world/fhir/ValueSet/icf-b-codes",
+    "version": "0.1.0",
+    "name": "ICFBcodes"
+  },
+  {
+    "id": "icf-d-codes",
+    "type": "ValueSet",
+    "url": "http://rarecare.world/fhir/ValueSet/icf-d-codes",
+    "version": "0.1.0",
+    "name": "ICFDcodes"
   },
   {
     "id": "act-calcidiol-in-serum-plasma",

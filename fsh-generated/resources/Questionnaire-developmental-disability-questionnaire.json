@@ -1,6 +1,11 @@
 {
   "resourceType": "Questionnaire",
   "id": "developmental-disability-questionnaire",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire"
+    ]
+  },
   "url": "https://rarecare.world/fhir/Questionnaire/developmental-disability",
   "title": "Vragenlijst functioneren voor Ontwikkelingsstoornis",
   "status": "draft",
@@ -10,6 +15,13 @@
   "item": [
     {
       "linkId": "b117",
+      "code": [
+        {
+          "code": "b117",
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "display": "Intellectuele functies"
+        }
+      ],
       "text": "Intellectuele functies",
       "type": "choice",
       "required": false,
@@ -67,6 +79,13 @@
     },
     {
       "linkId": "b310",
+      "code": [
+        {
+          "code": "b310",
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "display": "Stem"
+        }
+      ],
       "text": "Stem",
       "type": "choice",
       "required": false,

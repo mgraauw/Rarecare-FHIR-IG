@@ -38,6 +38,11 @@
       "identity": "objimpl",
       "uri": "http://hl7.org/fhir/object-implementation",
       "name": "Object Implementation Information"
+    },
+    {
+      "identity": "RareCareFHIRtoDataModel",
+      "name": "Rare Care Data Model",
+      "uri": "Rare Care Data Model"
     }
   ],
   "kind": "resource",
@@ -48,9 +53,29 @@
   "differential": {
     "element": [
       {
+        "id": "ActivityDefinition",
+        "path": "ActivityDefinition",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Test"
+          }
+        ]
+      },
+      {
         "id": "ActivityDefinition.kind",
         "path": "ActivityDefinition.kind",
         "patternCode": "ServiceRequest"
+      },
+      {
+        "id": "ActivityDefinition.code",
+        "path": "ActivityDefinition.code",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Test.LOINC.code"
+          }
+        ]
       },
       {
         "id": "ActivityDefinition.observationResultRequirement",

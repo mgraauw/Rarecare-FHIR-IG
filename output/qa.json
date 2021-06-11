@@ -3,9 +3,9 @@
   "name": "RarecareFHIRIG",
   "package-id": "rarecare.world",
   "ig-ver": "0.1.0",
-  "date": "Thu, 10 Jun, 2021 14:46:22 +0200",
-  "errs": 98,
-  "warnings": 22,
+  "date": "Fri, 11 Jun, 2021 11:22:34 +0200",
+  "errs": 100,
+  "warnings": 26,
   "hints": 1,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
