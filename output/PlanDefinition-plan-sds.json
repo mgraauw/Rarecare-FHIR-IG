@@ -8,9 +8,9 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Shwachman Diamond Syndrome Management</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}\">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title=\"Codes: {http://hl7.org/fhir/resource-types Patient}\">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Shwachman Diamond Syndrome management plan.</p><p><b>topic</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}\">Treatment</span></p><h3>RelatedArtifacts</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Goals</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">Shwachman Diamond Syndrome management</span></td><td><span title=\"Codes: {http://www.orpha.net ORPHA:811}\">Shwachman-Diamond syndrome</span></td></tr></table><blockquote><p><b>action</b></p><p><b>title</b>: Neutropenia</p><p><b>definition</b>: <a href=\"http://rarecare.world/fhir/PlanDefinition/neutropenia\">http://rarecare.world/fhir/PlanDefinition/neutropenia</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Pancreas Insufficiency</p><p><b>definition</b>: <a href=\"http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency\">http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Developmental disability</p><p><b>definition</b>: <a href=\"http://rarecare.world/fhir/PlanDefinition/developmental-disability\">http://rarecare.world/fhir/PlanDefinition/developmental-disability</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Vragenlijst participatie voor Shwachman Diamond Syndroom</p><p><b>definition</b>: <a href=\"http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome\">http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome</a></p></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Shwachman Diamond Syndrome Management</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}\">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title=\"Codes: {http://hl7.org/fhir/resource-types Patient}\">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Shwachman Diamond Syndrome management plan.</p><p><b>topic</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}\">Treatment</span></p><h3>RelatedArtifacts</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Goals</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">Shwachman Diamond Syndrome management</span></td><td><span title=\"Codes: {http://www.orpha.net ORPHA:811}\">Shwachman-Diamond syndrome</span></td></tr></table><blockquote><p><b>action</b></p><p><b>title</b>: Neutropenia</p><p><b>definition</b>: <a href=\"https://rarecare.world/fhir/PlanDefinition/neutropenia\">https://rarecare.world/fhir/PlanDefinition/neutropenia</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Pancreas Insufficiency</p><p><b>definition</b>: <a href=\"https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency\">https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Developmental disability</p><p><b>definition</b>: <a href=\"https://rarecare.world/fhir/PlanDefinition/developmental-disability\">https://rarecare.world/fhir/PlanDefinition/developmental-disability</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Vragenlijst participatie voor Shwachman Diamond Syndroom</p><p><b>definition</b>: <a href=\"https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome\">https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome</a></p></blockquote></div>"
   },
-  "url": "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
+  "url": "https://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
   "version": "0.1.0",
   "title": "Shwachman Diamond Syndrome Management",
   "type": {
@@ -70,19 +70,19 @@
   "action": [
     {
       "title": "Neutropenia",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/neutropenia"
     },
     {
       "title": "Pancreas Insufficiency",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
     },
     {
       "title": "Developmental disability",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/developmental-disability"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/developmental-disability"
     },
     {
       "title": "Vragenlijst participatie voor Shwachman Diamond Syndroom",
-      "definitionCanonical": "http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
+      "definitionCanonical": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
     }
   ]
 }

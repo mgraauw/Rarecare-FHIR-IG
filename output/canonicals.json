@@ -7,30 +7,6 @@
     "name": "RarecareFHIRIG"
   },
   {
-    "id": "plan-developmental-disability",
-    "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/developmental-disability",
-    "version": "0.1.0"
-  },
-  {
-    "id": "plan-neutropenia",
-    "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/neutropenia",
-    "version": "0.1.0"
-  },
-  {
-    "id": "plan-pancreas-insufficiency",
-    "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency",
-    "version": "0.1.0"
-  },
-  {
-    "id": "plan-sds",
-    "type": "PlanDefinition",
-    "url": "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
-    "version": "0.1.0"
-  },
-  {
     "id": "disease-plan",
     "type": "StructureDefinition",
     "url": "http://rarecare.world/fhir/StructureDefinition/disease-plan",
@@ -115,6 +91,30 @@
     "id": "act-pancreatine",
     "type": "ActivityDefinition",
     "url": "https://rarecare.world/fhir/MedActivityDefinition/A09AA02",
+    "version": "0.1.0"
+  },
+  {
+    "id": "plan-developmental-disability",
+    "type": "PlanDefinition",
+    "url": "https://rarecare.world/fhir/PlanDefinition/developmental-disability",
+    "version": "0.1.0"
+  },
+  {
+    "id": "plan-neutropenia",
+    "type": "PlanDefinition",
+    "url": "https://rarecare.world/fhir/PlanDefinition/neutropenia",
+    "version": "0.1.0"
+  },
+  {
+    "id": "plan-pancreas-insufficiency",
+    "type": "PlanDefinition",
+    "url": "https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency",
+    "version": "0.1.0"
+  },
+  {
+    "id": "plan-sds",
+    "type": "PlanDefinition",
+    "url": "https://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
     "version": "0.1.0"
   },
   {

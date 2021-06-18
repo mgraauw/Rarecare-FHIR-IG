@@ -7,123 +7,133 @@
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> </td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Coding" class="hierarchy"/> b117</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Intellectuele functies</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#coding">coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="null#item.b117">7 options</a></td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: white; background-color: inherit" title="Coding" class="hierarchy"/> b310</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Stem</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#coding">coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="null#item.b310">7 options</a></td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Coding" class="hierarchy"/> b117</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Intellectual functions</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#coding">coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="null#item.b117">7 options</a></td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-coding.png" alt="." style="background-color: white; background-color: inherit" title="Coding" class="hierarchy"/> b310</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Voice functions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#coding">coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Options: <a href="null#item.b310">7 options</a></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="https://rarecare.world/fhir/Questionnaire/developmental-disability"/>
   <version value="0.1.0"/>
-  <title value="Vragenlijst functioneren voor Ontwikkelingsstoornis"/>
+  <title value="Functioning Questionnaire for Development Disability"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2021-06-11T11:22:34+02:00"/>
+  <date value="2021-06-18T17:19:10+02:00"/>
   <item>
     <linkId value="b117"/>
-    <text value="Intellectuele functies"/>
+    <code>
+      <system value="http://hl7.org/fhir/sid/icf-nl"/>
+      <code value="b117"/>
+      <display value="Intellectual functions"/>
+    </code>
+    <text value="Intellectual functions"/>
     <type value="choice"/>
     <required value="false"/>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.0"/>
-        <display value="Geen stoornis (0-5%)"/>
+        <display value="No problem (0-4%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.1"/>
-        <display value="Lichte stoornis (5-24%)"/>
+        <display value="Mild problem (5-24%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.2"/>
-        <display value="Matige stoornis (25-49%)"/>
+        <display value="Moderate problem (25-49%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.3"/>
-        <display value="Ernstige stoornis (50-95%)"/>
+        <display value="Servere problem (50-95%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.4"/>
-        <display value="Volledige stoornis (96-100%)"/>
+        <display value="Complete problem (96-100%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.8"/>
-        <display value="niet gespecificeerd"/>
+        <display value="not specified"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b117.9"/>
-        <display value="niet van toepassing"/>
+        <display value="not applicable"/>
       </valueCoding>
     </answerOption>
   </item>
   <item>
     <linkId value="b310"/>
-    <text value="Stem"/>
+    <code>
+      <system value="http://hl7.org/fhir/sid/icf-nl"/>
+      <code value="b310"/>
+      <display value="Voice functions"/>
+    </code>
+    <text value="Voice functions"/>
     <type value="choice"/>
     <required value="false"/>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.0"/>
-        <display value="Geen stoornis (0-5%)"/>
+        <display value="No problem (0-4%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.1"/>
-        <display value="Lichte stoornis (5-24%)"/>
+        <display value="Mild problem (5-24%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.2"/>
-        <display value="Matige stoornis (25-49%)"/>
+        <display value="Moderate problem (25-49%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.3"/>
-        <display value="Ernstige stoornis (50-95%)"/>
+        <display value="Servere problem (50-95%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.4"/>
-        <display value="Volledige stoornis (96-100%)"/>
+        <display value="Complete problem (96-100%)"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.8"/>
-        <display value="niet gespecificeerd"/>
+        <display value="not specified"/>
       </valueCoding>
     </answerOption>
     <answerOption>
       <valueCoding>
         <system value="http://hl7.org/fhir/sid/icf-nl"/>
         <code value="b310.9"/>
-        <display value="niet van toepassing"/>
+        <display value="not applicable"/>
       </valueCoding>
     </answerOption>
   </item>

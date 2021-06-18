@@ -9,6 +9,13 @@
 <http://rarecare.world/fhir/ObservationDefinition/obs-neutrophils-in-blood> a fhir:ObservationDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "obs-neutrophils-in-blood"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://rarecare.world/fhir/StructureDefinition/lab-observation";
+       fhir:index 0;
+       fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-observation>
+     ]
+  ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 751-8}\">Neutrophils in blood</span></p></div>"

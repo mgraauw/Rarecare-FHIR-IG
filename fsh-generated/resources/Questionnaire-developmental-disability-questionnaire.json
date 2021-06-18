@@ -7,7 +7,7 @@
     ]
   },
   "url": "https://rarecare.world/fhir/Questionnaire/developmental-disability",
-  "title": "Vragenlijst functioneren voor Ontwikkelingsstoornis",
+  "title": "Functioning Questionnaire for Development Disability",
   "status": "draft",
   "subjectType": [
     "Patient"
@@ -19,10 +19,10 @@
         {
           "code": "b117",
           "system": "http://hl7.org/fhir/sid/icf-nl",
-          "display": "Intellectuele functies"
+          "display": "Intellectual functions"
         }
       ],
-      "text": "Intellectuele functies",
+      "text": "Intellectual functions",
       "type": "choice",
       "required": false,
       "answerOption": [
@@ -30,49 +30,49 @@
           "valueCoding": {
             "code": "b117.0",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Geen stoornis (0-5%)"
+            "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.1",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Lichte stoornis (5-24%)"
+            "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.2",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Matige stoornis (25-49%)"
+            "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.3",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Ernstige stoornis (50-95%)"
+            "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.4",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Volledige stoornis (96-100%)"
+            "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.8",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "niet gespecificeerd"
+            "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "b117.9",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "niet van toepassing"
+            "display": "not applicable"
           }
         }
       ]
@@ -83,10 +83,10 @@
         {
           "code": "b310",
           "system": "http://hl7.org/fhir/sid/icf-nl",
-          "display": "Stem"
+          "display": "Voice functions"
         }
       ],
-      "text": "Stem",
+      "text": "Voice functions",
       "type": "choice",
       "required": false,
       "answerOption": [
@@ -94,49 +94,49 @@
           "valueCoding": {
             "code": "b310.0",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Geen stoornis (0-5%)"
+            "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.1",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Lichte stoornis (5-24%)"
+            "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.2",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Matige stoornis (25-49%)"
+            "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.3",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Ernstige stoornis (50-95%)"
+            "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.4",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "Volledige stoornis (96-100%)"
+            "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.8",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "niet gespecificeerd"
+            "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "b310.9",
             "system": "http://hl7.org/fhir/sid/icf-nl",
-            "display": "niet van toepassing"
+            "display": "not applicable"
           }
         }
       ]

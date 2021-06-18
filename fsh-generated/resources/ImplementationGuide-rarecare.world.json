@@ -171,7 +171,7 @@
         "reference": {
           "reference": "Questionnaire/shwachman-diamond-syndrome-questionnaire"
         },
-        "name": "Participation and Activities Questionnaire for Shwachman Diamond Syndroom",
+        "name": "Participation and Activities Questionnaire for Shwachman Diamond Syndrome",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"
       }
     ],

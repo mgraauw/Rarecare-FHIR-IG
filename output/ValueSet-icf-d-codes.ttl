@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ICFDcodes"];
   fhir:ValueSet.title [ fhir:value "ICF d codes: ACTIVITIES AND PARTICIPATION"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-06-11T11:22:34+02:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-06-18T17:19:10+02:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "All codes from ICF D subhierarchy: ACTIVITIES AND PARTICIPATION"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

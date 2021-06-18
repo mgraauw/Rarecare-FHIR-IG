@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "RarecareFHIRIG",
   "status": "draft",
-  "date": "2021-06-11T11:22:34+02:00",
+  "date": "2021-06-18T17:19:10+02:00",
   "packageId": "rarecare.world",
   "license": "CC0-1.0",
   "fhirVersion": [
@@ -430,7 +430,7 @@
         "reference": {
           "reference": "ActivityDefinition/act-pancreatine"
         },
-        "name": "Neutrophils in blood ActivityDefinition",
+        "name": "Pancreatine",
         "description": "Pancreatine",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/med-activity"
       },
@@ -458,8 +458,21 @@
         "reference": {
           "reference": "Questionnaire/developmental-disability-questionnaire"
         },
-        "name": "developmental-disability-questionnaire",
+        "name": "Functioning Questionnaire for Development Disability",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ObservationDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ObservationDefinition/obs-calcidiol-in-serum-plasma"
+        },
+        "name": "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
       },
       {
         "extension": [
@@ -472,7 +485,20 @@
           "reference": "ObservationDefinition/obs-neutrophils-in-blood"
         },
         "name": "Neutrophils in blood ObservationDefinition",
-        "exampleBoolean": true
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ObservationDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ObservationDefinition/obs-retinol-in-serum-plasma"
+        },
+        "name": "Retinol (Vitamin A) in serum/plasma ActivityDefinition",
+        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/lab-observation"
       },
       {
         "extension": [
@@ -540,7 +566,7 @@
         "reference": {
           "reference": "Questionnaire/shwachman-diamond-syndrome-questionnaire"
         },
-        "name": "Participation and Activities Questionnaire for Shwachman Diamond Syndroom",
+        "name": "Participation and Activities Questionnaire for Shwachman Diamond Syndrome",
         "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"
       }
     ],

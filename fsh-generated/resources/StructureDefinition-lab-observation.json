@@ -71,7 +71,7 @@
         "mapping": [
           {
             "identity": "RareCareFHIRtoDataModel",
-            "map": "Function.LOINC.code"
+            "map": "Test.LOINC.code"
           }
         ]
       },
@@ -81,7 +81,7 @@
         "mapping": [
           {
             "identity": "RareCareFHIRtoDataModel",
-            "map": "Function.LOINC.name"
+            "map": "Test.LOINC.name"
           }
         ]
       }

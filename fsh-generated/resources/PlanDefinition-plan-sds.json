@@ -6,7 +6,7 @@
       "http://rarecare.world/fhir/StructureDefinition/rare-care-plan"
     ]
   },
-  "url": "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
+  "url": "https://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome",
   "status": "draft",
   "version": "0.1",
   "title": "Shwachman Diamond Syndrome Management",
@@ -66,19 +66,19 @@
   "action": [
     {
       "title": "Neutropenia",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/neutropenia"
     },
     {
       "title": "Pancreas Insufficiency",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
     },
     {
       "title": "Developmental disability",
-      "definitionCanonical": "http://rarecare.world/fhir/PlanDefinition/developmental-disability"
+      "definitionCanonical": "https://rarecare.world/fhir/PlanDefinition/developmental-disability"
     },
     {
       "title": "Vragenlijst participatie voor Shwachman Diamond Syndroom",
-      "definitionCanonical": "http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
+      "definitionCanonical": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
     }
   ]
 }

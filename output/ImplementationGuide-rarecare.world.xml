@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="RarecareFHIRIG"/>
   <status value="draft"/>
-  <date value="2021-06-11T11:22:34+02:00"/>
+  <date value="2021-06-18T17:19:10+02:00"/>
   <packageId value="rarecare.world"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -294,7 +294,7 @@
       <reference>
         <reference value="ActivityDefinition/act-pancreatine"/>
       </reference>
-      <name value="Neutrophils in blood ActivityDefinition"/>
+      <name value="Pancreatine"/>
       <description value="Pancreatine"/>
       <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/med-activity"/>
     </resource>
@@ -316,8 +316,18 @@
       <reference>
         <reference value="Questionnaire/developmental-disability-questionnaire"/>
       </reference>
-      <name value="developmental-disability-questionnaire"/>
+      <name value="Functioning Questionnaire for Development Disability"/>
       <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ObservationDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ObservationDefinition/obs-calcidiol-in-serum-plasma"/>
+      </reference>
+      <name value="Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/lab-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -327,7 +337,17 @@
         <reference value="ObservationDefinition/obs-neutrophils-in-blood"/>
       </reference>
       <name value="Neutrophils in blood ObservationDefinition"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/lab-observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ObservationDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ObservationDefinition/obs-retinol-in-serum-plasma"/>
+      </reference>
+      <name value="Retinol (Vitamin A) in serum/plasma ActivityDefinition"/>
+      <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/lab-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -380,7 +400,7 @@
       <reference>
         <reference value="Questionnaire/shwachman-diamond-syndrome-questionnaire"/>
       </reference>
-      <name value="Participation and Activities Questionnaire for Shwachman Diamond Syndroom"/>
+      <name value="Participation and Activities Questionnaire for Shwachman Diamond Syndrome"/>
       <exampleCanonical value="http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"/>
     </resource>
     <page>

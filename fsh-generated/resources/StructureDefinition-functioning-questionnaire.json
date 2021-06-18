@@ -45,7 +45,7 @@
       "name": "HL7 v2 Mapping"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
+      "identity": "RareCareFHIRtoDataModelFunctioning",
       "name": "Rare Care Data Model",
       "uri": "Rare Care Data Model"
     }
@@ -62,8 +62,8 @@
         "path": "Questionnaire",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
-            "map": "Function"
+            "identity": "RareCareFHIRtoDataModelFunctioning",
+            "map": "Function set of questions"
           }
         ]
       },
@@ -77,12 +77,52 @@
         }
       },
       {
+        "id": "Questionnaire.item",
+        "path": "Questionnaire.item",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModelFunctioning",
+            "map": "Function"
+          }
+        ]
+      },
+      {
         "id": "Questionnaire.item.code",
         "path": "Questionnaire.item.code",
         "binding": {
           "strength": "required",
           "valueSet": "http://rarecare.world/fhir/ValueSet/icf-b-codes"
         }
+      },
+      {
+        "id": "Questionnaire.item.code.code",
+        "path": "Questionnaire.item.code.code",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModelFunctioning",
+            "map": "Function.ICF.code"
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.code.display",
+        "path": "Questionnaire.item.code.display",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModelFunctioning",
+            "map": "Function.ICF.name"
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.answerOption",
+        "path": "Questionnaire.item.answerOption",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModelFunctioning",
+            "map": "Fixed ICF answer set with Function.ICF.code.x inserted (x = {0, 1, 2, 3, 4, 8, 9}"
+          }
+        ]
       }
     ]
   }

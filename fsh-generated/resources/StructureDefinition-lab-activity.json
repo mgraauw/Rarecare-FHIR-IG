@@ -68,12 +68,22 @@
         "patternCode": "ServiceRequest"
       },
       {
-        "id": "ActivityDefinition.code",
-        "path": "ActivityDefinition.code",
+        "id": "ActivityDefinition.code.coding.code",
+        "path": "ActivityDefinition.code.coding.code",
         "mapping": [
           {
             "identity": "RareCareFHIRtoDataModel",
             "map": "Test.LOINC.code"
+          }
+        ]
+      },
+      {
+        "id": "ActivityDefinition.code.coding.display",
+        "path": "ActivityDefinition.code.coding.display",
+        "mapping": [
+          {
+            "identity": "RareCareFHIRtoDataModel",
+            "map": "Test.LOINC.name"
           }
         ]
       },

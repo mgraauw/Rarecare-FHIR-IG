@@ -25,7 +25,7 @@
   <name value="RareCarePlanDefinition"/>
   <title value="Rare Condition Management Plan"/>
   <status value="active"/>
-  <date value="2021-06-11T11:22:34+02:00"/>
+  <date value="2021-06-18T17:19:10+02:00"/>
   <description value="The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, &#xD;&#xA;i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
@@ -3790,6 +3790,9 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Questionnaire"/>
+      </type>
+      <type>
+        <code value="uri"/>
       </type>
       <constraint>
         <key value="ele-1"/>

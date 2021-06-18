@@ -12,8 +12,8 @@ Source: LabObservationDefinition
 Target: "Rare Care Data Model"
 Title: "Rare Care Data Model"
 * -> "Test"
-* code.coding.code -> "Function.LOINC.code"
-* code.coding.display -> "Function.LOINC.name"
+* code.coding.code -> "Test.LOINC.code"
+* code.coding.display -> "Test.LOINC.name"
 
 Instance: obs-neutrophils-in-blood
 InstanceOf: LabObservationDefinition

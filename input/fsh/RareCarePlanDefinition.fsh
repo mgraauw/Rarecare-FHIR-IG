@@ -2,14 +2,16 @@ Alias: SCT = http://snomed.info/sct
 Alias: ORPHA = http://www.orpha.net
 
 Profile: RareCarePlanDefinition
-Parent: disease-plan
+Parent: DiseasePlanDefinition
 Id: rare-care-plan
 Title: "Rare Condition Management Plan"
 Description: "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, 
 i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."
 
+// * relatedArtifact 1..* "Link to General Medical Guideline or Patient Organization, or other resources."
 * goal.addresses from ORPHA
-// * action.definition[x] = Canonical(DiseasePlanDefinition)
+// Sushi bug, see: https://chat.fhir.org/#narrow/stream/215610-shorthand/topic/Setting.20canonical.20values
+// * action.definition[x] only PlanDefinition
 
 Mapping: RareCareFHIRtoDataModel
 Source: RareCarePlanDefinition
@@ -29,7 +31,7 @@ InstanceOf: RareCarePlanDefinition
 Title: "Shwachman Diamond Syndrome PlanDefinition"
 Usage: #example
 
-* url = "http://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome"
+* url = "https://rarecare.world/fhir/PlanDefinition/shwachman-diamond-syndrome"
 * status = #draft
 * version = "0.1"
 * title = "Shwachman Diamond Syndrome Management"
@@ -48,10 +50,10 @@ Usage: #example
 * goal.description.text = "Shwachman Diamond Syndrome management"
 * goal.addresses = ORPHA#ORPHA:811 "Shwachman-Diamond syndrome"
 * action[+].title = "Neutropenia"
-* action[=].definitionCanonical = "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+* action[=].definitionCanonical = "https://rarecare.world/fhir/PlanDefinition/neutropenia"
 * action[+].title = "Pancreas Insufficiency"
-* action[=].definitionCanonical = "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
+* action[=].definitionCanonical = "https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
 * action[+].title = "Developmental disability"
-* action[=].definitionCanonical = "http://rarecare.world/fhir/PlanDefinition/developmental-disability"
+* action[=].definitionCanonical = "https://rarecare.world/fhir/PlanDefinition/developmental-disability"
 * action[+].title = "Vragenlijst participatie voor Shwachman Diamond Syndroom"
-* action[=].definitionCanonical = "http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"
+* action[=].definitionCanonical = "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome"

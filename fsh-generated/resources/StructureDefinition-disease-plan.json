@@ -159,20 +159,6 @@
             "map": "Test or Medication for Disease"
           }
         ]
-      },
-      {
-        "id": "PlanDefinition.action.definition[x]",
-        "path": "PlanDefinition.action.definition[x]",
-        "type": [
-          {
-            "code": "canonical",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/ActivityDefinition",
-              "http://hl7.org/fhir/StructureDefinition/PlanDefinition",
-              "http://hl7.org/fhir/StructureDefinition/Questionnaire"
-            ]
-          }
-        ]
       }
     ]
   }

@@ -26,7 +26,8 @@ Source: LabActivityDefinition
 Target: "Rare Care Data Model"
 Title: "Rare Care Data Model"
 * -> "Test"
-* code -> "Test.LOINC.code"
+* code.coding.code -> "Test.LOINC.code"
+* code.coding.display -> "Test.LOINC.name"
 
 Instance: act-retinol-in-serum-plasma
 InstanceOf: LabActivityDefinition

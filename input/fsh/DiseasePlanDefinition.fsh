@@ -14,7 +14,6 @@ medication, lab tests and other items for management of the disease."
 * subjectCodeableConcept = http://hl7.org/fhir/resource-types#Patient
 * publisher = "Stichting Rare Care World"
 * topic = http://terminology.hl7.org/CodeSystem/definition-topic#treatment
-* action.definition[x] only canonical
 
 Mapping: RareCareFHIRtoDataModel
 Source: DiseasePlanDefinition
@@ -32,7 +31,7 @@ InstanceOf: DiseasePlanDefinition
 Title: "Neutropenia PlanDefinition"
 Usage: #example
 
-* url = "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+* url = "https://rarecare.world/fhir/PlanDefinition/neutropenia"
 * status = #draft
 * version = "0.1"
 * title = "Neutropenia Management"
@@ -55,7 +54,7 @@ InstanceOf: DiseasePlanDefinition
 Title: "Pancreas Insufficiëntie PlanDefinition"
 Usage: #example
 
-* url = "http://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
+* url = "https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"
 * status = #draft
 * version = "0.1"
 * title = "Pancreas Insufficiëntie"
@@ -83,7 +82,7 @@ InstanceOf: DiseasePlanDefinition
 Title: "Ontwikkelingsstoornis PlanDefinition"
 Usage: #example
 
-* url = "http://rarecare.world/fhir/PlanDefinition/developmental-disability"
+* url = "https://rarecare.world/fhir/PlanDefinition/developmental-disability"
 * status = #draft
 * version = "0.1"
 * title = "Ontwikkelingsstoornis"

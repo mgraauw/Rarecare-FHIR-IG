@@ -123,52 +123,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#rarecare-fhir-ig" id="markdown-toc-rarecare-fhir-ig">Rarecare-FHIR-IG</a>    <ul>
-      <li><a href="#medmij-and-the-pgo-for-everyone-project" id="markdown-toc-medmij-and-the-pgo-for-everyone-project">MedMij and the “PGO for everyone” project</a></li>
-      <li><a href="#the-rarecare-data-model" id="markdown-toc-the-rarecare-data-model">The RareCare Data Model</a></li>
-      <li><a href="#the-fhir-profiles" id="markdown-toc-the-fhir-profiles">The FHIR profiles</a>        <ul>
-          <li><a href="#plandefinition" id="markdown-toc-plandefinition">PlanDefinition</a></li>
-          <li><a href="#activitydefinition" id="markdown-toc-activitydefinition">ActivityDefinition</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
+  <li><a href="#medmij-and-the-pgo-for-everyone-project" id="markdown-toc-medmij-and-the-pgo-for-everyone-project">MedMij and the “PGO for everyone” project</a></li>
+  <li><a href="#the-rarecare-data-model" id="markdown-toc-the-rarecare-data-model">The RareCare Data Model</a></li>
+  <li><a href="#the-rarecare-fhir-profiles" id="markdown-toc-the-rarecare-fhir-profiles">The RareCare FHIR profiles</a></li>
+  <li><a href="#the-rarecare-fhir-api" id="markdown-toc-the-rarecare-fhir-api">The RareCare FHIR API</a></li>
 </ul>
 
 </div>
-<h1 id="rarecare-fhir-ig">Rarecare-FHIR-IG</h1>
-
 <p>This repository contains the FHIR resources for the “Een PGO voor iedereen” (“A personal healthcare environment for everyone”) project.</p>
 
-<h2 id="medmij-and-the-pgo-for-everyone-project">MedMij and the “PGO for everyone” project</h2>
-<p>The Netherlands has a national effort, MedMij, to provide all Dutch citizens with a personal healthcare 
+<p>Note: <em>All example content is example only!</em> It is based on Shwachman Diamond Syndrome (SDS) data from rarecare.world, but for brevity it is much shorter than the actual data would be.</p>
+
+<h3 id="medmij-and-the-pgo-for-everyone-project">MedMij and the “PGO for everyone” project</h3>
+<p>The Netherlands has a national effort, <a href="https://www.medmij.nl/en/">MedMij</a>, to provide all Dutch citizens with a personal healthcare 
 environment, web or mobile. However, persons with rare diseases have trouble seeing their condition properly represented. Due to
-the rare nature of their condition, vendors are hesitant to invest in small populations. Having a macine-readable Rare Condition
-profile would enable vendors to simply read the necessary data to provide those persons with customized dashboards, graphs and questionnaires
-to address their conditions properly. Moreover, healthcare professionals, patient organizations and researchers could
-all benefit from the structured collection of data.</p>
+the rare nature of their condition, vendors are hesitant to invest in small populations. Having a machine-readable Rare Condition
+profile would enable vendors to simply read the necessary data to provide those persons with customized dashboards, graphs and questionnaires to address their conditions properly. Moreover, healthcare professionals, patient organizations and researchers could all benefit from the structured collection of data.</p>
 
-<h2 id="the-rarecare-data-model">The RareCare Data Model</h2>
-<p>The Rare Care models are maintained at:</p>
+<p>The “PGO for everyone” project aims to provide such a machine-readable API for PGO’s. The definitions for specific rare conditions are published as FHIR resources. PGO’s can pull those in with an API, and use the definitions to provide disease-specific dashboards and questionnaires for those rare conditions.</p>
 
-<p>https://rarecare.world</p>
+<h3 id="the-rarecare-data-model">The RareCare Data Model</h3>
+<p>The Rare Care models are maintained at <a href="https://rarecare.world">https://rarecare.world</a></p>
 
-<p>and (only partially complete yet):</p>
+<p>and (only partially complete yet) <a href="https://decor.nictiz.nl/art-decor/decor-datasets--zaz-">https://decor.nictiz.nl/art-decor/decor-datasets–zaz-</a></p>
 
-<p>https://decor.nictiz.nl/art-decor/decor-datasets–zaz-</p>
+<p>From those resources FHIR profiles are generated. The basis is a Data Model of Rare Conditions:</p>
 
-<p>From those resources FHIR profiles are generated.</p>
-
-<p><a name="46797cd9-5c0c-457a-8d91-bf4464b39be4">​</a>The basis is a Data Model of Rare Conditions:
-<img src="Rare%20Care%208.png" alt="alt text" title="Rare Care Data Model"/></p>
+<p><a name="10b1108a-a464-4a1b-802e-305d22d0c2ce">​</a><img src="Rare%20Care%208.png" alt="alt text" title="Rare Care Data Model"/></p>
 
 <p>A Rare Condition IS_A Disease, but will also be composed of diseases: i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia, Pancreas Insufficiency etc.
 A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes. Symptoms may also be HPO-coded phenotypical abnormalities.
 A Disease is associated with Medication, here represented with ATC coding.
 Diseases are also associated with ICF impairments in functioning (b.xxx codes) or activity and particapation (d.xxx codes).</p>
 
-<h2 id="the-fhir-profiles">The FHIR profiles</h2>
-<p>The RareCare datamodel for Rare Conditions is implemented using <a href="http://hl7.org/fhir/definition.html">FHIR</a>.</p>
+<h3 id="the-rarecare-fhir-profiles">The RareCare FHIR profiles</h3>
+<p>The RareCare datamodel for Rare Conditions is implemented using <a href="http://hl7.org/fhir/definition.html">FHIR</a>.
+The FHIR profiles contain a mapping to the data model (see tab ‘Mapping’ in each profile).</p>
 
 <p>There are 3 kinds of FHIR resources: Event, Request and Definition.</p>
 <ul>
@@ -219,32 +209,115 @@ I.e. a MedicationRequest (a Request resource) can be a request to administer som
     <tr>
       <td style="text-align: left">Function, Participation</td>
       <td style="text-align: left">Questionnaire</td>
-      <td style="text-align: left">&nbsp;</td>
-      <td style="text-align: left">ICF</td>
+      <td style="text-align: left">FunctioningQuestionnaire, ParticipationQuestionnaire</td>
+      <td style="text-align: left">ICF-b, ICF-d</td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="plandefinition">PlanDefinition</h3>
-<p>A <a href="http://hl7.org/fhir/plandefinition.html">PlanDefinition</a> is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan
-to be rolled out when a particular patient enters care. When that is the case, a CarePlan based on the generic PlanDefinition 
-can be made.</p>
-
-<p><img src="action-and-activity-definition.png" alt="null"/> “Action and ActivityDefinition”</p>
-
-<p>A PlanDefinition can consist of many subplans. A plan for Shwachman Diamond Syndrome would, for instance, contain PlanDefinitions for Neutropenia management, Pancreas Insufficiency etc.</p>
-
-<p>The RareCare PlanDefinitions are the FHIR way to define actions to be taken for a particular rare disease:</p>
+<p>The FHIR profiles are under ‘Artifacts’. Under each profile are:</p>
 <ul>
-  <li>laboratory outcomes to be followed</li>
-  <li>medication which may be taken</li>
-  <li>functioning which needs to be monitored</li>
-  <li>social support which may be required</li>
+  <li>Profile description. See “Differential Table” for the difference with the - often big - standard FHIR profiles.</li>
+  <li>Examples: See under the JSON tab for code-level examples. We do not use the XML format.</li>
+  <li>Mapping to Rare Care Data Model. See tab “Mapping”, the very lowest mapping.
+    <h4 id="plandefinition">PlanDefinition</h4>
+    <p>A <a href="http://hl7.org/fhir/plandefinition.html">PlanDefinition</a> is a general disease management plan, i.e. not a plan for a particular patient, but a generic plan to be rolled out when a particular patient enters care. When that is the case, a CarePlan based on the generic PlanDefinition 
+can be made.</p>
+  </li>
 </ul>
 
-<p>These actions are defined using ActivityDefinitions.</p>
-<h3 id="activitydefinition">ActivityDefinition</h3>
+<p><img src="action-and-activity-definition.png" alt="null" title="Action and ActivityDefinition"/></p>
+
+<p>We have two subtypes of PlanDefinition:</p>
+<ul>
+  <li>RareCarePlanDefinition</li>
+  <li>DiseasePlanDefinition</li>
+</ul>
+
+<p>The RareCarePlanDefinition are the FHIR way to define actions to be taken for a particular rare disease. They contain references to:</p>
+<ul>
+  <li>DiseasePlanDefinitions for associated diseases (i.e. the plan for Shwachman Diamond Syndrome contains DiseasePlanDefinitions for Neutropenia management, Pancreas Insufficiency etc.)</li>
+  <li>Questionnaires for social support which may be required</li>
+</ul>
+
+<p>The related DiseasePlanDefinitions contain references to:</p>
+<ul>
+  <li>ActivityDefinitions for laboratory outcomes to be followed</li>
+  <li>ActivityDefinitions for medication which may be taken</li>
+  <li>Questionnaires functioning which needs to be monitored</li>
+</ul>
+
+<h4 id="activitydefinition">ActivityDefinition</h4>
 <p>An <a href="http://hl7.org/fhir/activitydefinition.html">ActivityDefinition</a> describes request resources such as ServiceRequest and MedicationRequest. So an ActivityDefinition may describe some lab test which can be performed or some medication which may be taken.</p>
+
+<p>We have two subtypes of ActivityDefinition:</p>
+<ul>
+  <li>LabActivityDefinition for LOINC tests</li>
+  <li>MedActivityDefinition for medication by ATC code</li>
+</ul>
+
+<h4 id="observationdefinition">ObservationDefinition</h4>
+<p>An <a href="http://hl7.org/fhir/observationdefinition.html">ObservationDefinition</a> describes an Observation in detail.</p>
+
+<p>We have one two subtype of ObservationDefinition:</p>
+<ul>
+  <li>LabObservationDefinition for LOINC tests</li>
+</ul>
+
+<h4 id="questionnaire">Questionnaire</h4>
+<p>An <a href="http://hl7.org/fhir/questionnaire.html">Questionnaire</a> describes a Questionnaire in detail.</p>
+
+<p>We have one two subtypes of Questionnaire:</p>
+<ul>
+  <li>FunctioningQuestionnaire for ICF-b Functioning</li>
+  <li>ParticipationQuestionnaire for ICF-d Participation and Activities</li>
+</ul>
+
+<h3 id="the-rarecare-fhir-api">The RareCare FHIR API</h3>
+<p>Of the <a href="http://hl7.org/fhir/http.html">FHIR Restful API</a> we only use the <code class="language-plaintext highlighter-rouge">read</code> interaction, which has this base syntax.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [base]/[type]/[id] {?_format=[mime-type]}
+</code></pre></div></div>
+<p>For our API, the base is <code class="language-plaintext highlighter-rouge">https://rarecare.world/fhir</code>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET https://rarecare.world/fhir/[type]/[id] 
+</code></pre></div></div>
+<p>[type] is one of:</p>
+<ul>
+  <li>PlanDefinition</li>
+  <li>ActivityDefinition</li>
+  <li>ObservationDefinition</li>
+  <li>Questionnaire</li>
+</ul>
+
+<p>[id] can be found in the references in the instances. For instance the PlanDefinition for SDS contains actions with a URI in definitionCanonical:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  "action" : [
+    {
+      "title" : "Neutropenia",
+      "definitionCanonical" : "http://rarecare.world/fhir/PlanDefinition/neutropenia"
+    },
+</code></pre></div></div>
+<p>This contains the entire URI, the last part (<code class="language-plaintext highlighter-rouge">neutropenia</code>) is the id. The id is arbitrary, it could just as well have been a UUID or random number, as long as the references are maintained.</p>
+
+<p>The RareCarePlanDefinition (for the entire rare condition) can also be retrieved by ORPHA code:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET https://rarecare.world/fhir/PlanDefinition?code=ORPHA:811
+</code></pre></div></div>
+<p>So, starting with</p>
+<ol>
+  <li>an ORPHA code, one can retrieve:</li>
+  <li>the PlanDefinition for the rare condition</li>
+  <li>from the action items therein:</li>
+  <li>the associated Questionnaire for Participation</li>
+  <li>the PlanDefinitions for the associated diseases</li>
+  <li>from the action items therein:</li>
+  <li>the associated Questionnaire for Functioning</li>
+  <li>the ActivityDefinitions for the associated Medication</li>
+  <li>the ActivityDefinitions for the associated Lab Test</li>
+  <li>and from the latter:</li>
+  <li>the ObservationDefinitions for the associated Lab Test</li>
+</ol>
+
+<p>All retrievals except the first one are on [id].</p>
+
+<p><img src="RareCare API.png" alt="null" title="RareCare FHIR API"/></p>
 
 
 
@@ -270,8 +343,8 @@ can be made.</p>
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="910921b2-176a-4186-9d22-ca6c502b7b21">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 11, 2021 11:22+0200">2021-06-11</span>
+        <p><a name="c240af60-2b44-41f4-94e0-c2c8b74535f9">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 17:19+0200">2021-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

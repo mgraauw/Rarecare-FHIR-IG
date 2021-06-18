@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "RarecareFHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-11T11:22:34+02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-18T17:19:10+02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "rarecare.world"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
@@ -424,7 +424,7 @@
          fhir:link <http://rarecare.world/fhir/ActivityDefinition/act-pancreatine>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/act-pancreatine" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Neutrophils in blood ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pancreatine" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pancreatine" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://rarecare.world/fhir/StructureDefinition/med-activity";
@@ -458,7 +458,7 @@
          fhir:link <http://rarecare.world/fhir/Questionnaire/developmental-disability-questionnaire>;
          fhir:Reference.reference [ fhir:value "Questionnaire/developmental-disability-questionnaire" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "developmental-disability-questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Functioning Questionnaire for Development Disability" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire";
          fhir:link <http://rarecare.world/fhir/StructureDefinition/functioning-questionnaire>
@@ -471,13 +471,48 @@
          fhir:Extension.valueString [ fhir:value "ObservationDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/ObservationDefinition/obs-calcidiol-in-serum-plasma>;
+         fhir:Reference.reference [ fhir:value "ObservationDefinition/obs-calcidiol-in-serum-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/lab-observation";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-observation>
+       ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ObservationDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://rarecare.world/fhir/ObservationDefinition/obs-neutrophils-in-blood>;
          fhir:Reference.reference [ fhir:value "ObservationDefinition/obs-neutrophils-in-blood" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Neutrophils in blood ObservationDefinition" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/lab-observation";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-observation>
+       ]
      ], [
-       fhir:index 15;
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ObservationDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://rarecare.world/fhir/ObservationDefinition/obs-retinol-in-serum-plasma>;
+         fhir:Reference.reference [ fhir:value "ObservationDefinition/obs-retinol-in-serum-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Retinol (Vitamin A) in serum/plasma ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://rarecare.world/fhir/StructureDefinition/lab-observation";
+         fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-observation>
+       ]
+     ], [
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -494,7 +529,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -511,7 +546,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -528,7 +563,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/disease-plan>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -545,7 +580,7 @@
          fhir:link <http://rarecare.world/fhir/StructureDefinition/rare-care-plan>
        ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -555,7 +590,7 @@
          fhir:link <http://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome-questionnaire>;
          fhir:Reference.reference [ fhir:value "Questionnaire/shwachman-diamond-syndrome-questionnaire" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Participation and Activities Questionnaire for Shwachman Diamond Syndroom" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Participation and Activities Questionnaire for Shwachman Diamond Syndrome" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire";
          fhir:link <http://rarecare.world/fhir/StructureDefinition/participation-questionnaire>

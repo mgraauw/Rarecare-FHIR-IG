@@ -6,7 +6,7 @@
       "http://rarecare.world/fhir/StructureDefinition/disease-plan"
     ]
   },
-  "url": "http://rarecare.world/fhir/PlanDefinition/neutropenia",
+  "url": "https://rarecare.world/fhir/PlanDefinition/neutropenia",
   "status": "draft",
   "version": "0.1",
   "title": "Neutropenia Management",
