@@ -3,6 +3,6 @@
 
  See: 
  - output for the actual IG, start at output/index.html
- - or: [https://mgraauw.github.io/Rarecare-FHIR-IG/](Rarecare-FHIR-IG)
+ - or: https://mgraauw.github.io/Rarecare-FHIR-IG/
 
  The rest are FHIR shorthand files used to generate input, which is used by the FHIR IG Publisher to generate the output.
