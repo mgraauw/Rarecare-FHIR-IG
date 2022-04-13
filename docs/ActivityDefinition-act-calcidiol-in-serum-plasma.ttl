@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://rarecare.world/fhir/ActivityDefinition/act-calcidiol-in-serum-plasma> a fhir:ActivityDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "act-calcidiol-in-serum-plasma"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://rarecare.world/fhir/StructureDefinition/lab-activity";
+       fhir:index 0;
+       fhir:link <http://rarecare.world/fhir/StructureDefinition/lab-activity>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/LabActivityDefinition/14635-7</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 18-Jun-2021 17:19:10</p><p><b>description</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>kind</b>: ServiceRequest</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 14635-7}\">Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</span></p><p><b>observationRequirement</b>: <a href=\"#loinc-14635-7\">#loinc-14635-7</a></p></div>"
+  ];
+  fhir:ActivityDefinition.url [ fhir:value "https://rarecare.world/fhir/LabActivityDefinition/14635-7"];
+  fhir:ActivityDefinition.version [ fhir:value "0.1.0"];
+  fhir:ActivityDefinition.status [ fhir:value "draft"];
+  fhir:ActivityDefinition.date [ fhir:value "2021-06-18T17:19:10+02:00"^^xsd:dateTime];
+  fhir:ActivityDefinition.description [ fhir:value "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"];
+  fhir:ActivityDefinition.kind [ fhir:value "ServiceRequest"];
+  fhir:ActivityDefinition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:14635-7;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "14635-7" ];
+       fhir:Coding.display [ fhir:value "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma" ]
+     ]
+  ];
+  fhir:ActivityDefinition.observationRequirement [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "#loinc-14635-7" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://rarecare.world/fhir/ActivityDefinition/act-calcidiol-in-serum-plasma.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

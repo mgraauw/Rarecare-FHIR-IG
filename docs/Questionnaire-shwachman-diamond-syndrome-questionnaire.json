@@ -1,0 +1,215 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "shwachman-diamond-syndrome-questionnaire",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/participation-questionnaire"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> </td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> d210</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Undertaking a single task</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"null#item.d210\">7 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> d240</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Handling stress and other psychological demands</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"null#item.d240\">7 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> d4751</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Driving motorized vehicles</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"null#item.d4751\">7 options</a></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "https://rarecare.world/fhir/Questionnaire/shwachman-diamond-syndrome",
+  "version": "0.1.0",
+  "title": "Participation and Activities Questionnaire for Shwachman Diamond Syndrome",
+  "status": "draft",
+  "subjectType": [
+    "Patient"
+  ],
+  "date": "2021-06-18T17:19:10+02:00",
+  "item": [
+    {
+      "linkId": "d210",
+      "code": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "code": "d210",
+          "display": "Undertaking a single task"
+        }
+      ],
+      "text": "Undertaking a single task",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.0",
+            "display": "No problem (0-4%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.1",
+            "display": "Mild problem (5-24%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.2",
+            "display": "Moderate problem (25-49%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.3",
+            "display": "Servere problem (50-95%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.4",
+            "display": "Complete problem (96-100%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.8",
+            "display": "not specified"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d210.9",
+            "display": "not applicable"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "d240",
+      "code": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "code": "d240",
+          "display": "Handling stress and other psychological demands"
+        }
+      ],
+      "text": "Handling stress and other psychological demands",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.0",
+            "display": "No problem (0-4%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.1",
+            "display": "Mild problem (5-24%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.2",
+            "display": "Moderate problem (25-49%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.3",
+            "display": "Servere problem (50-95%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.4",
+            "display": "Complete problem (96-100%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.8",
+            "display": "not specified"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d240.9",
+            "display": "not applicable"
+          }
+        }
+      ]
+    },
+    {
+      "linkId": "d4751",
+      "code": [
+        {
+          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "code": "d4751",
+          "display": "Driving motorized vehicles"
+        }
+      ],
+      "text": "Driving motorized vehicles",
+      "type": "choice",
+      "required": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.0",
+            "display": "No problem (0-4%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.1",
+            "display": "Mild problem (5-24%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.2",
+            "display": "Moderate problem (25-49%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.3",
+            "display": "Servere problem (50-95%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.4",
+            "display": "Complete problem (96-100%)"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.8",
+            "display": "not specified"
+          }
+        },
+        {
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "code": "d4751.9",
+            "display": "not applicable"
+          }
+        }
+      ]
+    }
+  ]
+}

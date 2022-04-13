@@ -1,0 +1,22 @@
+{
+  "resourceType": "ObservationDefinition",
+  "id": "obs-retinol-in-serum-plasma",
+  "meta": {
+    "profile": [
+      "http://rarecare.world/fhir/StructureDefinition/lab-observation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 751-8}\">Retinol (Vitamin A) in serum/plasma</span></p></div>"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "751-8",
+        "display": "Retinol (Vitamin A) in serum/plasma"
+      }
+    ]
+  }
+}
