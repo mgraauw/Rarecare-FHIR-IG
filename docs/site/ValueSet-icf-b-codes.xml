@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="icf-b-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <code>http://hl7.org/fhir/sid/icf-nl</code> where concept  is-a  b</li></ul></div>
+  </text>
+  <url value="http://rarecare.world/fhir/ValueSet/icf-b-codes"/>
+  <version value="0.1.0"/>
+  <name value="ICFBcodes"/>
+  <title value="ICF b codes: BODY FUNCTIONS"/>
+  <status value="active"/>
+  <date value="2021-06-18T17:19:10+02:00"/>
+  <description value="All codes from ICF B subhierarchy: BODY FUNCTIONS"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icf-nl"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="b"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>
