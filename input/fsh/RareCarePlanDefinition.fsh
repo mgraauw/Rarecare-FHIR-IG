@@ -13,9 +13,9 @@ i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code
 // Sushi bug, see: https://chat.fhir.org/#narrow/stream/215610-shorthand/topic/Setting.20canonical.20values
 // * action.definition[x] only PlanDefinition
 
-Mapping: RareCareFHIRtoDataModel
+Mapping: RareConditiontoPlanDefinition
 Source: RareCarePlanDefinition
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "RareCondition"
 * description -> "RareCondition.name + 'management'"

@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 14635-7}\">Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ObservationDefinition</b><a name=\"obs-calcidiol-in-serum-plasma\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ObservationDefinition \"obs-calcidiol-in-serum-plasma\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lab-observation.html\">Lab Test Observation</a></p></div><p><b>code</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#14635-7)</span></p></div>"
   ];
   fhir:ObservationDefinition.code [
      fhir:CodeableConcept.coding [

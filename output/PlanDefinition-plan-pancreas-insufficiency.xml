@@ -6,14 +6,13 @@
     <profile value="http://rarecare.world/fhir/StructureDefinition/disease-plan"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Pancreas Insufficiëntie</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title="Codes: {http://hl7.org/fhir/resource-types Patient}">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Pancreas Insufficiëntie management plan.</p><p><b>topic</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}">Treatment</span></p><h3>RelatedArtifacts</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Goals</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td><span title="Codes: ">Pancreas Insufficiëntie management</span></td><td><span title="Codes: {http://hl7.org/fhir/sid/icd-10 K86.81}">Exocrine pancreatic insufficiency</span></td></tr></table><blockquote><p><b>action</b></p><p><b>title</b>: Retinol (Vitamin A) in serum/plasma</p><p><b>definition</b>: <a href="https://rarecare.world/fhir/LabActivityDefinition/14905-4">https://rarecare.world/fhir/LabActivityDefinition/14905-4</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>definition</b>: <a href="https://rarecare.world/fhir/LabActivityDefinition/14635-7">https://rarecare.world/fhir/LabActivityDefinition/14635-7</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>definition</b>: <a href="https://rarecare.world/fhir/LabActivityDefinition/14635-7">https://rarecare.world/fhir/LabActivityDefinition/14635-7</a></p></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PlanDefinition</b><a name="plan-pancreas-insufficiency"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PlanDefinition "plan-pancreas-insufficiency" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-disease-plan.html">Disease Management Plan</a></p></div><p><b>url</b>: <code>https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Pancreas Insufficiëntie</p><p><b>type</b>: clinical-protocol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#clinical-protocol)</span></p><p><b>status</b>: draft</p><p><b>subject</b>: Patient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R4/codesystem-resource-types.html">ResourceType</a>#Patient)</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Pancreas Insufficiëntie management plan.</p><p><b>topic</b>: Treatment <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-definition-topic.html">DefinitionTopic</a>#treatment)</span></p><blockquote><p><b>relatedArtifact</b></p><p><b>type</b>: documentation</p><p><b>url</b>: <a href="https://rarecare.world/disease/pancreas-insufficiency">https://rarecare.world/disease/pancreas-insufficiency</a></p></blockquote><h3>Goals</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td>Pancreas Insufficiëntie management <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></td><td>Exocrine pancreatic insufficiency <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-icd10.html">ICD-10</a>#K86.81)</span></td></tr></table><blockquote><p><b>action</b></p><p><b>title</b>: Retinol (Vitamin A) in serum/plasma</p><p><b>definition</b>: <a href="ActivityDefinition-act-retinol-in-serum-plasma.html">ActivityDefinition[https://rarecare.world/fhir/LabActivityDefinition/14905-4]</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>definition</b>: <a href="ActivityDefinition-act-calcidiol-in-serum-plasma.html">ActivityDefinition[https://rarecare.world/fhir/LabActivityDefinition/14635-7]</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma</p><p><b>definition</b>: <a href="ActivityDefinition-act-calcidiol-in-serum-plasma.html">ActivityDefinition[https://rarecare.world/fhir/LabActivityDefinition/14635-7]</a></p></blockquote></div>
   </text>
   <url value="https://rarecare.world/fhir/PlanDefinition/pancreas-insufficiency"/>
   <version value="0.1.0"/>
-  <title value="Pancreas Insuffici&#xEB;ntie"/>
+  <title value="Pancreas Insufficiëntie"/>
   <type>
     <coding>
-      <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
       <code value="clinical-protocol"/>
     </coding>
   </type>
@@ -26,7 +25,7 @@
   </subjectCodeableConcept>
   <date value="2021-01-14"/>
   <publisher value="Stichting Rare Care World"/>
-  <description value="Pancreas Insuffici&#xEB;ntie management plan."/>
+  <description value="Pancreas Insufficiëntie management plan."/>
   <topic>
     <coding>
       <system value="http://terminology.hl7.org/CodeSystem/definition-topic"/>
@@ -36,10 +35,13 @@
   <relatedArtifact>
     <type value="documentation"/>
     <url value="https://rarecare.world/disease/pancreas-insufficiency"/>
+    <document>
+      <url value="https://rarecare.world/disease/pancreas-insufficiency"/>
+    </document>
   </relatedArtifact>
   <goal>
     <description>
-      <text value="Pancreas Insuffici&#xEB;ntie management"/>
+      <text value="Pancreas Insufficiëntie management"/>
     </description>
     <addresses>
       <coding>

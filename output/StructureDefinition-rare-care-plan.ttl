@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "RareCarePlanDefinition"];
   fhir:StructureDefinition.title [ fhir:value "Rare Condition Management Plan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-18T17:19:10+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-25T15:37:55+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -51,8 +51,8 @@
      fhir:StructureDefinition.mapping.name [ fhir:value "RIM Mapping" ]
   ], [
      fhir:index 4;
-     fhir:StructureDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
-     fhir:StructureDefinition.mapping.uri [ fhir:value "Rare Care Data Model" ];
+     fhir:StructureDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
+     fhir:StructureDefinition.mapping.uri [ fhir:value "RareCareDataModel" ];
      fhir:StructureDefinition.mapping.name [ fhir:value "Rare Care Data Model" ]
   ];
   fhir:StructureDefinition.kind [ fhir:value "resource"];
@@ -169,7 +169,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease" ]
        ], [
          fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition" ]
        ]
      ], [
@@ -191,7 +191,7 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ];
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
        ];
@@ -768,7 +768,6 @@
        fhir:ElementDefinition.patternCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/plan-definition-type" ];
            fhir:Coding.code [ fhir:value "clinical-protocol" ]
          ]
        ];
@@ -911,7 +910,7 @@
            fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "$this" ]
          ];
          fhir:ElementDefinition.slicing.ordered [ fhir:value "false"^^xsd:boolean ];
-         fhir:ElementDefinition.slicing.rules [ fhir:value "closed" ]
+         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
        ];
        fhir:ElementDefinition.short [ fhir:value "Type of individual the plan definition is focused on" ];
        fhir:ElementDefinition.definition [ fhir:value "A code or group definition that describes the intended subject of the plan definition." ];
@@ -925,6 +924,14 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.targetProfile [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Group";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Group>
+         ]
        ];
        fhir:ElementDefinition.meaningWhenMissing [ fhir:value "Patient" ];
        fhir:ElementDefinition.constraint [
@@ -1184,7 +1191,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease.name + 'management'" ]
        ], [
          fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management'" ]
        ]
      ], [
@@ -1759,11 +1766,11 @@
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "General Medical Guideline" ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Patient Organization" ]
        ]
      ], [
@@ -2039,7 +2046,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/disease/ + Disease.name" ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/fhir/rarecondition/ + RareCondition.name" ]
        ]
      ], [
@@ -2614,7 +2621,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease.name + 'management plan'" ]
        ], [
          fhir:index 4;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management plan'" ]
        ]
      ], [
@@ -2749,7 +2756,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease.ICD10.code" ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.ORPHA.code" ]
        ]
      ], [
@@ -3116,7 +3123,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Test or Medication for Disease" ]
        ], [
          fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease related to RareCondition" ]
        ]
      ], [
@@ -5227,7 +5234,7 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition" ]
        ]
      ], [
@@ -5236,7 +5243,7 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.description" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management'" ]
        ]
      ], [
@@ -5245,11 +5252,11 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "General Medical Guideline" ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Patient Organization" ]
        ]
      ], [
@@ -5258,7 +5265,7 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.relatedArtifact.url" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "https://rarecare.world/fhir/rarecondition/ + RareCondition.name" ]
        ]
      ], [
@@ -5267,7 +5274,7 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.goal.description.text" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.name + 'management plan'" ]
        ]
      ], [
@@ -5283,7 +5290,7 @@
        ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "RareCondition.ORPHA.code" ]
        ]
      ], [
@@ -5292,7 +5299,7 @@
        fhir:ElementDefinition.path [ fhir:value "PlanDefinition.action" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareConditiontoPlanDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Disease related to RareCondition" ]
        ]
      ]

@@ -1,6 +1,8 @@
 {
   "version": "0.1.0",
-  "fhirVersion": "[4.0.1]",
-  "date": "20210618171858",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20221025153728",
   "name": "rarecare.world"
 }

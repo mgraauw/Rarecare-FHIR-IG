@@ -3,18 +3,18 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="icf-d-codes"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <code>http://hl7.org/fhir/sid/icf-nl</code> where concept  is-a  d</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <code>urn:oid:2.16.840.1.113883.6.254</code> where concept  is-a  d</li></ul></div>
   </text>
   <url value="http://rarecare.world/fhir/ValueSet/icf-d-codes"/>
   <version value="0.1.0"/>
   <name value="ICFDcodes"/>
   <title value="ICF d codes: ACTIVITIES AND PARTICIPATION"/>
   <status value="active"/>
-  <date value="2021-06-18T17:19:10+02:00"/>
+  <date value="2022-10-25T15:37:55+02:00"/>
   <description value="All codes from ICF D subhierarchy: ACTIVITIES AND PARTICIPATION"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/sid/icf-nl"/>
+      <system value="urn:oid:2.16.840.1.113883.6.254"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

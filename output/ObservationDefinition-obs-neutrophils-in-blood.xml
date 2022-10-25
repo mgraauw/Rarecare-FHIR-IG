@@ -6,7 +6,7 @@
     <profile value="http://rarecare.world/fhir/StructureDefinition/lab-observation"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>code</b>: <span title="Codes: {http://loinc.org 751-8}">Neutrophils in blood</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ObservationDefinition</b><a name="obs-neutrophils-in-blood"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ObservationDefinition "obs-neutrophils-in-blood" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-lab-observation.html">Lab Test Observation</a></p></div><p><b>code</b>: Neutrophils in blood <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#751-8)</span></p></div>
   </text>
   <code>
     <coding>

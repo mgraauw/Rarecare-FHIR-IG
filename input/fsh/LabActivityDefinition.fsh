@@ -5,7 +5,6 @@ Parent: ActivityDefinition
 Id: lab-activity
 Title: "Lab Test Activity"
 Description: "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes."
-
 * kind = #ServiceRequest
 * observationResultRequirement = Reference(LabObservationDefinition)
 
@@ -19,11 +18,11 @@ Usage: #example
 * description = "Neutrophils in blood measurement"
 * kind = #ServiceRequest
 * code = LOINC#751-8 "Neutrophils in blood"
-* observationRequirement.reference = "#loinc-751-8"
+* observationRequirement.reference = "ObservationDefinition/obs-neutrophils-in-blood"
 
-Mapping: RareCareFHIRtoDataModel
+Mapping: RareCareLabToActivityDefinition
 Source: LabActivityDefinition
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Test"
 * code.coding.code -> "Test.LOINC.code"
@@ -39,7 +38,7 @@ Usage: #example
 * description = "Retinol (Vitamin A) in serum/plasma"
 * kind = #ServiceRequest
 * code = LOINC#751-8 "Retinol (Vitamin A) in serum/plasma"
-* observationRequirement.reference = "#loinc-14905-4"
+* observationRequirement.reference = "ObservationDefinition/obs-retinol-in-serum-plasma"
 
 Instance: act-calcidiol-in-serum-plasma
 InstanceOf: LabActivityDefinition
@@ -51,4 +50,4 @@ Usage: #example
 * description = "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
 * kind = #ServiceRequest
 * code = LOINC#14635-7 "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
-* observationRequirement.reference = "#loinc-14635-7"
+* observationRequirement.reference = "ObservationDefinition/obs-calcidiol-in-serum-plasma"

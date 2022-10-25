@@ -94,12 +94,6 @@
     "version": "0.1.0"
   },
   {
-    "id": "plan-developmental-disability",
-    "type": "PlanDefinition",
-    "url": "https://rarecare.world/fhir/PlanDefinition/developmental-disability",
-    "version": "0.1.0"
-  },
-  {
     "id": "plan-neutropenia",
     "type": "PlanDefinition",
     "url": "https://rarecare.world/fhir/PlanDefinition/neutropenia",

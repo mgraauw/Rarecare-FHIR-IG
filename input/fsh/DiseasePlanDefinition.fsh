@@ -10,14 +10,14 @@ Description: "The PlanDefinition for a rare conditions refers to PlanDefinitions
 i.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. The disease plan refers to 
 medication, lab tests and other items for management of the disease."
 
-* type = http://terminology.hl7.org/CodeSystem/plan-definition-type#clinical-protocol
+* type = #clinical-protocol
 * subjectCodeableConcept = http://hl7.org/fhir/resource-types#Patient
 * publisher = "Stichting Rare Care World"
 * topic = http://terminology.hl7.org/CodeSystem/definition-topic#treatment
 
 Mapping: RareCareFHIRtoDataModel
 Source: DiseasePlanDefinition
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Disease"
 * description -> "Disease.name + 'management'"
@@ -35,7 +35,7 @@ Usage: #example
 * status = #draft
 * version = "0.1"
 * title = "Neutropenia Management"
-* type = http://terminology.hl7.org/CodeSystem/plan-definition-type#clinical-protocol
+* type = #clinical-protocol
 * subjectCodeableConcept = http://hl7.org/fhir/resource-types#Patient
 * publisher = "Stichting Rare Care World"
 * topic = http://terminology.hl7.org/CodeSystem/definition-topic#treatment
@@ -45,7 +45,7 @@ Usage: #example
 * relatedArtifact.type = http://hl7.org/fhir/related-artifact-type#documentation
 * relatedArtifact.url = "https://rarecare.world/disease/neutropenia"
 * goal.description.text = "Neutropenia management"
-* goal.addresses = http://hl7.org/fhir/sid/icd-10#D70.9 "Neutropenia, unspecified"
+* goal.addresses = ICD10#D70.9 "Neutropenia, unspecified"
 * action.title = "Neutrophils in blood"
 * action.definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/751-8"
 
@@ -58,7 +58,7 @@ Usage: #example
 * status = #draft
 * version = "0.1"
 * title = "Pancreas Insufficiëntie"
-* type = http://terminology.hl7.org/CodeSystem/plan-definition-type#clinical-protocol
+* type = #clinical-protocol
 * subjectCodeableConcept = http://hl7.org/fhir/resource-types#Patient
 * publisher = "Stichting Rare Care World"
 * topic = http://terminology.hl7.org/CodeSystem/definition-topic#treatment
@@ -68,34 +68,10 @@ Usage: #example
 * relatedArtifact.type = http://hl7.org/fhir/related-artifact-type#documentation
 * relatedArtifact.url = "https://rarecare.world/disease/pancreas-insufficiency"
 * goal.description.text = "Pancreas Insufficiëntie management"
-* goal.addresses = http://hl7.org/fhir/sid/icd-10#K86.81 "Exocrine pancreatic insufficiency"
+* goal.addresses = ICD10#K86.81 "Exocrine pancreatic insufficiency"
 * action[+].title = "Retinol (Vitamin A) in serum/plasma"
 * action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14905-4"
 * action[+].title = "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
 * action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
 * action[+].title = "Calcidiol (25-hydroxy-Vitamin D3) in serum/plasma"
 * action[=].definitionCanonical = "https://rarecare.world/fhir/LabActivityDefinition/14635-7"
-
-Instance: plan-developmental-disability
-InstanceOf: DiseasePlanDefinition
-
-Title: "Ontwikkelingsstoornis PlanDefinition"
-Usage: #example
-
-* url = "https://rarecare.world/fhir/PlanDefinition/developmental-disability"
-* status = #draft
-* version = "0.1"
-* title = "Ontwikkelingsstoornis"
-* type = http://terminology.hl7.org/CodeSystem/plan-definition-type#clinical-protocol
-* subjectCodeableConcept = http://hl7.org/fhir/resource-types#Patient
-* publisher = "Stichting Rare Care World"
-* topic = http://terminology.hl7.org/CodeSystem/definition-topic#treatment
-* date = 2021-01-14
-* publisher = "Stichting Rare Care World"
-* description = "Neutropenia management plan."
-* relatedArtifact.type = http://hl7.org/fhir/related-artifact-type#documentation
-* relatedArtifact.url = "https://rarecare.world/disease/neutropenia"
-* goal.description.text = "Neutropenia management"
-* goal.addresses = http://hl7.org/fhir/sid/icd-10#D70.9 "Neutropenia, unspecified"
-* action.title = "Neutrophils in blood"
-* action.definitionCanonical = "act-neutrophils-in-blood"

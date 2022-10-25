@@ -3,19 +3,19 @@
   "id": "icf-b-codes",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>http://hl7.org/fhir/sid/icf-nl</code> where concept  is-a  b</li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>urn:oid:2.16.840.1.113883.6.254</code> where concept  is-a  b</li></ul></div>"
   },
   "url": "http://rarecare.world/fhir/ValueSet/icf-b-codes",
   "version": "0.1.0",
   "name": "ICFBcodes",
   "title": "ICF b codes: BODY FUNCTIONS",
   "status": "active",
-  "date": "2021-06-18T17:19:10+02:00",
+  "date": "2022-10-25T15:37:55+02:00",
   "description": "All codes from ICF B subhierarchy: BODY FUNCTIONS",
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/sid/icf-nl",
+        "system": "urn:oid:2.16.840.1.113883.6.254",
         "filter": [
           {
             "property": "concept",

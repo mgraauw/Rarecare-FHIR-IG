@@ -40,9 +40,9 @@
       "name": "Object Implementation Information"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
+      "identity": "RareCareLabToActivityDefinition",
       "name": "Rare Care Data Model",
-      "uri": "Rare Care Data Model"
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",
@@ -57,7 +57,7 @@
         "path": "ActivityDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToActivityDefinition",
             "map": "Test"
           }
         ]
@@ -72,7 +72,7 @@
         "path": "ActivityDefinition.code.coding.code",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToActivityDefinition",
             "map": "Test.LOINC.code"
           }
         ]
@@ -82,7 +82,7 @@
         "path": "ActivityDefinition.code.coding.display",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToActivityDefinition",
             "map": "Test.LOINC.name"
           }
         ]

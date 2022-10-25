@@ -38,6 +38,11 @@
       "identity": "rim",
       "uri": "http://hl7.org/v3",
       "name": "RIM Mapping"
+    },
+    {
+      "identity": "RareConditiontoPlanDefinition",
+      "name": "Rare Care Data Model",
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",
@@ -52,7 +57,7 @@
         "path": "PlanDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition"
           }
         ]
@@ -62,7 +67,7 @@
         "path": "PlanDefinition.description",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management'"
           }
         ]
@@ -72,11 +77,11 @@
         "path": "PlanDefinition.relatedArtifact",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "General Medical Guideline"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Patient Organization"
           }
         ]
@@ -86,7 +91,7 @@
         "path": "PlanDefinition.relatedArtifact.url",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "https://rarecare.world/fhir/rarecondition/ + RareCondition.name"
           }
         ]
@@ -96,7 +101,7 @@
         "path": "PlanDefinition.goal.description.text",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management plan'"
           }
         ]
@@ -110,7 +115,7 @@
         },
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.ORPHA.code"
           }
         ]
@@ -120,7 +125,7 @@
         "path": "PlanDefinition.action",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Disease related to RareCondition"
           }
         ]

@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "LabActivityDefinition"];
   fhir:StructureDefinition.title [ fhir:value "Lab Test Activity"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-18T17:19:10+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-25T15:37:55+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes."];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
@@ -51,8 +51,8 @@
      fhir:StructureDefinition.mapping.name [ fhir:value "Object Implementation Information" ]
   ], [
      fhir:index 4;
-     fhir:StructureDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
-     fhir:StructureDefinition.mapping.uri [ fhir:value "Rare Care Data Model" ];
+     fhir:StructureDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
+     fhir:StructureDefinition.mapping.uri [ fhir:value "RareCareDataModel" ];
      fhir:StructureDefinition.mapping.name [ fhir:value "Rare Care Data Model" ]
   ];
   fhir:StructureDefinition.kind [ fhir:value "resource"];
@@ -169,7 +169,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Act[classCode=ACT; moodCode=DEFN]" ]
        ], [
          fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test" ]
        ]
      ], [
@@ -191,7 +191,7 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ];
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
        ];
@@ -2271,7 +2271,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" ]
        ], [
          fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test.LOINC.code" ]
        ]
      ], [
@@ -2325,7 +2325,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" ]
        ], [
          fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test.LOINC.name" ]
        ]
      ], [
@@ -3544,7 +3544,7 @@
        fhir:ElementDefinition.path [ fhir:value "ActivityDefinition" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test" ]
        ]
      ], [
@@ -3558,7 +3558,7 @@
        fhir:ElementDefinition.path [ fhir:value "ActivityDefinition.code.coding.code" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test.LOINC.code" ]
        ]
      ], [
@@ -3567,7 +3567,7 @@
        fhir:ElementDefinition.path [ fhir:value "ActivityDefinition.code.coding.display" ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModel" ];
+         fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareLabToActivityDefinition" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Test.LOINC.name" ]
        ]
      ], [

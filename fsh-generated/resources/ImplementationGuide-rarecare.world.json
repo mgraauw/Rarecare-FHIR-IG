@@ -141,13 +141,6 @@
       },
       {
         "reference": {
-          "reference": "PlanDefinition/plan-developmental-disability"
-        },
-        "name": "Ontwikkelingsstoornis PlanDefinition",
-        "exampleCanonical": "http://rarecare.world/fhir/StructureDefinition/disease-plan"
-      },
-      {
-        "reference": {
           "reference": "PlanDefinition/plan-neutropenia"
         },
         "name": "Neutropenia PlanDefinition",

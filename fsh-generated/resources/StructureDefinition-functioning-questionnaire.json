@@ -47,7 +47,7 @@
     {
       "identity": "RareCareFHIRtoDataModelFunctioning",
       "name": "Rare Care Data Model",
-      "uri": "Rare Care Data Model"
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",

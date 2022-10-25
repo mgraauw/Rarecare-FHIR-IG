@@ -1,4 +1,4 @@
-Alias: ICF = http://hl7.org/fhir/sid/icf-nl
+Alias: ICF = urn:oid:2.16.840.1.113883.6.254 // also correct: http://hl7.org/fhir/sid/icf
 
 ValueSet: ICFBcodes
 Id: icf-b-codes
@@ -23,7 +23,7 @@ functioning relevant to their specific disease."
 
 Mapping: RareCareFHIRtoDataModelFunctioning
 Source: FunctioningQuestionnaire
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Function set of questions"
 * item -> "Function"
@@ -42,7 +42,7 @@ activities and participation relevant to their specific disease."
 
 Mapping: RareCareFHIRtoDataModelParticipation
 Source: ParticipationQuestionnaire
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Participation set of questions"
 * item -> "Participation"

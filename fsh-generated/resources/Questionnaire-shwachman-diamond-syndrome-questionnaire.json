@@ -18,7 +18,7 @@
       "code": [
         {
           "code": "d210",
-          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "system": "urn:oid:2.16.840.1.113883.6.254",
           "display": "Undertaking a single task"
         }
       ],
@@ -29,49 +29,49 @@
         {
           "valueCoding": {
             "code": "d210.0",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "d210.1",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "d210.2",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "d210.3",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "d210.4",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "d210.8",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "d210.9",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not applicable"
           }
         }
@@ -82,7 +82,7 @@
       "code": [
         {
           "code": "d240",
-          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "system": "urn:oid:2.16.840.1.113883.6.254",
           "display": "Handling stress and other psychological demands"
         }
       ],
@@ -93,49 +93,49 @@
         {
           "valueCoding": {
             "code": "d240.0",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "d240.1",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "d240.2",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "d240.3",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "d240.4",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "d240.8",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "d240.9",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not applicable"
           }
         }
@@ -146,7 +146,7 @@
       "code": [
         {
           "code": "d4751",
-          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "system": "urn:oid:2.16.840.1.113883.6.254",
           "display": "Driving motorized vehicles"
         }
       ],
@@ -157,49 +157,49 @@
         {
           "valueCoding": {
             "code": "d4751.0",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.1",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.2",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.3",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.4",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.8",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "d4751.9",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not applicable"
           }
         }

@@ -20,7 +20,7 @@
   "name": "MedActivityDefinition",
   "title": "Medication Administration Activity",
   "status": "active",
-  "date": "2021-06-18T17:19:10+02:00",
+  "date": "2022-10-25T15:37:55+02:00",
   "description": "A Disease is treated with medication.",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -45,8 +45,8 @@
       "name": "Object Implementation Information"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
-      "uri": "Rare Care Data Model",
+      "identity": "RareCareMedicationToActivityDefinition",
+      "uri": "RareCareDataModel",
       "name": "Rare Care Data Model"
     }
   ],
@@ -145,7 +145,7 @@
             "map": "Act[classCode=ACT; moodCode=DEFN]"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication"
           }
         ]
@@ -168,7 +168,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
@@ -2187,7 +2187,7 @@
             "map": "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.code"
           }
         ]
@@ -2242,7 +2242,7 @@
             "map": "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.name"
           }
         ]
@@ -3400,7 +3400,7 @@
         "path": "ActivityDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication"
           }
         ]
@@ -3415,7 +3415,7 @@
         "path": "ActivityDefinition.code.coding.code",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.code"
           }
         ]
@@ -3425,7 +3425,7 @@
         "path": "ActivityDefinition.code.coding.display",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.name"
           }
         ]

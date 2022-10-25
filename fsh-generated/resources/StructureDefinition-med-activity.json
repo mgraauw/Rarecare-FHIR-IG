@@ -40,9 +40,9 @@
       "name": "Object Implementation Information"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
+      "identity": "RareCareMedicationToActivityDefinition",
       "name": "Rare Care Data Model",
-      "uri": "Rare Care Data Model"
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",
@@ -57,7 +57,7 @@
         "path": "ActivityDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication"
           }
         ]
@@ -72,7 +72,7 @@
         "path": "ActivityDefinition.code.coding.code",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.code"
           }
         ]
@@ -82,7 +82,7 @@
         "path": "ActivityDefinition.code.coding.display",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareMedicationToActivityDefinition",
             "map": "Medication.ATC.name"
           }
         ]

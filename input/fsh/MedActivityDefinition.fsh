@@ -7,9 +7,9 @@ Title: "Medication Administration Activity"
 Description: "A Disease is treated with medication."
 * kind = #MedicationRequest
 
-Mapping: RareCareFHIRtoDataModel
+Mapping: RareCareMedicationToActivityDefinition
 Source: MedActivityDefinition
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Medication"
 * code.coding.code -> "Medication.ATC.code"

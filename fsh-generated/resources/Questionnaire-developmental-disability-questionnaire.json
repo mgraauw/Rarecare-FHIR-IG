@@ -18,7 +18,7 @@
       "code": [
         {
           "code": "b117",
-          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "system": "urn:oid:2.16.840.1.113883.6.254",
           "display": "Intellectual functions"
         }
       ],
@@ -29,49 +29,49 @@
         {
           "valueCoding": {
             "code": "b117.0",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.1",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.2",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.3",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.4",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "b117.8",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "b117.9",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not applicable"
           }
         }
@@ -82,7 +82,7 @@
       "code": [
         {
           "code": "b310",
-          "system": "http://hl7.org/fhir/sid/icf-nl",
+          "system": "urn:oid:2.16.840.1.113883.6.254",
           "display": "Voice functions"
         }
       ],
@@ -93,49 +93,49 @@
         {
           "valueCoding": {
             "code": "b310.0",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "No problem (0-4%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.1",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Mild problem (5-24%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.2",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Moderate problem (25-49%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.3",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Servere problem (50-95%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.4",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "Complete problem (96-100%)"
           }
         },
         {
           "valueCoding": {
             "code": "b310.8",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not specified"
           }
         },
         {
           "valueCoding": {
             "code": "b310.9",
-            "system": "http://hl7.org/fhir/sid/icf-nl",
+            "system": "urn:oid:2.16.840.1.113883.6.254",
             "display": "not applicable"
           }
         }

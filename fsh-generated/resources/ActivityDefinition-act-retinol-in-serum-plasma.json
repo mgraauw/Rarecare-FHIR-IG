@@ -21,7 +21,7 @@
   },
   "observationRequirement": [
     {
-      "reference": "#loinc-14905-4"
+      "reference": "ObservationDefinition/obs-retinol-in-serum-plasma"
     }
   ]
 }

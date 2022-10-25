@@ -42,7 +42,7 @@
     {
       "identity": "RareCareFHIRtoDataModel",
       "name": "Rare Care Data Model",
-      "uri": "Rare Care Data Model"
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",
@@ -68,8 +68,7 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "clinical-protocol",
-              "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+              "code": "clinical-protocol"
             }
           ]
         }

@@ -35,7 +35,7 @@
       "name": "FiveWs Pattern Mapping"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
+      "identity": "RareCareLabToObservationDefinition",
       "name": "Rare Care Data Model",
       "uri": "Rare Care Data Model"
     }
@@ -52,25 +52,17 @@
         "path": "ObservationDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToObservationDefinition",
             "map": "Test"
           }
         ]
-      },
-      {
-        "id": "ObservationDefinition.code",
-        "path": "ObservationDefinition.code",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://loinc.org"
-        }
       },
       {
         "id": "ObservationDefinition.code.coding.code",
         "path": "ObservationDefinition.code.coding.code",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToObservationDefinition",
             "map": "Test.LOINC.code"
           }
         ]
@@ -80,7 +72,7 @@
         "path": "ObservationDefinition.code.coding.display",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareCareLabToObservationDefinition",
             "map": "Test.LOINC.name"
           }
         ]

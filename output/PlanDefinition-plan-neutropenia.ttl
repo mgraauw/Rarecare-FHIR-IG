@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>https://rarecare.world/fhir/PlanDefinition/neutropenia</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Neutropenia Management</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}\">Clinical Protocol</span></p><p><b>status</b>: draft</p><p><b>subject</b>: <span title=\"Codes: {http://hl7.org/fhir/resource-types Patient}\">Patient</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Neutropenia management plan.</p><p><b>topic</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/definition-topic treatment}\">Treatment</span></p><h3>RelatedArtifacts</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Goals</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">Neutropenia management</span></td><td><span title=\"Codes: {http://hl7.org/fhir/sid/icd-10 D70.9}\">Neutropenia, unspecified</span></td></tr></table><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Neutrophils in blood</td><td><a href=\"https://rarecare.world/fhir/LabActivityDefinition/751-8\">https://rarecare.world/fhir/LabActivityDefinition/751-8</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PlanDefinition</b><a name=\"plan-neutropenia\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PlanDefinition \"plan-neutropenia\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-disease-plan.html\">Disease Management Plan</a></p></div><p><b>url</b>: <code>https://rarecare.world/fhir/PlanDefinition/neutropenia</code></p><p><b>version</b>: 0.1.0</p><p><b>title</b>: Neutropenia Management</p><p><b>type</b>: clinical-protocol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#clinical-protocol)</span></p><p><b>status</b>: draft</p><p><b>subject</b>: Patient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html\">ResourceType</a>#Patient)</span></p><p><b>date</b>: 2021-01-14</p><p><b>publisher</b>: Stichting Rare Care World</p><p><b>description</b>: Neutropenia management plan.</p><p><b>topic</b>: Treatment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-definition-topic.html\">DefinitionTopic</a>#treatment)</span></p><blockquote><p><b>relatedArtifact</b></p><p><b>type</b>: documentation</p><p><b>url</b>: <a href=\"https://rarecare.world/disease/neutropenia\">https://rarecare.world/disease/neutropenia</a></p></blockquote><h3>Goals</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Addresses</b></td></tr><tr><td>*</td><td>Neutropenia management <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>Neutropenia, unspecified <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-icd10.html\">ICD-10</a>#D70.9)</span></td></tr></table><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Neutrophils in blood</td><td><a href=\"ActivityDefinition-act-neutrophils-in-blood.html\">ActivityDefinition[https://rarecare.world/fhir/LabActivityDefinition/751-8]</a></td></tr></table></div>"
   ];
   fhir:PlanDefinition.url [ fhir:value "https://rarecare.world/fhir/PlanDefinition/neutropenia"];
   fhir:PlanDefinition.version [ fhir:value "0.1.0"];
@@ -25,7 +25,6 @@
   fhir:PlanDefinition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/plan-definition-type" ];
        fhir:Coding.code [ fhir:value "clinical-protocol" ]
      ]
   ];
@@ -51,7 +50,10 @@
   fhir:PlanDefinition.relatedArtifact [
      fhir:index 0;
      fhir:RelatedArtifact.type [ fhir:value "documentation" ];
-     fhir:RelatedArtifact.url [ fhir:value "https://rarecare.world/disease/neutropenia" ]
+     fhir:RelatedArtifact.url [ fhir:value "https://rarecare.world/disease/neutropenia" ];
+     fhir:RelatedArtifact.document [
+       fhir:Attachment.url [ fhir:value "https://rarecare.world/disease/neutropenia" ]
+     ]
   ];
   fhir:PlanDefinition.goal [
      fhir:index 0;

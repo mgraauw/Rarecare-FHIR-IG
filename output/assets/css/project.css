@@ -129,7 +129,7 @@ body {
 #segment-footer > .container .inner-wrapper > p {
   padding-bottom: 0px;
   margin-bottom: 0px;
-  color:var(--footer-text-color); 
+  color:var(--footer-text-color);
 }
 #segment-post-footer {
   background-color: #f5f5f5;
@@ -201,6 +201,7 @@ body {
 }
 
 #family-logo {
+  float: right;
   margin-left: 6px;
 }
 
@@ -242,7 +243,7 @@ body {
   background-image: url('../images/dragon.png');
   background-size: 150px 150px;
   display: inline-block;
-  float:left; 
+  float:left;
   margin-right: 10px;
   width: 150px;
   height: 150px;
@@ -259,7 +260,7 @@ body {
 .stu-note::before {
   white-space: pre;
   content: "Note\A ";
-  #background-color: yellow;
+  background-color: yellow;
   color: red;
   font-weight: bold;
 }
@@ -267,7 +268,7 @@ body {
 .note-to-balloters::before {
   white-space: pre;
   content: "Note to Balloters\A ";
-  #background-color: yellow;
+  background-color: yellow;
   color: red;
   font-weight: bold;
 }
@@ -560,7 +561,7 @@ ul.markdown-toc
   padding: 4px;
   float: right;
   z-index: 10;
-  width: 150px;
+  width: 30%;
   background-color:  var(--toc-box-bg-color);
   border: var(--toc-box-border);
 }
@@ -586,7 +587,7 @@ div.markdown-toc
   padding: 4px;
   float: right;
   z-index: 10;
-  width: 150px;
+  width: 30%;
   background-color:  var(--toc-box-bg-color);
   border: var(--toc-box-border);
 }
@@ -633,14 +634,14 @@ a[href$=".sch"]:after, a[href$=".xlsx"]:after, a[href$=".zip"]:after, a[href$=".
 }
 
 /* =========== external links ============= */
-p a[href^="http://"]:not([no-external^="true"]):after, a[href^="https://"]:not([no-external^="true"]):after {
+p a[href^="http://"]:not([no-external^="true"]):after,p a[href^="https://"]:not([no-external^="true"]):after {
     content: url(../images/external.png);
     display: inline-block;
     text-decoration: none;
     padding-left: 3px;
 }
 
-li a[href^="http://"]:not([no-external^="true"]):after, a[href^="https://"]:not([no-external^="true"]):after {
+li a[href^="http://"]:not([no-external^="true"]):after,li a[href^="https://"]:not([no-external^="true"]):after {
     content: url(../images/external.png);
     display: inline-block;
     text-decoration: none;
@@ -698,7 +699,7 @@ li a[href^="http://"]:not([no-external^="true"]):after, a[href^="https://"]:not(
   padding-left: 7px;
   padding-right: 7px;
   float: right ; /* none or right */
-  border-radius: 6px; 
+  border-radius: 6px;
   border: 0.5px solid #ffffff;
 }
 
@@ -716,4 +717,27 @@ li a[href^="http://"]:not([no-external^="true"]):after, a[href^="https://"]:not(
   content: none !important;
   padding-left: 3px;
   padding-right: 3px;
+}
+
+.copy-text {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.copy-text .btn-copy{
+  visibility: hidden;
+}
+
+.copy-text:hover .btn-copy {
+  visibility: visible;
+}
+
+.btn-copy {
+  height: 14px;
+  width: 17px;
+  background-image: url('../ico/noun_copy to clipboard_1669410.png');
+  background-size: 22px;
+  padding: 0px 0px; 
+  border-width: 0px;
+  background-color: transparent;
 }

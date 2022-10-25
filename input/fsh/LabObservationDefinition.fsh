@@ -5,11 +5,10 @@ Parent: ObservationDefinition
 Id: lab-observation
 Title: "Lab Test Observation"
 Description: "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes."
-* code from LOINC
 
-Mapping: RareCareFHIRtoDataModel
+Mapping: RareCareLabToObservationDefinition
 Source: LabObservationDefinition
-Target: "Rare Care Data Model"
+Target: "RareCareDataModel"
 Title: "Rare Care Data Model"
 * -> "Test"
 * code.coding.code -> "Test.LOINC.code"

@@ -20,7 +20,7 @@
   "name": "RareCarePlanDefinition",
   "title": "Rare Condition Management Plan",
   "status": "active",
-  "date": "2021-06-18T17:19:10+02:00",
+  "date": "2022-10-25T15:37:55+02:00",
   "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required.",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -45,8 +45,8 @@
       "name": "RIM Mapping"
     },
     {
-      "identity": "RareCareFHIRtoDataModel",
-      "uri": "Rare Care Data Model",
+      "identity": "RareConditiontoPlanDefinition",
+      "uri": "RareCareDataModel",
       "name": "Rare Care Data Model"
     }
   ],
@@ -145,7 +145,7 @@
             "map": "Disease"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition"
           }
         ]
@@ -168,7 +168,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
@@ -715,7 +715,6 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
               "code": "clinical-protocol"
             }
           ]
@@ -854,7 +853,7 @@
             }
           ],
           "ordered": false,
-          "rules": "closed"
+          "rules": "open"
         },
         "short": "Type of individual the plan definition is focused on",
         "definition": "A code or group definition that describes the intended subject of the plan definition.",
@@ -868,6 +867,12 @@
         "type": [
           {
             "code": "CodeableConcept"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Group"
+            ]
           }
         ],
         "meaningWhenMissing": "Patient",
@@ -1122,7 +1127,7 @@
             "map": "Disease.name + 'management'"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management'"
           }
         ]
@@ -1689,11 +1694,11 @@
         "isSummary": false,
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "General Medical Guideline"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Patient Organization"
           }
         ]
@@ -1960,7 +1965,7 @@
             "map": "https://rarecare.world/disease/ + Disease.name"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "https://rarecare.world/fhir/rarecondition/ + RareCondition.name"
           }
         ]
@@ -2507,7 +2512,7 @@
             "map": "Disease.name + 'management plan'"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management plan'"
           }
         ]
@@ -2633,7 +2638,7 @@
             "map": "Disease.ICD10.code"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.ORPHA.code"
           }
         ]
@@ -2981,7 +2986,7 @@
             "map": "Test or Medication for Disease"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Disease related to RareCondition"
           }
         ]
@@ -4967,7 +4972,7 @@
         "path": "PlanDefinition",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition"
           }
         ]
@@ -4977,7 +4982,7 @@
         "path": "PlanDefinition.description",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management'"
           }
         ]
@@ -4987,11 +4992,11 @@
         "path": "PlanDefinition.relatedArtifact",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "General Medical Guideline"
           },
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Patient Organization"
           }
         ]
@@ -5001,7 +5006,7 @@
         "path": "PlanDefinition.relatedArtifact.url",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "https://rarecare.world/fhir/rarecondition/ + RareCondition.name"
           }
         ]
@@ -5011,7 +5016,7 @@
         "path": "PlanDefinition.goal.description.text",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.name + 'management plan'"
           }
         ]
@@ -5025,7 +5030,7 @@
         },
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "RareCondition.ORPHA.code"
           }
         ]
@@ -5035,7 +5040,7 @@
         "path": "PlanDefinition.action",
         "mapping": [
           {
-            "identity": "RareCareFHIRtoDataModel",
+            "identity": "RareConditiontoPlanDefinition",
             "map": "Disease related to RareCondition"
           }
         ]

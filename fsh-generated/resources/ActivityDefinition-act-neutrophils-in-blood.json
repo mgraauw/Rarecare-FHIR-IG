@@ -21,7 +21,7 @@
   },
   "observationRequirement": [
     {
-      "reference": "#loinc-751-8"
+      "reference": "ObservationDefinition/obs-neutrophils-in-blood"
     }
   ]
 }

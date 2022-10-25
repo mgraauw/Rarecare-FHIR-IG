@@ -21,7 +21,7 @@
   },
   "observationRequirement": [
     {
-      "reference": "#loinc-14635-7"
+      "reference": "ObservationDefinition/obs-calcidiol-in-serum-plasma"
     }
   ]
 }
