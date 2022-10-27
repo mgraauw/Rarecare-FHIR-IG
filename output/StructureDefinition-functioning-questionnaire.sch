@@ -34,6 +34,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>Questionnaire.contained</sch:title>
+    <sch:rule context="f:Questionnaire/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Questionnaire.extension</sch:title>
     <sch:rule context="f:Questionnaire/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -176,17 +182,19 @@
   <sch:pattern>
     <sch:title>Questionnaire.item</sch:title>
     <sch:rule context="f:Questionnaire/f:item">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-      <sch:assert test="not((f:type/@value='group' and not(f:item)) or (f:type/@value='display' and f:item))">Group items must have nested items, display items cannot have nested items (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
+      <sch:assert test="not(f:type/@value='group' and ancestor::f:Questionnaire/f:status/@value='complete' and not(exists(f:item)))">Group items must have nested items when Questionanire is complete (inherited)</sch:assert>
+      <sch:assert test="not(f:type/@value='group' and not(exists(f:item)))">Groups should have items (inherited)</sch:assert>
+      <sch:assert test="not(f:type/@value='display' and exists(f:item))">Display items cannot have child items (inherited)</sch:assert>
       <sch:assert test="not(f:type/@value='display' and f:code)">Display items cannot have a &quot;code&quot; asserted (inherited)</sch:assert>
       <sch:assert test="not(f:answerValueSet and f:answerOption)">A question cannot have both answerOption and answerValueSet (inherited)</sch:assert>
-      <sch:assert test="f:type/@value=('choice','open-choice','decimal','integer','date','dateTime','time','string','quantity',') or not(f:answerOption or f:answerValueSet)">Only 'choice' and 'open-choice' items can have answerValueSet (inherited)</sch:assert>
+      <sch:assert test="f:type/@value=('choice','open-choice','decimal','integer','date','dateTime','time','string','quantity') or not(f:answerOption or f:answerValueSet)">Only 'choice' and 'open-choice' items can have answerValueSet (inherited)</sch:assert>
       <sch:assert test="not(f:type/@value='display' and (f:required or f:repeats))">Required and repeat aren't permitted for display items (inherited)</sch:assert>
       <sch:assert test="not(f:type/@value=('group', 'display') and f:*[starts-with(local-name(.), 'initial')])">Initial values can't be specified for groups or display items (inherited)</sch:assert>
       <sch:assert test="not(f:type/@value=('group', 'display') and f:*[starts-with(local-name(.), 'initial')])">Read-only can't be specified for &quot;display&quot; items (inherited)</sch:assert>
       <sch:assert test="f:type/@value=('boolean', 'decimal', 'integer', 'open-choice', 'string', 'text', 'url') or not(f:maxLength)">Maximum length can only be declared for simple question types (inherited)</sch:assert>
       <sch:assert test="not(f:answerOption) or not(count(f:*[starts-with(local-name(.), 'initial')]))">If one or more answerOption is present, initial[x] must be missing (inherited)</sch:assert>
-      <sch:assert test="not(f:answerOption) or not(count(f:*[starts-with(local-name(.), 'initial')]))">If there are more than one enableWhen, enableBehavior must be specified (inherited)</sch:assert>
+      <sch:assert test="not(count(f:enableWhen) &gt; 1) or exists(f:enableBehavior)">If there are more than one enableWhen, enableBehavior must be specified (inherited)</sch:assert>
       <sch:assert test="f:repeats/@value='true' or count(f:initial)&lt;=1">Can only have multiple initial values for repeating items (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -291,7 +299,7 @@
   <sch:pattern>
     <sch:title>Questionnaire.item.enableWhen</sch:title>
     <sch:rule context="f:Questionnaire/f:item/f:enableWhen">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
       <sch:assert test="f:operator/@value != 'exists' or exists(f:answerBoolean)">If the operator is 'exists', the value must be a boolean (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -366,7 +374,7 @@
   <sch:pattern>
     <sch:title>Questionnaire.item.answerOption</sch:title>
     <sch:rule context="f:Questionnaire/f:item/f:answerOption">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -398,7 +406,7 @@
   <sch:pattern>
     <sch:title>Questionnaire.item.initial</sch:title>
     <sch:rule context="f:Questionnaire/f:item/f:initial">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

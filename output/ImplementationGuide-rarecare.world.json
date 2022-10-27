@@ -9,11 +9,11 @@
   "version": "0.1.0",
   "name": "RarecareFHIRIG",
   "status": "draft",
-  "date": "2022-10-25T15:37:55+02:00",
+  "date": "2022-10-26T12:16:30+02:00",
   "packageId": "rarecare.world",
   "license": "CC0-1.0",
   "fhirVersion": [
-    "4.0.1"
+    "4.3.0"
   ],
   "dependsOn": [
     {
@@ -942,23 +942,11 @@
       }
     ],
     "page": {
-      "extension": [
-        {
-          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl": "toc.html"
-        }
-      ],
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl": "index.html"
-            }
-          ],
           "nameUrl": "index.html",
           "title": "Home",
           "generation": "markdown"

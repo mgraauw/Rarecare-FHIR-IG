@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "ICFBcodes"];
   fhir:ValueSet.title [ fhir:value "ICF b codes: BODY FUNCTIONS"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-10-25T15:37:55+02:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-10-26T12:16:30+02:00"^^xsd:dateTime];
   fhir:ValueSet.description [ fhir:value "All codes from ICF B subhierarchy: BODY FUNCTIONS"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [

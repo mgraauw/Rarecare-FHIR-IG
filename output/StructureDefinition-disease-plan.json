@@ -3,7 +3,7 @@
   "id": "disease-plan",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition\">PlanDefinition</a><a name=\"PlanDefinition\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/plandefinition.html\">PlanDefinition</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The definition of a plan for a series of actions, independent of any specific patient or context</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.type\">type</a><a name=\"PlanDefinition.type\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">order-set | clinical-protocol | eca-rule | workflow-definition</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">clinical-protocol</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.subjectCodeableConcept\">subjectCodeableConcept</a><a name=\"PlanDefinition.subjectCodeableConcept\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Type of individual the plan definition is focused on</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://hl7.org/fhir/resource-types</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">Patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.publisher\">publisher</a><a name=\"PlanDefinition.publisher\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Name of the publisher (organization or individual)</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">Stichting Rare Care World</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.description\">description</a><a name=\"PlanDefinition.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#markdown\">markdown</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Natural language description of the plan definition</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.topic\">topic</a><a name=\"PlanDefinition.topic\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">E.g. Education, Treatment, Assessment</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://terminology.hl7.org/CodeSystem/definition-topic</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">treatment</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.relatedArtifact\">relatedArtifact</a><a name=\"PlanDefinition.relatedArtifact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.relatedArtifact.url\">url</a><a name=\"PlanDefinition.relatedArtifact.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#url\">url</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Where the artifact can be accessed</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal\">goal</a><a name=\"PlanDefinition.goal\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.description\">description</a><a name=\"PlanDefinition.goal.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.description.text\">text</a><a name=\"PlanDefinition.goal.description.text\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Plain text representation of the concept</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.addresses\">addresses</a><a name=\"PlanDefinition.goal.addresses\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">What does the goal address</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.action\">action</a><a name=\"PlanDefinition.action\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Action defined by the plan</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Legend for this format\"><img src=\"http://build.fhir.org/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition\">PlanDefinition</a><a name=\"PlanDefinition\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/plandefinition.html\">PlanDefinition</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">The definition of a plan for a series of actions, independent of any specific patient or context</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.type\">type</a><a name=\"PlanDefinition.type\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">order-set | clinical-protocol | eca-rule | workflow-definition</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">clinical-protocol</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.subjectCodeableConcept\">subjectCodeableConcept</a><a name=\"PlanDefinition.subjectCodeableConcept\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Type of individual the plan definition is focused on</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://hl7.org/fhir/resource-types</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">Patient</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.publisher\">publisher</a><a name=\"PlanDefinition.publisher\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Name of the publisher (organization or individual)</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">Stichting Rare Care World</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.description\">description</a><a name=\"PlanDefinition.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#markdown\">markdown</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Natural language description of the plan definition</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.topic\">topic</a><a name=\"PlanDefinition.topic\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">E.g. Education, Treatment, Assessment</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#CodeableConcept.coding\">coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Code defined by a terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">(complex)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://terminology.hl7.org/CodeSystem/definition-topic</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">treatment</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.relatedArtifact\">relatedArtifact</a><a name=\"PlanDefinition.relatedArtifact\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.relatedArtifact.url\">url</a><a name=\"PlanDefinition.relatedArtifact.url\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#url\">url</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Where the artifact can be accessed</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal\">goal</a><a name=\"PlanDefinition.goal\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.description\">description</a><a name=\"PlanDefinition.goal.description\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.description.text\">text</a><a name=\"PlanDefinition.goal.description.text\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Plain text representation of the concept</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.goal.addresses\">addresses</a><a name=\"PlanDefinition.goal.addresses\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">What does the goal address</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-disease-plan-definitions.html#PlanDefinition.action\">action</a><a name=\"PlanDefinition.action\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/backboneelement.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Action defined by the plan</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://build.fhir.org/formats.html#table\" title=\"Legend for this format\"><img src=\"http://build.fhir.org/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   },
   "extension": [
     {
@@ -20,14 +20,19 @@
   "name": "DiseasePlanDefinition",
   "title": "Disease Management Plan",
   "status": "active",
-  "date": "2022-10-25T15:37:55+02:00",
+  "date": "2022-10-26T12:16:30+02:00",
   "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. The disease plan refers to \r\nmedication, lab tests and other items for management of the disease.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
       "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
     },
     {
       "identity": "w5",
@@ -38,11 +43,6 @@
       "identity": "objimpl",
       "uri": "http://hl7.org/fhir/object-implementation",
       "name": "Object Implementation Information"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
     },
     {
       "identity": "RareCareFHIRtoDataModel",
@@ -61,7 +61,7 @@
         "id": "PlanDefinition",
         "path": "PlanDefinition",
         "short": "The definition of a plan for a series of actions, independent of any specific patient or context",
-        "definition": "This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical artifacts such as clinical decision support rules, order sets and protocols.",
+        "definition": "This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical and non-clinical artifacts such as clinical decision support rules, order sets, protocols, and drug quality specifications.",
         "min": 0,
         "max": "*",
         "base": {
@@ -70,6 +70,14 @@
           "max": "*"
         },
         "constraint": [
+          {
+            "key": "cnl-0",
+            "severity": "warning",
+            "human": "Name should be usable as an identifier for the module by machine processing applications such as code generation",
+            "expression": "name.exists() implies name.matches('[A-Z]([A-Za-z0-9_]){0,254}')",
+            "xpath": "not(exists(f:name/@value)) or matches(f:name/@value, '[A-Z]([A-Za-z0-9_]){0,254}')",
+            "source": "http://hl7.org/fhir/StructureDefinition/PlanDefinition"
+          },
           {
             "key": "dom-2",
             "severity": "error",
@@ -82,8 +90,8 @@
             "key": "dom-3",
             "severity": "error",
             "human": "If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource",
-            "expression": "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()",
-            "xpath": "not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))",
+            "expression": "contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()",
+            "xpath": "not(exists(for $contained in f:contained return $contained[not(exists(parent::*/descendant::f:reference/@value=concat('#', $contained/*/f:id/@value)) or exists(descendant::f:reference[@value='#']))]))",
             "source": "http://hl7.org/fhir/StructureDefinition/DomainResource"
           },
           {
@@ -119,16 +127,9 @@
             "expression": "text.`div`.exists()",
             "xpath": "exists(f:text/h:div)",
             "source": "http://hl7.org/fhir/StructureDefinition/DomainResource"
-          },
-          {
-            "key": "pdf-0",
-            "severity": "warning",
-            "human": "Name should be usable as an identifier for the module by machine processing applications such as code generation",
-            "expression": "name.matches('[A-Z]([A-Za-z0-9_]){0,254}')",
-            "xpath": "not(exists(f:name/@value)) or matches(f:name/@value, '[A-Z]([A-Za-z0-9_]){0,254}')",
-            "source": "http://hl7.org/fhir/StructureDefinition/PlanDefinition"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -139,6 +140,14 @@
           {
             "identity": "workflow",
             "map": "Definition"
+          },
+          {
+            "identity": "rim",
+            "map": "Act[classCode=GROUPER;moodCode=DEFN]"
+          },
+          {
+            "identity": "w5",
+            "map": "clinical.general"
           },
           {
             "identity": "RareCareFHIRtoDataModel",
@@ -170,6 +179,7 @@
             "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true
       },
@@ -200,6 +210,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true
       },
@@ -231,6 +242,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": true,
         "isModifierReason": "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation",
         "isSummary": true
@@ -263,6 +275,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -281,7 +294,7 @@
             }
           ],
           "strength": "preferred",
-          "description": "A human language.",
+          "description": "IETF language tag",
           "valueSet": "http://hl7.org/fhir/ValueSet/languages"
         }
       },
@@ -319,6 +332,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -351,6 +365,17 @@
             "code": "Resource"
           }
         ],
+        "constraint": [
+          {
+            "key": "dom-r4b",
+            "severity": "warning",
+            "human": "Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems",
+            "expression": "($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)",
+            "xpath": "not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)",
+            "source": "http://hl7.org/fhir/StructureDefinition/PlanDefinition"
+          }
+        ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -400,6 +425,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Extension"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -415,7 +441,7 @@
         "short": "Extensions that cannot be ignored",
         "definition": "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content"
@@ -450,6 +476,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Extension"
           }
         ],
+        "mustSupport": false,
         "isModifier": true,
         "isModifierReason": "Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them",
         "isSummary": false,
@@ -465,7 +492,7 @@
         "path": "PlanDefinition.url",
         "short": "Canonical identifier for this plan definition, represented as a URI (globally unique)",
         "definition": "An absolute URI that is used to identify this plan definition when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which at which an authoritative instance of this plan definition is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the plan definition is stored on different servers.",
-        "comment": "Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](http://hl7.org/fhir/R4/resource.html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](http://hl7.org/fhir/R4/resource.html#meta) element to indicate where the current master source of the resource can be found.",
+        "comment": "Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](http://hl7.org/fhir/2021Mar/resource.html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](http://hl7.org/fhir/2021Mar/resource.html#meta) element to indicate where the current master source of the resource can be found.",
         "requirements": "Allows the plan definition to be referenced by a single globally unique identifier.",
         "min": 0,
         "max": "1",
@@ -489,6 +516,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -499,6 +527,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.identifier"
+          },
+          {
+            "identity": "rim",
+            "map": ".identifier[scope=BUSN;reliability=ISS]"
           }
         ]
       },
@@ -531,6 +563,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -541,6 +574,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.identifier"
+          },
+          {
+            "identity": "rim",
+            "map": ".identifier"
           },
           {
             "identity": "objimpl",
@@ -576,6 +613,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -586,6 +624,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.version"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -609,7 +651,7 @@
           }
         ],
         "condition": [
-          "inv-0"
+          "cnl-0"
         ],
         "constraint": [
           {
@@ -621,8 +663,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": true
+        "isSummary": true,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.title",
@@ -652,12 +701,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.title"
+          },
+          {
+            "identity": "rim",
+            "map": ".title"
           }
         ]
       },
@@ -688,8 +742,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.type",
@@ -725,6 +786,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "binding": {
@@ -737,7 +799,13 @@
           "strength": "extensible",
           "description": "The type of PlanDefinition.",
           "valueSet": "http://hl7.org/fhir/ValueSet/plan-definition-type"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.status",
@@ -767,6 +835,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": true,
         "isModifierReason": "This is labeled as \"Is Modifier\" because applications should not use a retired {{title}} without due consideration",
         "isSummary": true,
@@ -783,7 +852,7 @@
           ],
           "strength": "required",
           "description": "The lifecycle status of an artifact.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/publication-status|4.0.1"
+          "valueSet": "http://hl7.org/fhir/ValueSet/publication-status|4.3.0"
         },
         "mapping": [
           {
@@ -793,6 +862,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.status"
+          },
+          {
+            "identity": "rim",
+            "map": ".status"
           }
         ]
       },
@@ -825,6 +898,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -835,6 +909,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.class"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -852,7 +930,8 @@
           "rules": "open"
         },
         "short": "Type of individual the plan definition is focused on",
-        "definition": "A code or group definition that describes the intended subject of the plan definition.",
+        "definition": "A code, group definition, or canonical reference that describes  or identifies the intended subject of the plan definition. Canonical references are allowed to support the definition of protocols for drug and substance quality specifications, and is allowed to reference a MedicinalProductDefinition, SubstanceDefinition, AdministrableProductDefinition, ManufacturedItemDefinition, or PackagedProductDefinition resource.",
+        "comment": "Note that the choice of canonical for the subject element was introduced in R4B to support pharmaceutical quality use cases. To ensure as much backwards-compatibility as possible, it is recommended to only use the new canonical type with these use cases.",
         "min": 0,
         "max": "1",
         "base": {
@@ -869,6 +948,16 @@
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Group"
             ]
+          },
+          {
+            "code": "canonical",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition",
+              "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition",
+              "http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition",
+              "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition",
+              "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"
+            ]
           }
         ],
         "meaningWhenMissing": "Patient",
@@ -882,6 +971,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -899,6 +989,10 @@
           {
             "identity": "workflow",
             "map": "Definition.subject"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A"
           }
         ]
       },
@@ -907,7 +1001,8 @@
         "path": "PlanDefinition.subject[x]",
         "sliceName": "subjectCodeableConcept",
         "short": "Type of individual the plan definition is focused on",
-        "definition": "A code or group definition that describes the intended subject of the plan definition.",
+        "definition": "A code, group definition, or canonical reference that describes  or identifies the intended subject of the plan definition. Canonical references are allowed to support the definition of protocols for drug and substance quality specifications, and is allowed to reference a MedicinalProductDefinition, SubstanceDefinition, AdministrableProductDefinition, ManufacturedItemDefinition, or PackagedProductDefinition resource.",
+        "comment": "Note that the choice of canonical for the subject element was introduced in R4B to support pharmaceutical quality use cases. To ensure as much backwards-compatibility as possible, it is recommended to only use the new canonical type with these use cases.",
         "min": 0,
         "max": "1",
         "base": {
@@ -939,6 +1034,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -956,6 +1052,10 @@
           {
             "identity": "workflow",
             "map": "Definition.subject"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A"
           }
         ]
       },
@@ -990,6 +1090,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -1000,6 +1101,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.recorded"
+          },
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=AUT].time"
           }
         ]
       },
@@ -1033,6 +1138,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
@@ -1043,6 +1149,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.witness"
+          },
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=AUT].role"
           }
         ]
       },
@@ -1074,12 +1184,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.contact"
+          },
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=CALLBCK].role"
           }
         ]
       },
@@ -1111,12 +1226,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.description"
+          },
+          {
+            "identity": "rim",
+            "map": ".text"
           },
           {
             "identity": "RareCareFHIRtoDataModel",
@@ -1153,12 +1273,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.useContext"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -1190,6 +1315,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "binding": {
@@ -1211,6 +1337,10 @@
           {
             "identity": "workflow",
             "map": "Definition.jurisdiction"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -1242,6 +1372,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -1252,6 +1383,10 @@
           {
             "identity": "w5",
             "map": "FiveWs.why[x]"
+          },
+          {
+            "identity": "rim",
+            "map": ".reasonCode.text"
           },
           {
             "identity": "objimpl",
@@ -1286,8 +1421,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.copyright",
@@ -1321,12 +1463,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.copyright"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           },
           {
             "identity": "objimpl",
@@ -1362,12 +1509,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.approvalDate"
+          },
+          {
+            "identity": "rim",
+            "map": ".outboundRelationship[typeCode=\"SUBJ\"].act[classCode=CACT;moodCode=EVN;code=\"approval\"].effectiveTime"
           },
           {
             "identity": "objimpl",
@@ -1404,12 +1556,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.lastReviewDate"
+          },
+          {
+            "identity": "rim",
+            "map": ".outboundRelationship[typeCode=\"SUBJ\"; subsetCode=\"RECENT\"].act[classCode=CACT;moodCode=EVN;code=\"review\"].effectiveTime"
           },
           {
             "identity": "objimpl",
@@ -1446,12 +1603,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": true,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.effectivePeriod"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           },
           {
             "identity": "objimpl",
@@ -1495,6 +1657,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -1512,6 +1675,10 @@
           {
             "identity": "workflow",
             "map": "Definition.subject[x]"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -1542,6 +1709,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -1578,8 +1746,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=AUT]"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.reviewer",
@@ -1608,6 +1783,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -1644,6 +1820,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -1682,8 +1859,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".outboundRelationship[typeCode=DOC,RSON,PREV, DRIV, USE, COMP] {successor would be PREV w/ inversionInd=true; No support for citation}"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.relatedArtifact.id",
@@ -1705,7 +1889,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
@@ -1811,13 +1995,16 @@
         "binding": {
           "extension": [
             {
+              "url": "http://hl7.org/fhir/build/StructureDefinition/binding-definition",
+              "valueString": "The type of relationship to the related artifact."
+            },
+            {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
               "valueString": "RelatedArtifactType"
             }
           ],
           "strength": "required",
-          "description": "The type of relationship to the related artifact.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/related-artifact-type|4.0.1"
+          "valueSet": "http://hl7.org/fhir/ValueSet/related-artifact-type|4.3.0"
         }
       },
       {
@@ -2042,14 +2229,21 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal",
         "path": "PlanDefinition.goal",
         "short": "What the plan is trying to accomplish",
-        "definition": "Goals that describe what the activities within the plan are intended to achieve. For example, weight loss, restoring an activity of daily living, obtaining herd immunity via immunization, meeting a process improvement objective, etc.",
+        "definition": "A goal describes an expected outcome that activities within the plan are intended to achieve. For example, weight loss, restoring an activity of daily living, obtaining herd immunity via immunization, meeting a process improvement objective, meeting the acceptance criteria for a test as specified by a quality specification, etc.",
         "requirements": "Goal information needs to be captured for order sets, protocols, and care plan definitions to better describe the objectives of the protocol activities and to guide the creation of specific goals within the derived care plans and orders.",
         "min": 0,
         "max": "*",
@@ -2067,14 +2261,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.id",
@@ -2166,7 +2367,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -2239,6 +2440,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2251,7 +2453,13 @@
           "strength": "example",
           "description": "Example codes for grouping goals for filtering or presentation.",
           "valueSet": "http://hl7.org/fhir/ValueSet/goal-category"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.description",
@@ -2281,6 +2489,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2293,7 +2502,13 @@
           "strength": "example",
           "description": "Describes goals that can be achieved.",
           "valueSet": "http://hl7.org/fhir/ValueSet/clinical-findings"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.description.id",
@@ -2315,7 +2530,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
@@ -2441,6 +2656,10 @@
           {
             "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
             "valueBoolean": true
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+            "valueBoolean": true
           }
         ],
         "path": "PlanDefinition.goal.description.text",
@@ -2518,6 +2737,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2530,7 +2750,13 @@
           "strength": "preferred",
           "description": "Indicates the level of importance associated with reaching or sustaining a goal.",
           "valueSet": "http://hl7.org/fhir/ValueSet/goal-priority"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.start",
@@ -2559,6 +2785,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2571,7 +2798,13 @@
           "strength": "example",
           "description": "Identifies the types of events that might trigger the start of a goal.",
           "valueSet": "http://hl7.org/fhir/ValueSet/goal-start-event"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.addresses",
@@ -2600,6 +2833,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2614,6 +2848,10 @@
           "valueSet": "http://hl7.org/fhir/ValueSet/condition-code"
         },
         "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          },
           {
             "identity": "RareCareFHIRtoDataModel",
             "map": "Disease.ICD10.code"
@@ -2647,8 +2885,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.target",
@@ -2671,14 +2916,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.target.id",
@@ -2770,7 +3022,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -2843,6 +3095,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -2855,13 +3108,19 @@
           "strength": "example",
           "description": "Identifies types of parameters that can be tracked to determine goal achievement.",
           "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.target.detail[x]",
         "path": "PlanDefinition.goal.target.detail[x]",
         "short": "The target value to be achieved",
-        "definition": "The target value of the measure to be achieved to signify fulfillment of the goal, e.g. 150 pounds or 7.0%. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any value at or above the low value.",
+        "definition": "The target value of the measure to be achieved to signify fulfillment of the goal, e.g. 150 pounds or 7.0%, or in the case of pharmaceutical quality - NMT 0.6%, Clear solution, etc. Either the high or low or both values of the range can be specified. When a low value is missing, it indicates that the goal is achieved at any value at or below the high value. Similarly, if the high value is missing, it indicates that the goal is achieved at any value at or above the low value.",
         "min": 0,
         "max": "1",
         "base": {
@@ -2890,8 +3149,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.goal.target.due",
@@ -2920,14 +3186,21 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action",
         "path": "PlanDefinition.action",
         "short": "Action defined by the plan",
-        "definition": "An action or group of actions to be taken as part of the plan.",
+        "definition": "An action or group of actions to be taken as part of the plan. For example, in clinical care, an action would be to prescribe a particular indicated medication, or perform a particular test as appropriate. In pharmaceutical quality, an action would be the test that needs to be performed on a drug product as defined in the quality specification.",
         "comment": "Note that there is overlap between many of the elements defined here and the ActivityDefinition resource. When an ActivityDefinition is referenced (using the definition element), the overlapping elements in the plan override the content of the referenced ActivityDefinition unless otherwise documented in the specific elements. See the PlanDefinition resource for more detailed information.",
         "min": 0,
         "max": "*",
@@ -2945,18 +3218,23 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "{Is a contained Definition}"
+          },
+          {
+            "identity": "rim",
+            "map": "Act[classCode=ACT; moodCode=DEFN]"
           },
           {
             "identity": "RareCareFHIRtoDataModel",
@@ -3054,7 +3332,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -3127,14 +3405,21 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.title",
         "path": "PlanDefinition.action.title",
         "short": "User-visible title",
-        "definition": "The title of the action displayed to a user.",
+        "definition": "The textual description of the action displayed to a user. For example, when the action is a test to be performed, the title would be the title of the test such as Assay by HPLC.",
         "min": 0,
         "max": "1",
         "base": {
@@ -3157,12 +3442,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.title"
+          },
+          {
+            "identity": "rim",
+            "map": ".title"
           }
         ]
       },
@@ -3193,12 +3483,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.description"
+          },
+          {
+            "identity": "rim",
+            "map": ".text"
           }
         ]
       },
@@ -3229,12 +3524,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.description"
+          },
+          {
+            "identity": "rim",
+            "map": ".text"
           }
         ]
       },
@@ -3265,6 +3565,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -3276,14 +3577,20 @@
           ],
           "strength": "required",
           "description": "Identifies the level of importance to be assigned to actioning the request.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/request-priority|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/request-priority|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".priority"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.code",
         "path": "PlanDefinition.action.code",
         "short": "Code representing the meaning of the action or sub-actions",
-        "definition": "A code that provides meaning for the action or action group. For example, a section may have a LOINC code for the section of a documentation template.",
+        "definition": "A code that provides a meaning, grouping, or classification for the action or action group. For example, a section may have a LOINC code for the section of a documentation template. In pharmaceutical quality, an action (Test) such as pH could be classified as a physical property.",
         "min": 0,
         "max": "*",
         "base": {
@@ -3306,8 +3613,26 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ActionCode"
+            }
+          ],
+          "strength": "example",
+          "description": "Provides examples of actions to be performed.",
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-code"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".classCode"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.reason",
@@ -3337,8 +3662,26 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "binding": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "ActionReasonCode"
+            }
+          ],
+          "strength": "example",
+          "description": "Provides examples of reasons for actions to be performed.",
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-reason-code"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".reasonCode"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.documentation",
@@ -3367,14 +3710,21 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.goalId",
         "path": "PlanDefinition.action.goalId",
         "short": "What goals this action supports",
-        "definition": "Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition.",
+        "definition": "Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition. In pharmaceutical quality, a goal represents acceptance criteria (Goal) for a given action (Test), so the goalId would be the unique id of a defined goal element establishing the acceptance criteria for the action.",
         "min": 0,
         "max": "*",
         "base": {
@@ -3397,14 +3747,21 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.subject[x]",
         "path": "PlanDefinition.action.subject[x]",
         "short": "Type of individual the action is focused on",
-        "definition": "A code or group definition that describes the intended subject of the action and its children, if any.",
+        "definition": "A code, group definition, or canonical reference that describes the intended subject of the action and its children, if any. Canonical references are allowed to support the definition of protocols for drug and substance quality specifications, and is allowed to reference a MedicinalProductDefinition, SubstanceDefinition, AdministrableProductDefinition, ManufacturedItemDefinition, or PackagedProductDefinition resource.",
         "comment": "The subject of an action overrides the subject at a parent action or on the root of the PlanDefinition if specified.\n\nIn addition, because the subject needs to be resolved during realization, use of subjects in actions (or in the ActivityDefinition referenced by the action) resolves based on the set of subjects supplied in context and by type (i.e. the patient subject would resolve to a resource of type Patient).",
         "requirements": "Multiple steps in a protocol often have different groups of steps that are focused on testing different things. The subject of an action specifies the focus of the action and any child actions.",
         "min": 0,
@@ -3423,6 +3780,9 @@
             "targetProfile": [
               "http://hl7.org/fhir/StructureDefinition/Group"
             ]
+          },
+          {
+            "code": "canonical"
           }
         ],
         "meaningWhenMissing": "Patient",
@@ -3436,6 +3796,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -3453,6 +3814,10 @@
           {
             "identity": "workflow",
             "map": "Definition.subject"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
           }
         ]
       },
@@ -3483,8 +3848,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.condition",
@@ -3508,14 +3880,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.condition.id",
@@ -3607,7 +3986,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -3681,6 +4060,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -3692,8 +4072,14 @@
           ],
           "strength": "required",
           "description": "Defines the kinds of conditions that can appear on actions.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-condition-kind|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-condition-kind|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.condition.expression",
@@ -3723,8 +4109,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.input",
@@ -3753,8 +4146,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.output",
@@ -3783,8 +4183,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.relatedAction",
@@ -3808,14 +4215,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.relatedAction.id",
@@ -3907,7 +4321,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -3980,8 +4394,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.relatedAction.relationship",
@@ -4010,6 +4431,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4021,8 +4443,14 @@
           ],
           "strength": "required",
           "description": "Defines the types of relationships between actions.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-relationship-type|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-relationship-type|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.relatedAction.offset[x]",
@@ -4054,8 +4482,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A (to add?)"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.timing[x]",
@@ -4099,8 +4534,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".effectiveTime"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.participant",
@@ -4123,14 +4565,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".participation[typeCode=PFM]"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.participant.id",
@@ -4222,7 +4671,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -4295,6 +4744,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4306,8 +4756,14 @@
           ],
           "strength": "required",
           "description": "The type of participant for the action.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".role.classCode"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.participant.role",
@@ -4336,6 +4792,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4347,8 +4804,14 @@
           ],
           "strength": "example",
           "description": "Defines roles played by participants for the action.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-participant-role"
-        }
+          "valueSet": "http://terminology.hl7.org/ValueSet/action-participant-role"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".role.code"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.type",
@@ -4377,6 +4840,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4389,7 +4853,13 @@
           "strength": "extensible",
           "description": "The type of action to be performed.",
           "valueSet": "http://hl7.org/fhir/ValueSet/action-type"
-        }
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": ".moodCode { Maybe? this is effectively Create, Update, or Delete }"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.groupingBehavior",
@@ -4418,6 +4888,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4429,8 +4900,14 @@
           ],
           "strength": "required",
           "description": "Defines organization behavior of a group.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-grouping-behavior|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-grouping-behavior|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.selectionBehavior",
@@ -4459,6 +4936,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4470,8 +4948,14 @@
           ],
           "strength": "required",
           "description": "Defines selection behavior of a group.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-selection-behavior|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-selection-behavior|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.requiredBehavior",
@@ -4500,6 +4984,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4511,8 +4996,14 @@
           ],
           "strength": "required",
           "description": "Defines expectations around whether an action or action group is required.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-required-behavior|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-required-behavior|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.precheckBehavior",
@@ -4541,6 +5032,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4552,8 +5044,14 @@
           ],
           "strength": "required",
           "description": "Defines selection frequency behavior for an action or group.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-precheck-behavior|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-precheck-behavior|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.cardinalityBehavior",
@@ -4582,6 +5080,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "binding": {
@@ -4593,8 +5092,14 @@
           ],
           "strength": "required",
           "description": "Defines behavior for an action or a group for how many times that item may be repeated.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/action-cardinality-behavior|4.0.1"
-        }
+          "valueSet": "http://hl7.org/fhir/ValueSet/action-cardinality-behavior|4.3.0"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.definition[x]",
@@ -4632,12 +5137,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "Definition.derivedFrom"
+          },
+          {
+            "identity": "rim",
+            "map": "Act[classCode=ACT; moodCode=DEFN]"
           }
         ]
       },
@@ -4672,8 +5182,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.dynamicValue",
@@ -4697,14 +5214,21 @@
           {
             "key": "ele-1",
             "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
+            "human": "All FHIR elements must have a @value or children unless an empty Parameters resource",
+            "expression": "hasValue() or (children().count() > id.count()) or $this is Parameters",
+            "xpath": "@value|f:*|h:div|self::f:Parameters",
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.dynamicValue.id",
@@ -4796,7 +5320,7 @@
         "short": "Extensions that cannot be ignored even if unrecognized",
         "definition": "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+        "requirements": "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension).",
         "alias": [
           "extensions",
           "user content",
@@ -4846,8 +5370,8 @@
         "id": "PlanDefinition.action.dynamicValue.path",
         "path": "PlanDefinition.action.dynamicValue.path",
         "short": "The path to the element to be set dynamically",
-        "definition": "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolveable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](http://hl7.org/fhir/R4/fhirpath.html#simple) for full details).",
-        "comment": "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](http://hl7.org/fhir/R4/fhirpath.html#simple) that allows path traversal, but not calculation.",
+        "definition": "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolveable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](http://hl7.org/fhir/2021Mar/fhirpath.html#simple) for full details).",
+        "comment": "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](http://hl7.org/fhir/2021Mar/fhirpath.html#simple) that allows path traversal, but not calculation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -4870,8 +5394,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.dynamicValue.expression",
@@ -4901,8 +5432,15 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
-        "isSummary": false
+        "isSummary": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
       },
       {
         "id": "PlanDefinition.action.action",
@@ -4927,12 +5465,17 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": false,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
           {
             "identity": "workflow",
             "map": "{InverseRelationship of Definition.partOf}"
+          },
+          {
+            "identity": "rim",
+            "map": "N/A"
           }
         ]
       }

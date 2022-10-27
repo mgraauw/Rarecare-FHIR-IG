@@ -34,6 +34,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>PlanDefinition.contained</sch:title>
+    <sch:rule context="f:PlanDefinition/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>PlanDefinition.extension</sch:title>
     <sch:rule context="f:PlanDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -274,7 +280,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.goal</sch:title>
     <sch:rule context="f:PlanDefinition/f:goal">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -349,7 +355,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.goal.target</sch:title>
     <sch:rule context="f:PlanDefinition/f:goal/f:target">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -387,7 +393,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.action</sch:title>
     <sch:rule context="f:PlanDefinition/f:action">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -473,7 +479,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.action.condition</sch:title>
     <sch:rule context="f:PlanDefinition/f:action/f:condition">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -517,7 +523,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.action.relatedAction</sch:title>
     <sch:rule context="f:PlanDefinition/f:action/f:relatedAction">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -561,7 +567,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.action.participant</sch:title>
     <sch:rule context="f:PlanDefinition/f:action/f:participant">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -641,7 +647,7 @@
   <sch:pattern>
     <sch:title>PlanDefinition.action.dynamicValue</sch:title>
     <sch:rule context="f:PlanDefinition/f:action/f:dynamicValue">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

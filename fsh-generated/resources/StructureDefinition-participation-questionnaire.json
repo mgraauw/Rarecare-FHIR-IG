@@ -17,7 +17,7 @@
   "title": "Questionnaire for participation",
   "status": "active",
   "description": "The ParticipationQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nactivities and participation relevant to their specific disease.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "workflow",

@@ -7,7 +7,7 @@ canonical: http://rarecare.world/fhir
 name: Rarecare-FHIR-IG
 status: draft
 version: 0.1.0
-fhirVersion: 4.0.1
+fhirVersion: 4.3.0
 copyrightYear: 2021+
 releaseLabel: ci-build
 

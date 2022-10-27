@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "functioning-questionnaire"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire\">Questionnaire</a><a name=\"Questionnaire\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/questionnaire.html\">Questionnaire</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A structured set of questions</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.code\">code</a><a name=\"Questionnaire.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Concept that represents the overall questionnaire</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://loinc.org</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">10158-4</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4/datatypes-definitions.html#Coding.display\">display</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Representation defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">History of Functional status Narrative</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item\">item</a><a name=\"Questionnaire.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Questions and sections within the Questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck011.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code\">code</a><a name=\"Questionnaire.item.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Corresponding concept for this item in a terminology</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-icf-b-codes.html\">ICF b codes: BODY FUNCTIONS</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code.code\">code</a><a name=\"Questionnaire.item.code.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Symbol in syntax defined by the system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code.display\">display</a><a name=\"Questionnaire.item.code.display\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Representation defined by the system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.answerOption\">answerOption</a><a name=\"Questionnaire.item.answerOption\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Permitted answer</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://build.fhir.org/formats.html#table\" title=\"Legend for this format\"><img src=\"http://build.fhir.org/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire\">Questionnaire</a><a name=\"Questionnaire\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/questionnaire.html\">Questionnaire</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">A structured set of questions</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.code\">code</a><a name=\"Questionnaire.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Concept that represents the overall questionnaire</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">At least the following</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.system\">system</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#uri\">uri</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identity of the terminology system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">http://loinc.org</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Symbol in syntax defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">10158-4</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_fixed.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Fixed Value\" class=\"hierarchy\"/> <a href=\"http://hl7.org/fhir/R4B/datatypes-definitions.html#Coding.display\">display</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4B/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Representation defined by the system<br/><span style=\"font-weight: bold\">Fixed Value: </span><span style=\"color: darkgreen\">History of Functional status Narrative</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item\">item</a><a name=\"Questionnaire.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/backboneelement.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Questions and sections within the Questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck011.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code\">code</a><a name=\"Questionnaire.item.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Corresponding concept for this item in a terminology</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-icf-b-codes.html\">ICF b codes: BODY FUNCTIONS</a> (<a href=\"http://build.fhir.org/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code.code\">code</a><a name=\"Questionnaire.item.code.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Symbol in syntax defined by the system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.code.display\">display</a><a name=\"Questionnaire.item.code.display\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Representation defined by the system</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-functioning-questionnaire-definitions.html#Questionnaire.item.answerOption\">answerOption</a><a name=\"Questionnaire.item.answerOption\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4B/backboneelement.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Permitted answer</span></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://build.fhir.org/formats.html#table\" title=\"Legend for this format\"><img src=\"http://build.fhir.org/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -27,9 +27,9 @@
   fhir:StructureDefinition.name [ fhir:value "FunctioningQuestionnaire"];
   fhir:StructureDefinition.title [ fhir:value "Questionnaire for functioning"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-25T15:37:55+02:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-26T12:16:30+02:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "The FunctioningQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nfunctioning relevant to their specific disease."];
-  fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
+  fhir:StructureDefinition.fhirVersion [ fhir:value "4.3.0"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;
      fhir:StructureDefinition.mapping.identity [ fhir:value "workflow" ];
@@ -109,8 +109,8 @@
          fhir:ElementDefinition.constraint.key [ fhir:value "dom-3" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(for $contained in f:contained return $contained[not(exists(parent::*/descendant::f:reference/@value=concat('#', $contained/*/f:id/@value)) or exists(descendant::f:reference[@value='#']))]))" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/DomainResource";
            fhir:link <http://hl7.org/fhir/StructureDefinition/DomainResource>
@@ -162,7 +162,7 @@
          fhir:ElementDefinition.constraint.key [ fhir:value "que-0" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "warning" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Name should be usable as an identifier for the module by machine processing applications such as code generation" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "name.matches('[A-Z]([A-Za-z0-9_]){0,254}')" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "name.exists() implies name.matches('[A-Z]([A-Za-z0-9_]){0,254}')" ];
          fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:name/@value)) or matches(f:name/@value, '[A-Z]([A-Za-z0-9_]){0,254}')" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
@@ -180,6 +180,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -196,6 +197,10 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Observation[moodCode=DEF]" ]
        ], [
          fhir:index 3;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "infrastructure.information" ]
+       ], [
+         fhir:index 4;
          fhir:ElementDefinition.mapping.identity [ fhir:value "RareCareFHIRtoDataModelFunctioning" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Function set of questions" ]
        ]
@@ -222,6 +227,7 @@
          ];
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
@@ -253,6 +259,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
@@ -285,6 +292,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation" ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
@@ -318,6 +326,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -338,7 +347,7 @@
            fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
          ];
          fhir:ElementDefinition.binding.strength [ fhir:value "preferred" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "A human language." ];
+         fhir:ElementDefinition.binding.description [ fhir:value "IETF language tag" ];
          fhir:ElementDefinition.binding.valueSet [
            fhir:value "http://hl7.org/fhir/ValueSet/languages";
            fhir:link <http://hl7.org/fhir/ValueSet/languages>
@@ -387,6 +396,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -422,6 +432,19 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Resource" ]
        ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "dom-r4b" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "warning" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+         ]
+       ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -477,6 +500,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -491,7 +515,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored" ];
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ];
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)." ];
        fhir:ElementDefinition.alias [
          fhir:value "extensions";
          fhir:index 0
@@ -533,6 +557,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them" ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
@@ -572,6 +597,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -618,6 +644,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -667,6 +694,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -701,10 +729,6 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
        ];
-       fhir:ElementDefinition.condition [
-         fhir:value "inv-0";
-         fhir:index 0
-       ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
@@ -717,6 +741,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -754,6 +779,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -800,6 +826,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -841,6 +868,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "This is labeled as \"Is Modifier\" because applications should not use a retired {{title}} without due consideration" ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
@@ -857,8 +885,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.description [ fhir:value "The lifecycle status of an artifact." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/publication-status|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/publication-status|4.0.1>
+           fhir:value "http://hl7.org/fhir/ValueSet/publication-status|4.3.0";
+           fhir:link <http://hl7.org/fhir/ValueSet/publication-status|4.3.0>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -905,6 +933,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -950,6 +979,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -965,8 +995,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.description [ fhir:value "One of the resource types defined as part of this version of FHIR." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/resource-types|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/resource-types|4.0.1>
+           fhir:value "http://hl7.org/fhir/ValueSet/resource-types|4.3.0";
+           fhir:link <http://hl7.org/fhir/ValueSet/resource-types|4.3.0>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1012,6 +1042,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1058,6 +1089,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1103,6 +1135,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1144,6 +1177,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1186,6 +1220,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1227,6 +1262,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1285,6 +1321,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1341,6 +1378,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1386,6 +1424,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1432,6 +1471,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1478,6 +1518,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1529,6 +1570,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1575,26 +1617,48 @@
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children unless an empty Parameters resource" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count()) or $this is Parameters" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div|self::f:Parameters" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ], [
          fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "que-1" ];
+         fhir:ElementDefinition.constraint.key [ fhir:value "que-1a" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Group items must have nested items, display items cannot have nested items" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "(type='group' implies item.empty().not()) and (type.trace('type')='display' implies item.trace('item').empty())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not((f:type/@value='group' and not(f:item)) or (f:type/@value='display' and f:item))" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Group items must have nested items when Questionanire is complete" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "(type='group' and %resource.status='complete') implies item.empty().not()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(f:type/@value='group' and ancestor::f:Questionnaire/f:status/@value='complete' and not(exists(f:item)))" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
          fhir:index 2;
+         fhir:ElementDefinition.constraint.key [ fhir:value "que-1b" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "warning" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Groups should have items" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "type='group' implies item.empty().not()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(f:type/@value='group' and not(exists(f:item)))" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+         ]
+       ], [
+         fhir:index 3;
+         fhir:ElementDefinition.constraint.key [ fhir:value "que-1c" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Display items cannot have child items" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "type='display' implies item.empty()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(f:type/@value='display' and exists(f:item))" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+         ]
+       ], [
+         fhir:index 4;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-3" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Display items cannot have a \"code\" asserted" ];
@@ -1605,7 +1669,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 3;
+         fhir:index 5;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-4" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "A question cannot have both answerOption and answerValueSet" ];
@@ -1616,18 +1680,18 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 4;
+         fhir:index 6;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-5" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Only 'choice' and 'open-choice' items can have answerValueSet" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "(type ='choice' or type = 'open-choice' or type = 'decimal' or type = 'integer' or type = 'date' or type = 'dateTime' or type = 'time' or type = 'string' or type = 'quantity') or (answerValueSet.empty() and answerOption.empty())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:type/@value=('choice','open-choice','decimal','integer','date','dateTime','time','string','quantity',') or not(f:answerOption or f:answerValueSet)" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:type/@value=('choice','open-choice','decimal','integer','date','dateTime','time','string','quantity') or not(f:answerOption or f:answerValueSet)" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 5;
+         fhir:index 7;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-6" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Required and repeat aren't permitted for display items" ];
@@ -1638,7 +1702,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 6;
+         fhir:index 8;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-8" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Initial values can't be specified for groups or display items" ];
@@ -1649,7 +1713,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 7;
+         fhir:index 9;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-9" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Read-only can't be specified for \"display\" items" ];
@@ -1660,7 +1724,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 8;
+         fhir:index 10;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-10" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Maximum length can only be declared for simple question types" ];
@@ -1671,7 +1735,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 9;
+         fhir:index 11;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-11" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If one or more answerOption is present, initial[x] must be missing" ];
@@ -1682,18 +1746,18 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 10;
+         fhir:index 12;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-12" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there are more than one enableWhen, enableBehavior must be specified" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "enableWhen.count() > 2 implies enableBehavior.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(f:answerOption) or not(count(f:*[starts-with(local-name(.), 'initial')]))" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "enableWhen.count() > 1 implies enableBehavior.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(count(f:enableWhen) > 1) or exists(f:enableBehavior)" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ], [
-         fhir:index 11;
+         fhir:index 13;
          fhir:ElementDefinition.constraint.key [ fhir:value "que-13" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Can only have multiple initial values for repeating items" ];
@@ -1704,6 +1768,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1810,7 +1875,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ];
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)." ];
        fhir:ElementDefinition.alias [
          fhir:value "extensions";
          fhir:index 0
@@ -1870,7 +1935,7 @@
        fhir:ElementDefinition.short [ fhir:value "Unique id for item in questionnaire" ];
        fhir:ElementDefinition.definition [ fhir:value "An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource." ];
        fhir:ElementDefinition.comment [ fhir:value "This ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here." ];
-       fhir:ElementDefinition.requirements [ fhir:value "[QuestionnaireResponse](http://hl7.org/fhir/R4/questionnaireresponse.html#) does not require omitted items to be included and may have some items that repeat, so linkage based on position alone is not sufficient." ];
+       fhir:ElementDefinition.requirements [ fhir:value "[QuestionnaireResponse](http://hl7.org/fhir/2021Mar/questionnaireresponse.html#) does not require omitted items to be included and may have some items that repeat, so linkage based on position alone is not sufficient." ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
@@ -1894,6 +1959,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1906,8 +1972,8 @@
        fhir:Element.id [ fhir:value "Questionnaire.item.definition" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.definition" ];
        fhir:ElementDefinition.short [ fhir:value "ElementDefinition - details for the item" ];
-       fhir:ElementDefinition.definition [ fhir:value "This element is a URI that refers to an [ElementDefinition](http://hl7.org/fhir/R4/elementdefinition.html) that provides information about this item, including information that might otherwise be included in the instance of the Questionnaire resource. A detailed description of the construction of the URI is shown in Comments, below. If this element is present then the following element values MAY be derived from the Element Definition if the corresponding elements of this Questionnaire resource instance have no value:\n\n* code (ElementDefinition.code) \n* type (ElementDefinition.type) \n* required (ElementDefinition.min) \n* repeats (ElementDefinition.max) \n* maxLength (ElementDefinition.maxLength) \n* answerValueSet (ElementDefinition.binding)\n* options (ElementDefinition.binding)." ];
-       fhir:ElementDefinition.comment [ fhir:value "The uri refers to an ElementDefinition in a [StructureDefinition](http://hl7.org/fhir/R4/structuredefinition.html#) and always starts with the [canonical URL](http://hl7.org/fhir/R4/references.html#canonical) for the target resource. When referring to a StructureDefinition, a fragment identifier is used to specify the element definition by its id [Element.id](http://hl7.org/fhir/R4/element-definitions.html#Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]. In the absence of a fragment identifier, the first/root element definition in the target is the matching element definition." ];
+       fhir:ElementDefinition.definition [ fhir:value "This element is a URI that refers to an [ElementDefinition](http://hl7.org/fhir/2021Mar/elementdefinition.html) that provides information about this item, including information that might otherwise be included in the instance of the Questionnaire resource. A detailed description of the construction of the URI is shown in Comments, below. If this element is present then the following element values MAY be derived from the Element Definition if the corresponding elements of this Questionnaire resource instance have no value:\n\n* code (ElementDefinition.code) \n* type (ElementDefinition.type) \n* required (ElementDefinition.min) \n* repeats (ElementDefinition.max) \n* maxLength (ElementDefinition.maxLength) \n* answerValueSet (ElementDefinition.binding)\n* options (ElementDefinition.binding)." ];
+       fhir:ElementDefinition.comment [ fhir:value "The uri refers to an ElementDefinition in a [StructureDefinition](http://hl7.org/fhir/2021Mar/structuredefinition.html#) and always starts with the [canonical URL](http://hl7.org/fhir/2021Mar/references.html#canonical) for the target resource. When referring to a StructureDefinition, a fragment identifier is used to specify the element definition by its id [Element.id](http://hl7.org/fhir/2021Mar/element-definitions.html#Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]. In the absence of a fragment identifier, the first/root element definition in the target is the matching element definition." ];
        fhir:ElementDefinition.requirements [ fhir:value "A common pattern is to define a set of data elements and then build multiple questionnaires for different circumstances to gather the data. This element provides traceability to the common definition and allows the content for the question to come from the underlying definition." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
@@ -1932,6 +1998,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1974,6 +2041,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2010,7 +2078,7 @@
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type" ];
-           fhir:Extension.valueUrl [ fhir:value "string" ]
+           fhir:Extension.valueUrl [ fhir:value "id" ]
          ];
          fhir:ElementDefinition.type.code [ fhir:value "http://hl7.org/fhirpath/System.String" ]
        ];
@@ -2179,6 +2247,11 @@
      ], [
        fhir:index 41;
        fhir:Element.id [ fhir:value "Questionnaire.item.code.code" ];
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/build/StructureDefinition/no-binding" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.code.code" ];
        fhir:ElementDefinition.short [ fhir:value "Symbol in syntax defined by the system" ];
        fhir:ElementDefinition.definition [ fhir:value "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)." ];
@@ -2230,6 +2303,10 @@
        fhir:Element.id [ fhir:value "Questionnaire.item.code.display" ];
        fhir:Element.extension [
          fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
@@ -2360,6 +2437,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2397,6 +2475,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2435,6 +2514,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2446,8 +2526,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Distinguishes groups from questions and display text and indicates data type for questions." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/item-type|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/item-type|4.0.1>
+           fhir:value "http://hl7.org/fhir/ValueSet/item-type|4.3.0";
+           fhir:link <http://hl7.org/fhir/ValueSet/item-type|4.3.0>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -2478,9 +2558,9 @@
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children unless an empty Parameters resource" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count()) or $this is Parameters" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div|self::f:Parameters" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
@@ -2490,13 +2570,14 @@
          fhir:ElementDefinition.constraint.key [ fhir:value "que-7" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If the operator is 'exists', the value must be a boolean" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "operator = 'exists' implies (answer is Boolean)" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "operator = 'exists' implies (answer is boolean)" ];
          fhir:ElementDefinition.constraint.xpath [ fhir:value "f:operator/@value != 'exists' or exists(f:answerBoolean)" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Questionnaire>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "If enableWhen is present and the condition evaluates to false, then the Questionnaire behaves as though the elements weren't actually present" ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
@@ -2600,7 +2681,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ];
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)." ];
        fhir:ElementDefinition.alias [
          fhir:value "extensions";
          fhir:index 0
@@ -2683,6 +2764,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2719,6 +2801,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2730,8 +2813,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.description [ fhir:value "The criteria by which a question is enabled." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/questionnaire-enable-operator|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/questionnaire-enable-operator|4.0.1>
+           fhir:value "http://hl7.org/fhir/ValueSet/questionnaire-enable-operator|4.3.0";
+           fhir:link <http://hl7.org/fhir/ValueSet/questionnaire-enable-operator|4.3.0>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -2804,6 +2887,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2858,6 +2942,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2869,8 +2954,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Controls how multiple enableWhen values are interpreted -  whether all or any must be true." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior|4.0.1>
+           fhir:value "http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior|4.3.0";
+           fhir:link <http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior|4.3.0>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -2913,6 +2998,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2956,6 +3042,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2998,6 +3085,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3039,6 +3127,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3056,7 +3145,7 @@
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerValueSet" ];
        fhir:ElementDefinition.short [ fhir:value "Valueset containing permitted answers" ];
        fhir:ElementDefinition.definition [ fhir:value "A reference to a value set containing a list of codes representing permitted answers for a \"choice\" or \"open-choice\" question." ];
-       fhir:ElementDefinition.comment [ fhir:value "LOINC defines many useful value sets for questionnaire responses. See [LOINC Answer Lists](http://hl7.org/fhir/R4/loinc.html#alist). The value may come from the ElementDefinition referred to by .definition." ];
+       fhir:ElementDefinition.comment [ fhir:value "LOINC defines many useful value sets for questionnaire responses. See [LOINC Answer Lists](http://hl7.org/fhir/2021Mar/loinc.html#alist). The value may come from the ElementDefinition referred to by .definition." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [
@@ -3092,6 +3181,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3128,14 +3218,15 @@
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children unless an empty Parameters resource" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count()) or $this is Parameters" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div|self::f:Parameters" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3242,7 +3333,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ];
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)." ];
        fhir:ElementDefinition.alias [
          fhir:value "extensions";
          fhir:index 0
@@ -3345,6 +3436,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -3396,6 +3488,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3433,14 +3526,15 @@
          fhir:index 0;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children unless an empty Parameters resource" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count()) or $this is Parameters" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div|self::f:Parameters" ];
          fhir:ElementDefinition.constraint.source [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3543,7 +3637,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
        fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)." ];
        fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)." ];
        fhir:ElementDefinition.alias [
          fhir:value "extensions";
          fhir:index 0
@@ -3664,6 +3758,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -3701,8 +3796,14 @@
        ];
        fhir:ElementDefinition.contentReference [ fhir:value "http://hl7.org/fhir/StructureDefinition/Questionnaire#Questionnaire.item" ];
        fhir:ElementDefinition.condition [
-         fhir:value "que-1";
+         fhir:value "que-1a";
          fhir:index 0
+       ], [
+         fhir:value "que-1b";
+         fhir:index 1
+       ], [
+         fhir:value "que-1c";
+         fhir:index 2
        ];
        fhir:ElementDefinition.constraint [
          fhir:index 0;
@@ -3716,6 +3817,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [

@@ -1,9 +1,9 @@
 ﻿RarecareFHIRIG : Validation Results
 =========================================
 
-err = 5, warn = 33, info = 46
+err = 14, warn = 33, info = 46
 IG Publisher Version: 1.2.7 Out of date - current version is 1.2.11
-Generated Tue Oct 25 15:38:54 CEST 2022. FHIR version 4.0.1 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
+Generated Wed Oct 26 12:18:46 CEST 2022. FHIR version 4.3.0 for rarecare.world#0.1.0 (canonical = http://rarecare.world/fhir)
  Build Errors : 1 / 9 / 0
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-calcidiol-in-serum-plasma : 0 / 1 / 1
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\ActivityDefinition-act-neutrophils-in-blood : 0 / 1 / 1
@@ -18,13 +18,13 @@ Generated Tue Oct 25 15:38:54 CEST 2022. FHIR version 4.0.1 for rarecare.world#0
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\PlanDefinition-plan-sds : 0 / 1 / 2
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\Questionnaire-developmental-disability-questionnaire : 0 / 2 / 17
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\Questionnaire-shwachman-diamond-syndrome-questionnaire : 0 / 3 / 25
- C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-disease-plan : 0 / 2 / 2
+ C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-disease-plan : 5 / 2 / 2
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-functioning-questionnaire : 0 / 0 / 2
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-activity : 2 / 0 / 2
- C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation : 1 / 0 / 1
+ C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-lab-observation : 0 / 0 / 1
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-med-activity : 0 / 0 / 1
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-participation-questionnaire : 0 / 0 / 2
- C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-rare-care-plan : 0 / 3 / 2
+ C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\StructureDefinition-rare-care-plan : 5 / 3 / 2
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\ValueSet-icf-b-codes : 0 / 2 / 1
  C:\Source\Rarecare-FHIR-IG\fsh-generated\resources\ValueSet-icf-d-codes : 0 / 2 / 1
 </table>
@@ -113,6 +113,11 @@ INFORMATION: Questionnaire/shwachman-diamond-syndrome-questionnaire: Questionnai
 == fsh-generated\resources\StructureDefinition-disease-plan.json ==
 WARNING: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: StructureDefinition/disease-plan: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/SubstanceDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/SubstanceDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
 INFORMATION: StructureDefinition/disease-plan: StructureDefinition.snapshot.element[32].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
 == fsh-generated\resources\StructureDefinition-functioning-questionnaire.json ==
 INFORMATION: StructureDefinition/functioning-questionnaire: StructureDefinition.snapshot.element[29].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
@@ -121,13 +126,17 @@ ERROR: StructureDefinition/lab-activity: StructureDefinition.snapshot.element[68
 ERROR: StructureDefinition/lab-activity: StructureDefinition.differential.element[4].pattern.ofType(Reference): Unable to resolve resource with reference 'LabObservationDefinition'
 INFORMATION: StructureDefinition/lab-activity: StructureDefinition.snapshot.element[68].pattern.ofType(Reference): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
 == fsh-generated\resources\StructureDefinition-lab-observation.json ==
-ERROR: StructureDefinition/lab-observation: StructureDefinition.mapping[3].uri: URI values cannot have whitespace('Rare Care Data Model')
 == fsh-generated\resources\StructureDefinition-med-activity.json ==
 == fsh-generated\resources\StructureDefinition-participation-questionnaire.json ==
 INFORMATION: StructureDefinition/participation-questionnaire: StructureDefinition.snapshot.element[29].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
 == fsh-generated\resources\StructureDefinition-rare-care-plan.json ==
 WARNING: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: StructureDefinition/rare-care-plan: StructureDefinition.differential.element[5].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/SubstanceDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/SubstanceDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
+ERROR: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[18].type[0].targetProfile[0]: Profile http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition], which is not a Canonical Resource (which is required because the PlanDefinition.subject[x] element has type canonical)
 INFORMATION: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[32].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) 
 WARNING: StructureDefinition/rare-care-plan: StructureDefinition.snapshot.element[60].binding: The valueSet reference http://www.orpha.net on element PlanDefinition.goal.addresses could not be resolved
 == fsh-generated\resources\ValueSet-icf-b-codes.json ==

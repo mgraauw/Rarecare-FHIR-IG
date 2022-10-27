@@ -19,9 +19,9 @@
       }
     ]
   },
-  "observationRequirement": [
+  "observationResultRequirement": [
     {
-      "reference": "ObservationDefinition/obs-retinol-in-serum-plasma"
+      "reference": "bservationDefinition/obs-retinol-in-serum-plasma"
     }
   ]
 }

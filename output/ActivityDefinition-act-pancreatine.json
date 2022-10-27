@@ -8,12 +8,12 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"act-pancreatine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition \"act-pancreatine\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-med-activity.html\">Medication Administration Activity</a></p></div><p><b>url</b>: <code>https://rarecare.world/fhir/MedActivityDefinition/A09AA02</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2022-10-25 03:37:55+0200</p><p><b>description</b>: Pancreatine</p><p><b>kind</b>: MedicationRequest</p><p><b>code</b>: MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A09AA02)</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ActivityDefinition</b><a name=\"act-pancreatine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ActivityDefinition \"act-pancreatine\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-med-activity.html\">Medication Administration Activity</a></p></div><p><b>url</b>: <code>https://rarecare.world/fhir/MedActivityDefinition/A09AA02</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2022-10-26 12:16:30+0200</p><p><b>description</b>: Pancreatine</p><p><b>kind</b>: MedicationRequest</p><p><b>code</b>: MULTI-ENZYMEN (LIPASE, PROTEASE, ENZ) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A09AA02)</span></p></div>"
   },
   "url": "https://rarecare.world/fhir/MedActivityDefinition/A09AA02",
   "version": "0.1.0",
   "status": "draft",
-  "date": "2022-10-25T15:37:55+02:00",
+  "date": "2022-10-26T12:16:30+02:00",
   "description": "Pancreatine",
   "kind": "MedicationRequest",
   "code": {

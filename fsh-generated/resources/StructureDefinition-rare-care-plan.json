@@ -17,12 +17,17 @@
   "title": "Rare Condition Management Plan",
   "status": "active",
   "description": "The PlanDefinition for a rare conditions refers to PlanDefinitions of other diseases, \r\ni.e. Shwachman-Diamond Syndrome is typically associated with Neutropenia. A code from Orphanet is required.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
       "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
     },
     {
       "identity": "w5",
@@ -33,11 +38,6 @@
       "identity": "objimpl",
       "uri": "http://hl7.org/fhir/object-implementation",
       "name": "Object Implementation Information"
-    },
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
     },
     {
       "identity": "RareConditiontoPlanDefinition",

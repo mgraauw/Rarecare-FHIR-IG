@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>RARECARE.WORLD\ICF b codes: BODY FUNCTIONS - XML Representation - FHIR v4.0.1</title>
+    <title>RARECARE.WORLD\ICF b codes: BODY FUNCTIONS - XML Representation - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -73,7 +73,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -162,7 +162,7 @@
         
           Active
           
-            as of 2022-10-25
+            as of 2022-10-26
           
         
       </td>
@@ -180,26 +180,26 @@
 
   <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
 
-&lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;icf-b-codes&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+&lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;icf-b-codes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;code&gt;urn:oid:2.16.840.1.113883.6.254&lt;/code&gt; where concept  is-a  b&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://rarecare.world/fhir/ValueSet/icf-b-codes&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ICFBcodes&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ICF b codes: BODY FUNCTIONS&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2022-10-25T15:37:55+02:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;All codes from ICF B subhierarchy: BODY FUNCTIONS&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.254&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter">filter</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.property">property</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;concept&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.op">op</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;is-a&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;b&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.url">url</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">value</a>=&quot;http://rarecare.world/fhir/ValueSet/icf-b-codes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ICFBcodes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ICF b codes: BODY FUNCTIONS&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2022-10-26T12:16:30+02:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;All codes from ICF B subhierarchy: BODY FUNCTIONS&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.254&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.filter">filter</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.filter.property">property</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;concept&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.filter.op">op</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;is-a&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/valueset.html#ValueSet.compose.include.filter.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;b&quot;/&gt;
       &lt;/filter&gt;
     &lt;/include&gt;
   &lt;/compose&gt;
@@ -233,7 +233,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 25, 2022 15:37+0200">2022-10-25</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Wed, Oct 26, 2022 12:16+0200">2022-10-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

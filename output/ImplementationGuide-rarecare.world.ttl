@@ -16,11 +16,11 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "RarecareFHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-25T15:37:55+02:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-26T12:16:30+02:00"^^xsd:dateTime];
   fhir:ImplementationGuide.packageId [ fhir:value "rarecare.world"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
-     fhir:value "4.0.1";
+     fhir:value "4.3.0";
      fhir:index 0
   ];
   fhir:ImplementationGuide.dependsOn [
@@ -938,21 +938,11 @@
        ]
      ];
      fhir:ImplementationGuide.definition.page [
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-         fhir:Extension.valueUrl [ fhir:value "toc.html" ]
-       ];
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
        fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
        fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "index.html" ]
-         ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]

@@ -1,7 +1,7 @@
 {
   "package": "rarecare.world",
   "version": "0.1.0",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "extensions": [],
   "profiles": {
     "PlanDefinition": [
@@ -57,9 +57,11 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
+    "http://hl7.org/fhir/build/StructureDefinition/binding-definition": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/build/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

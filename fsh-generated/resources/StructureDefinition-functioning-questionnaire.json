@@ -17,7 +17,7 @@
   "title": "Questionnaire for functioning",
   "status": "active",
   "description": "The FunctioningQuestionnaire is a questionnaire for patients with rare conditions. It captures aspects of their \r\nfunctioning relevant to their specific disease.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "workflow",

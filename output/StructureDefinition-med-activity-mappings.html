@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>RARECARE.WORLD\Medication Administration Activity - Mappings - FHIR v4.0.1</title>
+    <title>RARECARE.WORLD\Medication Administration Activity - Mappings - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -75,7 +75,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -192,7 +192,7 @@
         
           Active
           
-            as of 2022-10-25
+            as of 2022-10-26
           
         
       </td>
@@ -242,8 +242,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;version</td><td>N/A (to add?)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;name</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;title</td><td>.title</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subtitle</td><td>N/A (to add?)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>.status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;experimental</td><td>N/A (to add?)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;subject[x]</td><td>N/A (to add?) { only applies for subject Patient? }</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;date</td><td>.participation[typeCode=AUT].time</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;publisher</td><td>.participation[typeCode=AUT].role</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>.participation[typeCode=CALLBCK].role</td> </tr>
@@ -258,11 +260,13 @@
  <tr><td>&nbsp;&nbsp;&nbsp;effectivePeriod</td><td>N/A (to add?)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;topic</td><td>N/A (to add?)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;author</td><td>.participation[typeCode=AUT]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;editor</td><td>.participation[typeCode=AUT] { not a great match, but there does not appear to be an editor concept in V3 participation }</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reviewer</td><td>.participation[typeCode=VRF] {not clear whether VRF best corresponds to reviewer or endorser}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;endorser</td><td>.participation[typeCode=VRF] {not clear whether VRF best corresponds to reviewer or endorser}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;relatedArtifact</td><td>.outboundRelationship[typeCode=DOC,RSON,PREV, DRIV, USE, COMP] {successor would be PREV w/ inversionInd=true; No support for citation}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;library</td><td>.outboundRelationship[typeCode=USE].target[classCode=GROUPER,moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;kind</td><td>.classCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;profile</td><td>.templateId</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;code</td><td>.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
@@ -275,6 +279,9 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>CV.displayName</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;userSelected</td><td>CD.codingRationale</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>./originalText[mediaType/code=&quot;text/plain&quot;]/data</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;intent</td><td>.moodCode { of the realized Activity }</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;priority</td><td>.priority { of the realized activity }</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;doNotPerform</td><td>.negationInd { of the realized activity }</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;timing[x]</td><td>.effectiveTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>.participation[typeCode=LOC].role</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;participant</td><td>.participation[typeCode=PFM]</td> </tr>
@@ -287,6 +294,9 @@
  <tr><td>&nbsp;&nbsp;&nbsp;quantity</td><td>.quantity {for classCode=SPLY}</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;dosage</td><td>.outboundRelationship[typeCode=COMP].target[classCode=SBADM; moodCode=DEFN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;bodySite</td><td>.targetSiteCode {for classCode=PROC, SBADM}</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;specimenRequirement</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;observationRequirement</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;observationResultRequirement</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;transform</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;dynamicValue</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
@@ -297,7 +307,7 @@
 </table>
 <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
  <tr><td colspan="3"><b>MedActivityDefinition</b></td></tr>
- <tr><td>ActivityDefinition</td><td></td> </tr>
+ <tr><td>ActivityDefinition</td><td>clinical.general</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>FiveWs.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;version</td><td>FiveWs.version</td> </tr>
@@ -378,7 +388,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 25, 2022 15:37+0200">2022-10-25</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package rarecare.world#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Wed, Oct 26, 2022 12:16+0200">2022-10-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

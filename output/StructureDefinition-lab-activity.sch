@@ -34,6 +34,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>ActivityDefinition.contained</sch:title>
+    <sch:rule context="f:ActivityDefinition/f:contained">
+      <sch:assert test="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)">Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>ActivityDefinition.extension</sch:title>
     <sch:rule context="f:ActivityDefinition/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
@@ -340,7 +346,7 @@
   <sch:pattern>
     <sch:title>ActivityDefinition.participant</sch:title>
     <sch:rule context="f:ActivityDefinition/f:participant">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -420,7 +426,7 @@
   <sch:pattern>
     <sch:title>ActivityDefinition.dynamicValue</sch:title>
     <sch:rule context="f:ActivityDefinition/f:dynamicValue">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div|self::f:Parameters">All FHIR elements must have a @value or children unless an empty Parameters resource (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

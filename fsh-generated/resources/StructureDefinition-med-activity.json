@@ -17,7 +17,7 @@
   "title": "Medication Administration Activity",
   "status": "active",
   "description": "A Disease is treated with medication.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "workflow",

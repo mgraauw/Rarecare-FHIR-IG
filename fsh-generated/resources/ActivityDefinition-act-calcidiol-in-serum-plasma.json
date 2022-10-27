@@ -19,7 +19,7 @@
       }
     ]
   },
-  "observationRequirement": [
+  "observationResultRequirement": [
     {
       "reference": "ObservationDefinition/obs-calcidiol-in-serum-plasma"
     }

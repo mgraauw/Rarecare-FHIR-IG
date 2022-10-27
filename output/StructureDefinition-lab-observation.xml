@@ -3,12 +3,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="lab-observation"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition">ObservationDefinition</a><a name="ObservationDefinition"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/observationdefinition.html">ObservationDefinition</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Definition of an observation</span></td></tr>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition">ObservationDefinition</a><a name="ObservationDefinition"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/observationdefinition.html">ObservationDefinition</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Definition of an observation</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code">code</a><a name="ObservationDefinition.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code.coding">coding</a><a name="ObservationDefinition.code.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code.coding.code">code</a><a name="ObservationDefinition.code.coding.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code.coding.display">display</a><a name="ObservationDefinition.code.coding.display"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Representation defined by the system</span></td></tr>
-<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code.coding.code">code</a><a name="ObservationDefinition.code.coding.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-lab-observation-definitions.html#ObservationDefinition.code.coding.display">display</a><a name="ObservationDefinition.code.coding.display"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Representation defined by the system</span></td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://build.fhir.org/formats.html#table" title="Legend for this format"><img src="http://build.fhir.org/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-category">
     <valueString value="Specialized.Definitional Artifacts"/>
@@ -21,9 +21,9 @@
   <name value="LabObservationDefinition"/>
   <title value="Lab Test Observation"/>
   <status value="active"/>
-  <date value="2022-10-25T15:37:55+02:00"/>
+  <date value="2022-10-26T12:16:30+02:00"/>
   <description value="A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes."/>
-  <fhirVersion value="4.0.1"/>
+  <fhirVersion value="4.3.0"/>
   <mapping>
     <identity value="v2"/>
     <uri value="http://hl7.org/v2"/>
@@ -41,7 +41,7 @@
   </mapping>
   <mapping>
     <identity value="RareCareLabToObservationDefinition"/>
-    <uri value="Rare Care Data Model"/>
+    <uri value="RareCareDataModel"/>
     <name value="Rare Care Data Model"/>
   </mapping>
   <kind value="resource"/>
@@ -74,8 +74,8 @@
         <key value="dom-3"/>
         <severity value="error"/>
         <human value="If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource"/>
-        <expression value="contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()"/>
-        <xpath value="not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))"/>
+        <expression value="contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()"/>
+        <xpath value="not(exists(for $contained in f:contained return $contained[not(exists(parent::*/descendant::f:reference/@value=concat('#', $contained/*/f:id/@value)) or exists(descendant::f:reference[@value='#']))]))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
       </constraint>
       <constraint>
@@ -108,6 +108,7 @@
         <xpath value="exists(f:text/h:div)"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -121,6 +122,10 @@
       <mapping>
         <identity value="rim"/>
         <map value="Observation[classCode=OBS, moodCode=DEF]"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="clinical.diagnostics"/>
       </mapping>
       <mapping>
         <identity value="RareCareLabToObservationDefinition"/>
@@ -145,6 +150,7 @@
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
     </element>
@@ -170,6 +176,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
     </element>
@@ -196,6 +203,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="true"/>
       <isModifierReason value="This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation"/>
       <isSummary value="true"/>
@@ -223,6 +231,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -236,7 +245,7 @@
           <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
-        <description value="A human language."/>
+        <description value="IETF language tag"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
     </element>
@@ -267,6 +276,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -292,6 +302,15 @@
       <type>
         <code value="Resource"/>
       </type>
+      <constraint>
+        <key value="dom-r4b"/>
+        <severity value="warning"/>
+        <human value="Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems"/>
+        <expression value="($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)"/>
+        <xpath value="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/ObservationDefinition"/>
+      </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -332,6 +351,7 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -344,7 +364,7 @@
       <short value="Extensions that cannot be ignored"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -373,6 +393,7 @@
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="true"/>
       <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them"/>
       <isSummary value="false"/>
@@ -406,6 +427,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -449,6 +471,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -486,7 +509,7 @@
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
@@ -598,7 +621,7 @@
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>
@@ -735,6 +758,9 @@
       </mapping>
     </element>
     <element id="ObservationDefinition.code.coding.code">
+      <extension url="http://hl7.org/fhir/build/StructureDefinition/no-binding">
+        <valueBoolean value="true"/>
+      </extension>
       <path value="ObservationDefinition.code.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -777,6 +803,9 @@
       </mapping>
     </element>
     <element id="ObservationDefinition.code.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -864,6 +893,9 @@
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true"/>
+      </extension>
       <path value="ObservationDefinition.code.text"/>
       <short value="Plain text representation of the concept"/>
       <definition value="A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user."/>
@@ -924,6 +956,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
     </element>
@@ -953,6 +986,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -961,7 +995,7 @@
         </extension>
         <strength value="required"/>
         <description value="Permitted data type for observation value."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/permitted-data-type|4.0.1"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/permitted-data-type|4.3.0"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -995,6 +1029,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
@@ -1022,6 +1057,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1063,6 +1099,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1087,11 +1124,12 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
+        <human value="All FHIR elements must have a @value or children unless an empty Parameters resource"/>
+        <expression value="hasValue() or (children().count() &gt; id.count()) or $this is Parameters"/>
+        <xpath value="@value|f:*|h:div|self::f:Parameters"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1169,7 +1207,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -1229,6 +1267,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1266,6 +1305,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1303,6 +1343,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1332,6 +1373,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1356,11 +1398,12 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
+        <human value="All FHIR elements must have a @value or children unless an empty Parameters resource"/>
+        <expression value="hasValue() or (children().count() &gt; id.count()) or $this is Parameters"/>
+        <xpath value="@value|f:*|h:div|self::f:Parameters"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1438,7 +1481,7 @@
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
+      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/2021Mar/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -1502,6 +1545,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1510,7 +1554,7 @@
         </extension>
         <strength value="required"/>
         <description value="Codes identifying the category of observation range."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/observation-range-category|4.0.1"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/observation-range-category|4.3.0"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1540,6 +1584,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1569,6 +1614,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1607,6 +1653,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1648,6 +1695,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
@@ -1659,7 +1707,7 @@
         </extension>
         <strength value="required"/>
         <description value="The gender of a person used for administrative purposes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.3.0"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1689,6 +1737,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1718,6 +1767,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1747,6 +1797,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1777,6 +1828,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1807,6 +1859,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1837,6 +1890,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1867,6 +1921,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="false"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>

@@ -13,10 +13,10 @@
    <version value="0.1.0"/>
    <name value="RarecareFHIRIG"/>
    <status value="draft"/>
-   <date value="2022-10-25T15:37:55+02:00"/>
+   <date value="2022-10-26T12:16:30+02:00"/>
    <packageId value="rarecare.world"/>
    <license value="CC0-1.0"/>
-   <fhirVersion value="4.0.1"/>
+   <fhirVersion value="4.3.0"/>
    <dependsOn id="hl7tx">
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>

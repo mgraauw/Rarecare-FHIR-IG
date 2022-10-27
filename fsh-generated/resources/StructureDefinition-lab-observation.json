@@ -17,7 +17,7 @@
   "title": "Lab Test Observation",
   "status": "active",
   "description": "A Disease is associated with Symptoms, which may be abnormal lab values, represented by LOINC codes.",
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "mapping": [
     {
       "identity": "v2",
@@ -37,7 +37,7 @@
     {
       "identity": "RareCareLabToObservationDefinition",
       "name": "Rare Care Data Model",
-      "uri": "Rare Care Data Model"
+      "uri": "RareCareDataModel"
     }
   ],
   "kind": "resource",
