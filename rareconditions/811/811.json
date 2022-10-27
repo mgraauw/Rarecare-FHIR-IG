@@ -1,0 +1,815 @@
+{
+    "Snomed": "89454001",
+    "Synonyms": [
+        "Pancreatic insufficiency and bone marrow dysfunction",
+        "SDS",
+        "Shwachman syndrome",
+        "Shwachman-Bodian-Diamond syndrome",
+        "Pancreatic insufficiency and bone marrow dysfunction",
+        "SDS",
+        "Shwachman syndrome",
+        "Shwachman-Bodian-Diamond syndrome"
+    ],
+    "Refs": {
+        "MedDRA": "10067940",
+        "ICD-10": "D61.0",
+        "OMIM": "617941",
+        "GARD": "4863",
+        "UMLS": "C0272170"
+    },
+    "OrphaCode": "811",
+    "Name": "Shwachman-Diamond syndrome",
+    "Text": "Shwachman-Diamond syndrome (SDS) is a rare multisystemic syndrome characterized by chronic and usually mild neutropenia, pancreatic exocrine insufficiency associated with steatorrhea and growth failure, skeletal dysplasia with short stature, and an increased risk of bone marrow aplasia or leukemic transformation.",
+    "HPO": {
+        "HP:0000924": {
+            "name": "Abnormality of the skeletal system",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0001738": {
+            "name": "Exocrine pancreatic insufficiency",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001871": {
+            "name": "Abnormality of blood and blood-forming tissues",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001875": {
+            "name": "Neutropenia",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": [
+                {
+                    "loincId": "751-8",
+                    "name": "Neutrophils [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "753-4",
+                    "name": "Neutrophils [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "770-8",
+                    "name": "Neutrophils/100 leukocytes in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26499-4",
+                    "name": "Neutrophils [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26503-3",
+                    "name": "Neutrophils [#/volume] in Semen",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26511-6",
+                    "name": "Neutrophils/100 leukocytes in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26513-2",
+                    "name": "Neutrophils/100 leukocytes in Body fluid",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "66139-7",
+                    "name": "Neutrophils [#/volume] in Blood from Fetus by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "74398-9",
+                    "name": "Neutrophils [#/volume] in Cord blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "85369-7",
+                    "name": "Neutrophils [#/volume] in Control Blood by Flow cytometry (FC)",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0001903": {
+            "name": "Anemia",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002630": {
+            "name": "Fat malabsorption",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0011024": {
+            "name": "Abnormality of the gastrointestinal tract",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000708": {
+            "name": "Behavioral abnormality",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0001508": {
+            "name": "Failure to thrive",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001510": {
+            "name": "Growth delay",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001873": {
+            "name": "Thrombocytopenia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "777-3",
+                    "name": "Platelets [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "778-1",
+                    "name": "Platelets [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26515-7",
+                    "name": "Platelets [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0001897": {
+            "name": "Normocytic anemia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001972": {
+            "name": "Macrocytic anemia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "738-5",
+                    "name": "Macrocytes [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "NEG"
+                },
+                {
+                    "loincId": "738-5",
+                    "name": "Macrocytes [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "POS"
+                }
+            ]
+        },
+        "HP:0002570": {
+            "name": "Steatorrhea",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "16142-2",
+                    "name": "Fat [Mass/time] in 24 hour Stool",
+                    "loincScale": "Qn",
+                    "outcome": "N"
+                },
+                {
+                    "loincId": "16142-2",
+                    "name": "Fat [Mass/time] in 24 hour Stool",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0002594": {
+            "name": "Pancreatic hypoplasia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002750": {
+            "name": "Delayed skeletal maturation",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0002863": {
+            "name": "Myelodysplasia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "morphology",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0004322": {
+            "name": "Short stature",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "3137-7",
+                    "name": "Body height Measured",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0004395": {
+            "name": "Malnutrition",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0004905": {
+            "name": "Low levels of vitamin A",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0005518": {
+            "name": "Increased mean corpuscular volume",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "784-9",
+                    "name": "Erythrocyte mean corpuscular diameter [Length] by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "787-2",
+                    "name": "MCV [Entitic volume] by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "23860-0",
+                    "name": "Erythrocytes [#/volume] in Body fluid by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "30386-7",
+                    "name": "Erythrocyte mean corpuscular diameter [Length]",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "30428-7",
+                    "name": "MCV [Entitic volume]",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0011892": {
+            "name": "Low levels of vitamin K",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0012202": {
+            "name": "Increased serum bile acid concentration",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "14628-2",
+                    "name": "Bile acid [Moles/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0040238": {
+            "name": "Impaired neutrophil chemotaxis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0100512": {
+            "name": "Low levels of vitamin D",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0100513": {
+            "name": "Low levels of vitamin E",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0410252": {
+            "name": "Chronic neutropenia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0410255": {
+            "name": "Transient neutropenia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0410289": {
+            "name": "Hypoamylasemia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "1798-8",
+                    "name": "Amylase [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "1805-1",
+                    "name": "Amylase.pancreatic [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "1806-9",
+                    "name": "Amylase S1 [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "1807-7",
+                    "name": "Amylase S2 [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "1808-5",
+                    "name": "Amylase S3 [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0000246": {
+            "name": "Sinusitis",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000670": {
+            "name": "Carious teeth",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000729": {
+            "name": "Autistic behavior",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0000736": {
+            "name": "Short attention span",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0000886": {
+            "name": "Deformed rib cage",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0000938": {
+            "name": "Osteopenia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000988": {
+            "name": "Skin rash",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001249": {
+            "name": "Intellectual disability",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001367": {
+            "name": "Abnormal joint morphology",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001627": {
+            "name": "Abnormal heart morphology",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001876": {
+            "name": "Pancytopenia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001882": {
+            "name": "Leukopenia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "804-5",
+                    "name": "Leukocytes [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "6690-2",
+                    "name": "Leukocytes [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "12227-5",
+                    "name": "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "26464-8",
+                    "name": "Leukocytes [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "33256-9",
+                    "name": "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0001909": {
+            "name": "Leukemia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001915": {
+            "name": "Aplastic anemia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002090": {
+            "name": "Pneumonia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002718": {
+            "name": "Recurrent bacterial infections",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002953": {
+            "name": "Vertebral compression fractures",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0003016": {
+            "name": "Metaphyseal widening",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0003025": {
+            "name": "Metaphyseal irregularity",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0004429": {
+            "name": "Recurrent viral infections",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0004808": {
+            "name": "Acute myeloid leukemia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0005528": {
+            "name": "Bone marrow hypocellularity",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0005871": {
+            "name": "Metaphyseal chondrodysplasia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0045027": {
+            "name": "Abnormality of the thoracic cavity",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0000155": {
+            "name": "Oral ulcer",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000356": {
+            "name": "Abnormality of the outer ear",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000365": {
+            "name": "Hearing impairment",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000684": {
+            "name": "Delayed eruption of teeth",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000819": {
+            "name": "Diabetes mellitus",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000824": {
+            "name": "Growth hormone deficiency",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0000964": {
+            "name": "Eczema",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001167": {
+            "name": "Abnormality of finger",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0002240": {
+            "name": "Hepatomegaly",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002721": {
+            "name": "Immunodeficiency",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002754": {
+            "name": "Osteomyelitis",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002910": {
+            "name": "Elevated hepatic transaminase",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0006461": {
+            "name": "Proximal femoral epiphysiolysis",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0008064": {
+            "name": "Ichthyosis",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0040075": {
+            "name": "Hypopituitarism",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0100806": {
+            "name": "Sepsis",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [],
+            "loinc": []
+        }
+    },
+    "diseases": {
+        "HP:0001738": "Exocrine pancreatic insufficiency",
+        "HP:0001871": "Abnormality of blood and blood-forming tissues",
+        "HP:0001903": "Anemia",
+        "HP:0002630": "Fat malabsorption",
+        "HP:0011024": "Abnormality of the gastrointestinal tract",
+        "HP:0001508": "Failure to thrive",
+        "HP:0001510": "Growth delay",
+        "HP:0001873": "Thrombocytopenia",
+        "HP:0001897": "Normocytic anemia",
+        "HP:0001972": "Macrocytic anemia",
+        "HP:0002570": "Steatorrhea",
+        "HP:0002594": "Pancreatic hypoplasia",
+        "HP:0002863": "Myelodysplasia",
+        "HP:0004322": "Short stature",
+        "HP:0004395": "Malnutrition",
+        "HP:0004905": "Low levels of vitamin A",
+        "HP:0011892": "Low levels of vitamin K",
+        "HP:0100512": "Low levels of vitamin D",
+        "HP:0100513": "Low levels of vitamin E",
+        "HP:0000246": "Sinusitis",
+        "HP:0000670": "Carious teeth",
+        "HP:0000938": "Osteopenia",
+        "HP:0000988": "Skin rash",
+        "HP:0001249": "Intellectual disability",
+        "HP:0001367": "Abnormal joint morphology",
+        "HP:0001627": "Abnormal heart morphology",
+        "HP:0001876": "Pancytopenia",
+        "HP:0001882": "Leukopenia",
+        "HP:0001909": "Leukemia",
+        "HP:0001915": "Aplastic anemia",
+        "HP:0002090": "Pneumonia",
+        "HP:0002718": "Recurrent bacterial infections",
+        "HP:0002953": "Vertebral compression fracture",
+        "HP:0004808": "Acute myeloid leukemia",
+        "HP:0005871": "Metaphyseal chondrodysplasia",
+        "HP:0000155": "Oral ulcer",
+        "HP:0000356": "Abnormality of the outer ear",
+        "HP:0000365": "Hearing impairment",
+        "HP:0000684": "Delayed eruption of teeth",
+        "HP:0000819": "Diabetes mellitus",
+        "HP:0000824": "Decreased response to growth hormone stimulation test",
+        "HP:0000964": "Eczema",
+        "HP:0002240": "Hepatomegaly",
+        "HP:0002721": "Immunodeficiency",
+        "HP:0002754": "Osteomyelitis",
+        "HP:0040075": "Hypopituitarism"
+    }
+}

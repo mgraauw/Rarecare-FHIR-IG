@@ -1,0 +1,562 @@
+{
+    "Snomed": "127040003",
+    "Synonyms": [],
+    "Refs": {
+        "GARD": "8614",
+        "UMLS": "C0002895",
+        "MedDRA": "10040641",
+        "ICD-10": "D57.2",
+        "OMIM": "603903",
+        "MeSH": "D000755"
+    },
+    "OrphaCode": "232",
+    "Name": "Sickle cell anemia",
+    "Text": "A severe form of sickle cell disease (SCD) characterized by homozygosity for the sickle hemoglobin (HbS) gene and which acutely manifests with severe anemia, susceptibility to severe bacterial infections, and ischemic vasoocclusive accidents (VOA). It is a red cell disease of genetic origin which manifests with hemolytic disease and loss of red cell deformability leading to other occlusive events.",
+    "HPO": {
+        "HP:0004870": {
+            "name": "Chronic hemolytic anemia",
+            "frequency": "Obligate (100%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001878": {
+            "name": "Hemolytic anemia",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002719": {
+            "name": "Recurrent infections",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0012531": {
+            "name": "Pain",
+            "frequency": "Very frequent (99-80%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0000939": {
+            "name": "Osteoporosis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001743": {
+            "name": "Abnormality of the spleen",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0001891": {
+            "name": "Iron deficiency anemia",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001894": {
+            "name": "Thrombocytosis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "777-3",
+                    "name": "Platelets [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "778-1",
+                    "name": "Platelets [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "26515-7",
+                    "name": "Platelets [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0001923": {
+            "name": "Reticulocytosis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": [
+                {
+                    "loincId": "4679-7",
+                    "name": "Reticulocytes/100 erythrocytes in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "10378-8",
+                    "name": "Polychromasia [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "POS"
+                },
+                {
+                    "loincId": "11151-8",
+                    "name": "Hematocrit [Volume Fraction] of Cord blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "11153-4",
+                    "name": "Hematocrit [Volume Fraction] of Body fluid",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "11271-4",
+                    "name": "Hematocrit [Volume Fraction] of Cord blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "12250-7",
+                    "name": "Reticulocytes/1000 erythrocytes hematocrit adjusted in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "13508-7",
+                    "name": "Hematocrit [Volume Fraction] of Cerebral spinal fluid by Centrifugation",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "14196-0",
+                    "name": "Reticulocytes [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "17848-3",
+                    "name": "Reticulocytes/1000 erythrocytes in Blood by Manual",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "17849-1",
+                    "name": "Reticulocytes/100 erythrocytes in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "31112-6",
+                    "name": "Reticulocytes/100 erythrocytes in Blood by Manual",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "40665-2",
+                    "name": "Reticulocytes [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "42758-3",
+                    "name": "Reticulocytes [#/volume] in Blood by calculation",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "60474-4",
+                    "name": "Reticulocytes [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0001974": {
+            "name": "Leukocytosis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "729-4",
+                    "name": "Leukocytes other [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "804-5",
+                    "name": "Leukocytes [#/volume] in Blood by Manual count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "6690-2",
+                    "name": "Leukocytes [#/volume] in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "12227-5",
+                    "name": "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "26464-8",
+                    "name": "Leukocytes [#/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "33256-9",
+                    "name": "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0002754": {
+            "name": "Osteomyelitis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0010885": {
+            "name": "Avascular necrosis",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "morphologic abnormality",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0011981": {
+            "name": "Pigment gallstones",
+            "frequency": "Frequent (79-30%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0100749": {
+            "name": "Chest pain",
+            "frequency": "Frequent (79-30%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": []
+        },
+        "HP:0000707": {
+            "name": "Abnormality of the nervous system",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0001396": {
+            "name": "Cholestasis",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "finding",
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0002597": {
+            "name": "Abnormality of the vasculature",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": []
+        },
+        "HP:0003259": {
+            "name": "Elevated serum creatinine",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "finding"
+            ],
+            "loinc": [
+                {
+                    "loincId": "2160-0",
+                    "name": "Creatinine [Mass/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "38483-4",
+                    "name": "Creatinine [Mass/volume] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0008282": {
+            "name": "Unconjugated hyperbilirubinemia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": []
+        },
+        "HP:0011904": {
+            "name": "Persistence of hemoglobin F",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "4576-5",
+                    "name": "Hemoglobin F/Hemoglobin.total in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "9749-3",
+                    "name": "Hemoglobin F [Units/volume] in Blood by Electrophoresis",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "32682-7",
+                    "name": "Hemoglobin F/Hemoglobin.total in Blood by Electrophoresis",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0012418": {
+            "name": "Hypoxemia",
+            "frequency": "Occasional (29-5%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "2703-7",
+                    "name": "Oxygen [Partial pressure] in Arterial blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "2704-5",
+                    "name": "Oxygen [Partial pressure] in Capillary blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "2708-6",
+                    "name": "Oxygen saturation in Arterial blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "2709-4",
+                    "name": "Oxygen saturation in Capillary blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "11556-8",
+                    "name": "Oxygen [Partial pressure] in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "19214-6",
+                    "name": "Oxygen [Partial pressure] saturation adjusted to 0.5 in Arterial blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "19255-9",
+                    "name": "Oxygen [Partial pressure] adjusted to patient's actual temperature in Arterial blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "20564-1",
+                    "name": "Oxygen saturation in Blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "28642-7",
+                    "name": "Oxygen saturation in Arterial cord blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "51733-4",
+                    "name": "Oxygen saturation Calculated from oxygen partial pressure in Arterial blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "59408-5",
+                    "name": "Oxygen saturation in Arterial blood by Pulse oximetry",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                },
+                {
+                    "loincId": "71847-8",
+                    "name": "Oxygen saturation [Pure mass fraction] in Venous cord blood",
+                    "loincScale": "Qn",
+                    "outcome": "L"
+                }
+            ]
+        },
+        "HP:0025435": {
+            "name": "Increased lactate dehydrogenase activity",
+            "frequency": "Occasional (29-5%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "2532-0",
+                    "name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "2537-9",
+                    "name": "Lactate dehydrogenase 1 [Enzymatic activity/volume] in Serum or Plasma",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "14805-6",
+                    "name": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Pyruvate to lactate reaction",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "60017-1",
+                    "name": "Lactate dehydrogenase [Enzymatic activity/volume] in Body fluid by Pyruvate to lactate reaction",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        },
+        "HP:0001931": {
+            "name": "Hypochromic anemia",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "728-6",
+                    "name": "Hypochromia [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "NEG"
+                },
+                {
+                    "loincId": "728-6",
+                    "name": "Hypochromia [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "POS"
+                },
+                {
+                    "loincId": "15180-3",
+                    "name": "Hypochromia [Presence] in Blood by Automated count",
+                    "loincScale": "Ord",
+                    "outcome": "NEG"
+                },
+                {
+                    "loincId": "15180-3",
+                    "name": "Hypochromia [Presence] in Blood by Automated count",
+                    "loincScale": "Ord",
+                    "outcome": "POS"
+                }
+            ]
+        },
+        "HP:0001935": {
+            "name": "Microcytic anemia",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [
+                "disorder"
+            ],
+            "loinc": [
+                {
+                    "loincId": "741-9",
+                    "name": "Microcytes [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "NEG"
+                },
+                {
+                    "loincId": "741-9",
+                    "name": "Microcytes [Presence] in Blood by Light microscopy",
+                    "loincScale": "Ord",
+                    "outcome": "POS"
+                }
+            ]
+        },
+        "HP:0005518": {
+            "name": "Increased mean corpuscular volume",
+            "frequency": "Very rare (<4-1%)",
+            "cat": [],
+            "loinc": [
+                {
+                    "loincId": "784-9",
+                    "name": "Erythrocyte mean corpuscular diameter [Length] by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "787-2",
+                    "name": "MCV [Entitic volume] by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "23860-0",
+                    "name": "Erythrocytes [#/volume] in Body fluid by Automated count",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "30386-7",
+                    "name": "Erythrocyte mean corpuscular diameter [Length]",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                },
+                {
+                    "loincId": "30428-7",
+                    "name": "MCV [Entitic volume]",
+                    "loincScale": "Qn",
+                    "outcome": "H"
+                }
+            ]
+        }
+    },
+    "diseases": {
+        "HP:0004870": "Chronic hemolytic anemia",
+        "HP:0001878": "Hemolytic anemia",
+        "HP:0000939": "Osteoporosis",
+        "HP:0001891": "Iron deficiency anemia",
+        "HP:0001894": "Thrombocytosis",
+        "HP:0001974": "Leukocytosis",
+        "HP:0002754": "Osteomyelitis",
+        "HP:0010885": "Avascular necrosis",
+        "HP:0000707": "Abnormality of the nervous system",
+        "HP:0001396": "Cholestasis",
+        "HP:0008282": "Unconjugated hyperbilirubinemia",
+        "HP:0012418": "Hypoxemia",
+        "HP:0001931": "Hypochromic anemia",
+        "HP:0001935": "Microcytic anemia"
+    }
+}
